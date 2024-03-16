@@ -1,0 +1,2607 @@
+  Page 1                                    Sat Mar 16 16:57:47 2024
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                         Version 2.2                            *
+  ******************************************************************
+  
+   
+      Input Data File ................... D:\sem8\MiSS\projekt\MiSS-EPANET-Leaks-in-waterworks-research-project\knowledge_sources\example_network_readable.inp
+      Number of Junctions................ 6
+      Number of Reservoirs............... 1
+      Number of Tanks ................... 1
+      Number of Pipes ................... 8
+      Number of Pumps ................... 1
+      Number of Valves .................. 0
+      Headloss Formula .................. Hazen-Williams
+      Nodal Demand Model ................ DDA
+      Hydraulic Timestep ................ 1.00 hrs
+      Hydraulic Accuracy ................ 0.001000
+      Status Check Frequency ............ 2
+      Maximum Trials Checked ............ 10
+      Damping Limit Threshold ........... 0.000000
+      Maximum Trials .................... 40
+      Quality Analysis .................. None
+      Specific Gravity .................. 1.00
+      Relative Kinematic Viscosity ...... 1.00
+      Relative Chemical Diffusivity ..... 1.00
+      Demand Multiplier ................. 1.00
+      Total Duration .................... 72.00 hrs
+      Reporting Criteria:
+         All Nodes
+         All Links
+   
+  Analysis begun Sat Mar 16 16:57:47 2024
+
+   
+  Hydraulic Status:
+  -----------------------------------------------------------------------
+     0:00:00: Balanced after 5 trials
+     0:00:00: Reservoir 1 is emptying
+     0:00:00: Tank 8 is emptying at 5.00 ft
+   
+     1:00:00: Balanced after 1 trials
+   
+     2:00:00: Balanced after 1 trials
+   
+     3:00:00: Balanced after 1 trials
+   
+     4:00:00: Balanced after 1 trials
+   
+     5:00:00: Balanced after 1 trials
+   
+     6:00:00: Balanced after 4 trials
+   
+     7:00:00: Balanced after 2 trials
+   
+     8:00:00: Balanced after 2 trials
+   
+     9:00:00: Balanced after 2 trials
+   
+     9:11:22: Balanced after 4 trials
+     9:11:22: Tank 8 is closed at -0.00 ft
+     9:11:22: Pipe 7 changed from open to temporarily closed
+   
+  WARNING: Negative pressures at 9:11:22 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 9:11:22 hrs.
+   
+    10:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 10:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 10:00:00 hrs.
+   
+    11:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 11:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 11:00:00 hrs.
+   
+    12:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 12:00:00 hrs.
+   
+    13:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 13:00:00 hrs.
+   
+    14:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 14:00:00 hrs.
+   
+    15:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 15:00:00 hrs.
+   
+    16:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 16:00:00 hrs.
+   
+    17:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 17:00:00 hrs.
+   
+    18:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 18:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 18:00:00 hrs.
+   
+    19:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 19:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 19:00:00 hrs.
+   
+    20:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 20:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 20:00:00 hrs.
+   
+    21:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 21:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 21:00:00 hrs.
+   
+    22:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 22:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 22:00:00 hrs.
+   
+    23:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 23:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 23:00:00 hrs.
+   
+    24:00:00: Balanced after 4 trials
+    24:00:00: Tank 8 is filling at 0.00 ft
+    24:00:00: Pipe 7 changed from temporarily closed to open
+   
+    25:00:00: Balanced after 1 trials
+   
+    26:00:00: Balanced after 1 trials
+   
+    27:00:00: Balanced after 1 trials
+   
+    28:00:00: Balanced after 1 trials
+   
+    29:00:00: Balanced after 1 trials
+   
+    30:00:00: Balanced after 4 trials
+    30:00:00: Tank 8 is emptying at 0.11 ft
+   
+    30:04:27: Balanced after 4 trials
+    30:04:27: Tank 8 is closed at 0.00 ft
+    30:04:27: Pipe 7 changed from open to temporarily closed
+   
+  WARNING: Negative pressures at 30:04:27 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 30:04:27 hrs.
+   
+    31:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 31:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 31:00:00 hrs.
+   
+    32:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 32:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 32:00:00 hrs.
+   
+    33:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 33:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 33:00:00 hrs.
+   
+    34:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 34:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 34:00:00 hrs.
+   
+    35:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 35:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 35:00:00 hrs.
+   
+    36:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 36:00:00 hrs.
+   
+    37:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 37:00:00 hrs.
+   
+    38:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 38:00:00 hrs.
+   
+    39:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 39:00:00 hrs.
+   
+    40:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 40:00:00 hrs.
+   
+    41:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 41:00:00 hrs.
+   
+    42:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 42:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 42:00:00 hrs.
+   
+    43:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 43:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 43:00:00 hrs.
+   
+    44:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 44:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 44:00:00 hrs.
+   
+    45:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 45:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 45:00:00 hrs.
+   
+    46:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 46:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 46:00:00 hrs.
+   
+    47:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 47:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 47:00:00 hrs.
+   
+    48:00:00: Balanced after 4 trials
+    48:00:00: Tank 8 is filling at 0.00 ft
+    48:00:00: Pipe 7 changed from temporarily closed to open
+   
+    49:00:00: Balanced after 1 trials
+   
+    50:00:00: Balanced after 1 trials
+   
+    51:00:00: Balanced after 1 trials
+   
+    52:00:00: Balanced after 1 trials
+   
+    53:00:00: Balanced after 1 trials
+   
+    54:00:00: Balanced after 4 trials
+    54:00:00: Tank 8 is emptying at 0.11 ft
+   
+    54:04:27: Balanced after 4 trials
+    54:04:27: Tank 8 is closed at 0.00 ft
+    54:04:27: Pipe 7 changed from open to temporarily closed
+   
+  WARNING: Negative pressures at 54:04:27 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 54:04:27 hrs.
+   
+    55:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 55:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 55:00:00 hrs.
+   
+    56:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 56:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 56:00:00 hrs.
+   
+    57:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 57:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 57:00:00 hrs.
+   
+    58:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 58:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 58:00:00 hrs.
+   
+    59:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 59:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 59:00:00 hrs.
+   
+    60:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 60:00:00 hrs.
+   
+    61:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 61:00:00 hrs.
+   
+    62:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 62:00:00 hrs.
+   
+    63:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 63:00:00 hrs.
+   
+    64:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 64:00:00 hrs.
+   
+    65:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 65:00:00 hrs.
+   
+    66:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 66:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 66:00:00 hrs.
+   
+    67:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 67:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 67:00:00 hrs.
+   
+    68:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 68:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 68:00:00 hrs.
+   
+    69:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 69:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 69:00:00 hrs.
+   
+    70:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 70:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 70:00:00 hrs.
+   
+    71:00:00: Balanced after 1 trials
+   
+  WARNING: Negative pressures at 71:00:00 hrs.
+  WARNING: Pump 4 open but exceeds maximum flow at 71:00:00 hrs.
+   
+    72:00:00: Balanced after 4 trials
+    72:00:00: Tank 8 is filling at 0.00 ft
+    72:00:00: Pipe 7 changed from temporarily closed to open
+   
+   
+  Node Results at 0:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.21    371.43
+  3                  325.00    855.25     62.94
+  4                   75.00    851.94     65.84
+  5                  100.00    850.81     67.51
+  6                   75.00    851.94     65.84
+  7                    0.00    854.95     67.14
+  1                 -555.05    700.00      0.00  Reservoir
+  8                  -19.95    855.00      2.17  Tank
+   
+   
+  Link Results at 0:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  555.05      1.16      0.65
+  2                  128.23      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.77      0.78      0.60
+  7                  -19.95      0.08      0.01
+  8                  -18.62      0.05      0.00
+  9                  101.82      0.29      0.06
+  4                  555.05      0.00   -157.21  Pump
+   
+   
+  Node Results at 1:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.17    371.41
+  3                  325.00    855.21     62.92
+  4                   75.00    851.90     65.82
+  5                  100.00    850.77     67.49
+  6                   75.00    851.90     65.82
+  7                    0.00    854.91     67.12
+  1                 -555.30    700.00      0.00  Reservoir
+  8                  -19.70    854.96      2.15  Tank
+   
+   
+  Link Results at 1:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  555.30      1.16      0.65
+  2                  128.24      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.76      0.78      0.60
+  7                  -19.70      0.08      0.01
+  8                  -18.61      0.05      0.00
+  9                  102.05      0.29      0.06
+  4                  555.30      0.00   -157.17  Pump
+   
+   
+  Node Results at 2:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.14    371.40
+  3                  325.00    855.17     62.90
+  4                   75.00    851.86     65.80
+  5                  100.00    850.73     67.48
+  6                   75.00    851.86     65.80
+  7                    0.00    854.87     67.11
+  1                 -555.54    700.00      0.00  Reservoir
+  8                  -19.46    854.92      2.13  Tank
+   
+   
+  Link Results at 2:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  555.54      1.16      0.65
+  2                  128.26      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.74      0.78      0.60
+  7                  -19.46      0.08      0.01
+  8                  -18.59      0.05      0.00
+  9                  102.28      0.29      0.06
+  4                  555.54      0.00   -157.14  Pump
+   
+   
+  Node Results at 3:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.10    371.38
+  3                  325.00    855.13     62.89
+  4                   75.00    851.82     65.78
+  5                  100.00    850.69     67.46
+  6                   75.00    851.83     65.79
+  7                    0.00    854.83     67.09
+  1                 -555.78    700.00      0.00  Reservoir
+  8                  -19.22    854.88      2.11  Tank
+   
+   
+  Link Results at 3:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  555.78      1.16      0.66
+  2                  128.27      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.73      0.78      0.60
+  7                  -19.22      0.08      0.01
+  8                  -18.58      0.05      0.00
+  9                  102.51      0.29      0.06
+  4                  555.78      0.00   -157.10  Pump
+   
+   
+  Node Results at 4:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.06    371.37
+  3                  325.00    855.10     62.87
+  4                   75.00    851.78     65.77
+  5                  100.00    850.65     67.44
+  6                   75.00    851.79     65.77
+  7                    0.00    854.79     67.07
+  1                 -556.01    700.00      0.00  Reservoir
+  8                  -18.99    854.84      2.10  Tank
+   
+   
+  Link Results at 4:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  556.01      1.16      0.66
+  2                  128.28      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.72      0.78      0.60
+  7                  -18.99      0.08      0.01
+  8                  -18.57      0.05      0.00
+  9                  102.73      0.29      0.06
+  4                  556.01      0.00   -157.06  Pump
+   
+   
+  Node Results at 5:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    857.03    371.35
+  3                  325.00    855.06     62.85
+  4                   75.00    851.75     65.75
+  5                  100.00    850.61     67.43
+  6                   75.00    851.75     65.75
+  7                    0.00    854.75     67.05
+  1                 -556.24    700.00      0.00  Reservoir
+  8                  -18.76    854.80      2.08  Tank
+   
+   
+  Link Results at 5:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  556.24      1.16      0.66
+  2                  128.30      0.82      0.66
+  3                   71.85      0.46      0.23
+  5                  -28.15      0.32      0.16
+  6                 -121.70      0.78      0.60
+  7                  -18.76      0.08      0.01
+  8                  -18.56      0.05      0.00
+  9                  102.95      0.29      0.06
+  4                  556.24      0.00   -157.03  Pump
+   
+   
+  Node Results at 6:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    816.74    353.89
+  3                  845.00    813.11     44.68
+  4                  195.00    796.25     41.70
+  5                  260.00    789.61     41.00
+  6                  195.00    796.28     41.72
+  7                    0.00    816.53     50.49
+  1                 -774.26    700.00      0.00  Reservoir
+  8                 -720.74    854.76      2.06  Tank
+   
+   
+  Link Results at 6:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  774.26      1.61      1.21
+  2                  308.91      1.97      3.37
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -341.09      2.18      4.05
+  7                 -720.74      2.94      5.46
+  8                  -72.83      0.21      0.03
+  9                 -379.66      1.08      0.69
+  4                  774.26      0.00   -116.74  Pump
+   
+   
+  Node Results at 7:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    815.78    353.48
+  3                  845.00    812.11     44.24
+  4                  195.00    795.22     41.26
+  5                  260.00    788.58     40.55
+  6                  195.00    795.25     41.27
+  7                    0.00    815.47     50.03
+  1                 -778.70    700.00      0.00  Reservoir
+  8                 -716.30    853.26      1.41  Tank
+   
+   
+  Link Results at 7:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  778.70      1.62      1.22
+  2                  309.24      1.97      3.38
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -340.76      2.18      4.04
+  7                 -716.30      2.93      5.40
+  8                  -72.50      0.21      0.03
+  9                 -375.54      1.07      0.67
+  4                  778.70      0.00   -115.78  Pump
+   
+   
+  Node Results at 8:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    814.82    353.06
+  3                  845.00    811.11     43.81
+  4                  195.00    794.19     40.81
+  5                  260.00    787.55     40.10
+  6                  195.00    794.22     40.83
+  7                    0.00    814.41     49.57
+  1                 -783.11    700.00      0.00  Reservoir
+  8                 -711.89    851.76      0.76  Tank
+   
+   
+  Link Results at 8:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  783.11      1.63      1.24
+  2                  309.56      1.98      3.38
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -340.44      2.17      4.04
+  7                 -711.89      2.91      5.34
+  8                  -72.19      0.20      0.03
+  9                 -371.44      1.05      0.66
+  4                  783.11      0.00   -114.82  Pump
+   
+   
+  Node Results at 9:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    813.87    352.65
+  3                  845.00    810.12     43.38
+  4                  195.00    793.17     40.37
+  5                  260.00    786.53     39.66
+  6                  195.00    793.20     40.38
+  7                    0.00    813.35     49.11
+  1                 -787.49    700.00      0.00  Reservoir
+  8                 -707.51    850.28      0.12  Tank
+   
+   
+  Link Results at 9:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  787.49      1.64      1.25
+  2                  309.87      1.98      3.39
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -340.13      2.17      4.03
+  7                 -707.51      2.89      5.28
+  8                  -71.87      0.20      0.03
+  9                 -367.38      1.04      0.64
+  4                  787.49      0.00   -113.87  Pump
+   
+   
+  Node Results at 10:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 10:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 11:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 11:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 12:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 12:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 13:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 13:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 14:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 14:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 15:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 15:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 16:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 16:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 17:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 17:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 18:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 18:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 19:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 19:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 20:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 20:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 21:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 21:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 22:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 22:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 23:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 23:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 24:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.63    369.44
+  3                  325.00    850.48     60.87
+  4                   75.00    847.08     63.73
+  5                  100.00    845.95     65.41
+  6                   75.00    847.08     63.73
+  7                    0.00    850.01     65.00
+  1                 -584.01    700.00      0.00  Reservoir
+  8                    9.01    850.00      0.00  Tank
+   
+   
+  Link Results at 24:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  584.01      1.22      0.72
+  2                  129.99      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.01      0.77      0.59
+  7                    9.01      0.04      0.00
+  8                  -16.87      0.05      0.00
+  9                  129.02      0.37      0.09
+  4                  584.01      0.00   -152.63  Pump
+   
+   
+  Node Results at 25:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.65    369.45
+  3                  325.00    850.49     60.88
+  4                   75.00    847.10     63.74
+  5                  100.00    845.97     65.41
+  6                   75.00    847.10     63.74
+  7                    0.00    850.03     65.01
+  1                 -583.90    700.00      0.00  Reservoir
+  8                    8.90    850.02      0.01  Tank
+   
+   
+  Link Results at 25:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.90      1.22      0.72
+  2                  129.98      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.02      0.77      0.59
+  7                    8.90      0.04      0.00
+  8                  -16.87      0.05      0.00
+  9                  128.92      0.37      0.09
+  4                  583.90      0.00   -152.65  Pump
+   
+   
+  Node Results at 26:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.66    369.46
+  3                  325.00    850.51     60.88
+  4                   75.00    847.12     63.75
+  5                  100.00    845.99     65.42
+  6                   75.00    847.12     63.75
+  7                    0.00    850.05     65.02
+  1                 -583.80    700.00      0.00  Reservoir
+  8                    8.80    850.04      0.02  Tank
+   
+   
+  Link Results at 26:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.80      1.22      0.72
+  2                  129.97      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.03      0.77      0.59
+  7                    8.80      0.04      0.00
+  8                  -16.88      0.05      0.00
+  9                  128.82      0.37      0.09
+  4                  583.80      0.00   -152.66  Pump
+   
+   
+  Node Results at 27:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.68    369.47
+  3                  325.00    850.53     60.89
+  4                   75.00    847.14     63.75
+  5                  100.00    846.00     65.43
+  6                   75.00    847.14     63.76
+  7                    0.00    850.07     65.02
+  1                 -583.69    700.00      0.00  Reservoir
+  8                    8.69    850.06      0.02  Tank
+   
+   
+  Link Results at 27:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.69      1.22      0.72
+  2                  129.97      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.03      0.77      0.59
+  7                    8.69      0.04      0.00
+  8                  -16.89      0.05      0.00
+  9                  128.72      0.37      0.09
+  4                  583.69      0.00   -152.68  Pump
+   
+   
+  Node Results at 28:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.70    369.47
+  3                  325.00    850.55     60.90
+  4                   75.00    847.15     63.76
+  5                  100.00    846.02     65.44
+  6                   75.00    847.16     63.76
+  7                    0.00    850.08     65.03
+  1                 -583.59    700.00      0.00  Reservoir
+  8                    8.59    850.07      0.03  Tank
+   
+   
+  Link Results at 28:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.59      1.22      0.72
+  2                  129.96      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.04      0.77      0.59
+  7                    8.59      0.04      0.00
+  8                  -16.89      0.05      0.00
+  9                  128.63      0.36      0.09
+  4                  583.59      0.00   -152.70  Pump
+   
+   
+  Node Results at 29:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.71    369.48
+  3                  325.00    850.56     60.91
+  4                   75.00    847.17     63.77
+  5                  100.00    846.04     65.45
+  6                   75.00    847.17     63.77
+  7                    0.00    850.10     65.04
+  1                 -583.49    700.00      0.00  Reservoir
+  8                    8.49    850.09      0.04  Tank
+   
+   
+  Link Results at 29:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.49      1.22      0.72
+  2                  129.95      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.05      0.77      0.59
+  7                    8.49      0.03      0.00
+  8                  -16.90      0.05      0.00
+  9                  128.53      0.36      0.09
+  4                  583.49      0.00   -152.71  Pump
+   
+   
+  Node Results at 30:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    813.76    352.60
+  3                  845.00    810.01     43.33
+  4                  195.00    793.05     40.32
+  5                  260.00    786.41     39.61
+  6                  195.00    793.08     40.33
+  7                    0.00    813.22     49.06
+  1                 -787.99    700.00      0.00  Reservoir
+  8                 -707.01    850.11      0.05  Tank
+   
+   
+  Link Results at 30:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  787.99      1.64      1.25
+  2                  309.91      1.98      3.39
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -340.09      2.17      4.03
+  7                 -707.01      2.89      5.27
+  8                  -71.84      0.20      0.03
+  9                 -366.91      1.04      0.64
+  4                  787.99      0.00   -113.76  Pump
+   
+   
+  Node Results at 31:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 31:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 32:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 32:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 33:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 33:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 34:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 34:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 35:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 35:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 36:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 36:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 37:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 37:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 38:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 38:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 39:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 39:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 40:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 40:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 41:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 41:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 42:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 42:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 43:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 43:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 44:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 44:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 45:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 45:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 46:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 46:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 47:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 47:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 48:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.63    369.44
+  3                  325.00    850.48     60.87
+  4                   75.00    847.08     63.73
+  5                  100.00    845.95     65.41
+  6                   75.00    847.08     63.73
+  7                    0.00    850.01     65.00
+  1                 -584.00    700.00      0.00  Reservoir
+  8                    9.00    850.00      0.00  Tank
+   
+   
+  Link Results at 48:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  584.00      1.22      0.72
+  2                  129.99      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.01      0.77      0.59
+  7                    9.00      0.04      0.00
+  8                  -16.87      0.05      0.00
+  9                  129.02      0.37      0.09
+  4                  584.00      0.00   -152.63  Pump
+   
+   
+  Node Results at 49:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.65    369.45
+  3                  325.00    850.49     60.88
+  4                   75.00    847.10     63.74
+  5                  100.00    845.97     65.41
+  6                   75.00    847.10     63.74
+  7                    0.00    850.03     65.01
+  1                 -583.90    700.00      0.00  Reservoir
+  8                    8.90    850.02      0.01  Tank
+   
+   
+  Link Results at 49:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.90      1.22      0.72
+  2                  129.98      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.02      0.77      0.59
+  7                    8.90      0.04      0.00
+  8                  -16.87      0.05      0.00
+  9                  128.92      0.37      0.09
+  4                  583.90      0.00   -152.65  Pump
+   
+   
+  Node Results at 50:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.66    369.46
+  3                  325.00    850.51     60.88
+  4                   75.00    847.12     63.75
+  5                  100.00    845.99     65.42
+  6                   75.00    847.12     63.75
+  7                    0.00    850.05     65.02
+  1                 -583.79    700.00      0.00  Reservoir
+  8                    8.79    850.04      0.02  Tank
+   
+   
+  Link Results at 50:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.79      1.22      0.72
+  2                  129.97      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.03      0.77      0.59
+  7                    8.79      0.04      0.00
+  8                  -16.88      0.05      0.00
+  9                  128.82      0.37      0.09
+  4                  583.79      0.00   -152.66  Pump
+   
+   
+  Node Results at 51:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.68    369.47
+  3                  325.00    850.53     60.89
+  4                   75.00    847.14     63.75
+  5                  100.00    846.00     65.43
+  6                   75.00    847.14     63.76
+  7                    0.00    850.07     65.02
+  1                 -583.69    700.00      0.00  Reservoir
+  8                    8.69    850.06      0.02  Tank
+   
+   
+  Link Results at 51:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.69      1.22      0.72
+  2                  129.97      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.03      0.77      0.59
+  7                    8.69      0.04      0.00
+  8                  -16.89      0.05      0.00
+  9                  128.72      0.37      0.09
+  4                  583.69      0.00   -152.68  Pump
+   
+   
+  Node Results at 52:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.70    369.47
+  3                  325.00    850.55     60.90
+  4                   75.00    847.15     63.76
+  5                  100.00    846.02     65.44
+  6                   75.00    847.16     63.76
+  7                    0.00    850.08     65.03
+  1                 -583.59    700.00      0.00  Reservoir
+  8                    8.59    850.07      0.03  Tank
+   
+   
+  Link Results at 52:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.59      1.22      0.72
+  2                  129.96      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.04      0.77      0.59
+  7                    8.59      0.04      0.00
+  8                  -16.89      0.05      0.00
+  9                  128.63      0.36      0.09
+  4                  583.59      0.00   -152.70  Pump
+   
+   
+  Node Results at 53:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.71    369.48
+  3                  325.00    850.56     60.91
+  4                   75.00    847.17     63.77
+  5                  100.00    846.04     65.45
+  6                   75.00    847.17     63.77
+  7                    0.00    850.10     65.04
+  1                 -583.49    700.00      0.00  Reservoir
+  8                    8.49    850.09      0.04  Tank
+   
+   
+  Link Results at 53:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  583.49      1.22      0.72
+  2                  129.95      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.05      0.77      0.59
+  7                    8.49      0.03      0.00
+  8                  -16.90      0.05      0.00
+  9                  128.53      0.36      0.09
+  4                  583.49      0.00   -152.71  Pump
+   
+   
+  Node Results at 54:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    813.76    352.60
+  3                  845.00    810.01     43.33
+  4                  195.00    793.05     40.32
+  5                  260.00    786.41     39.61
+  6                  195.00    793.08     40.33
+  7                    0.00    813.22     49.06
+  1                 -787.99    700.00      0.00  Reservoir
+  8                 -707.01    850.11      0.05  Tank
+   
+   
+  Link Results at 54:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  787.99      1.64      1.25
+  2                  309.91      1.98      3.39
+  3                  186.74      1.19      1.33
+  5                  -73.26      0.83      0.95
+  6                 -340.09      2.17      4.03
+  7                 -707.01      2.89      5.27
+  8                  -71.84      0.20      0.03
+  9                 -366.91      1.04      0.64
+  4                  787.99      0.00   -113.76  Pump
+   
+   
+  Node Results at 55:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 55:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 56:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 56:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 57:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 57:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 58:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 58:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 59:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    589.58    255.47
+  3                  845.00    577.30    -57.50
+  4                  195.00    557.55    -61.72
+  5                  260.00    550.91    -62.44
+  6                  195.00    557.56    -61.72
+  7                    0.00    574.89    -54.21
+  1                -1495.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 59:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1495.00      3.12      4.10
+  2                  336.46      2.15      3.95
+  3                  186.82      1.19      1.33
+  5                  -73.18      0.83      0.95
+  6                 -313.54      2.00      3.47
+  7                    0.00      0.00      0.00
+  8                  -45.36      0.13      0.01
+  9                  313.54      0.89      0.48
+  4                 1495.00      0.00    110.42  Pump
+   
+   
+  Node Results at 60:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 60:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 61:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 61:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 62:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 62:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 63:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 63:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 64:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 64:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 65:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    716.32    310.38
+  3                  650.00    708.76     -0.54
+  4                  150.00    696.61     -1.47
+  5                  200.00    692.53     -1.07
+  6                  150.00    696.62     -1.46
+  7                    0.00    707.28      3.16
+  1                -1150.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 65:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1150.00      2.40      2.52
+  2                  258.81      1.65      2.43
+  3                  143.71      0.92      0.82
+  5                  -56.29      0.64      0.58
+  6                 -241.19      1.54      2.13
+  7                    0.00      0.00      0.00
+  8                  -34.90      0.10      0.01
+  9                  241.19      0.68      0.30
+  4                 1150.00      0.00    -16.32  Pump
+   
+   
+  Node Results at 66:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 66:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 67:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 67:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 68:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 68:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 69:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 69:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 70:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 70:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 71:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    635.50    275.36
+  3                  780.00    624.91    -36.87
+  4                  180.00    607.88    -39.91
+  5                  240.00    602.15    -40.23
+  6                  180.00    607.89    -39.91
+  7                    0.00    622.83    -33.44
+  1                -1380.00    700.00      0.00  Reservoir
+  8                    0.00    850.00      0.00  Tank
+   
+   
+  Link Results at 71:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                 1380.00      2.88      3.53
+  2                  310.57      1.98      3.41
+  3                  172.45      1.10      1.15
+  5                  -67.55      0.77      0.82
+  6                 -289.43      1.85      2.99
+  7                    0.00      0.00      0.00
+  8                  -41.87      0.12      0.01
+  9                  289.42      0.82      0.41
+  4                 1380.00      0.00     64.50  Pump
+   
+   
+  Node Results at 72:00:00 hrs:
+  ----------------------------------------------
+                     Demand      Head  Pressure
+  Node                  gpm        ft       psi
+  ----------------------------------------------
+  2                    0.00    852.63    369.44
+  3                  325.00    850.48     60.87
+  4                   75.00    847.08     63.73
+  5                  100.00    845.95     65.41
+  6                   75.00    847.08     63.73
+  7                    0.00    850.01     65.00
+  1                 -584.00    700.00      0.00  Reservoir
+  8                    9.00    850.00      0.00  Tank
+   
+   
+  Link Results at 72:00:00 hrs:
+  ----------------------------------------------
+                       Flow  Velocity  Headloss
+  Link                  gpm       fps   /1000ft
+  ----------------------------------------------
+  1                  584.00      1.22      0.72
+  2                  129.99      0.83      0.68
+  3                   71.86      0.46      0.23
+  5                  -28.14      0.32      0.16
+  6                 -120.01      0.77      0.59
+  7                    9.00      0.04      0.00
+  8                  -16.87      0.05      0.00
+  9                  129.02      0.37      0.09
+  4                  584.00      0.00   -152.63  Pump
+   
+  Analysis ended Sat Mar 16 16:57:47 2024
