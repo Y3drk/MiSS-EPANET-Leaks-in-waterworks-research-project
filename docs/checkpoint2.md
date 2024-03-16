@@ -45,7 +45,7 @@ ___________________
 **with GUI**
 
 After the set-up we drew the network in the GUI and then exported it to source file in [binary](/knowledge_sources/epanet_usage_examples/example_network.net) or [readable](/knowledge_sources/epanet_usage_examples/example_network_readable.inp) version that we could use later when launching the app from the command line (useful feature).
-The ability to creat your network in GUI really makes your life easier as the file representing it has a lot of options and requires high level of understanding of the system.
+The ability to create your network in GUI really makes your life easier as the file representing it has a lot of options and requires high level of understanding of the system.
 However, it's also worth mentioning that there is a certain amount of effort required to understand and learn the tool regardless of the way you want to use it, 
 as the networks and the tasks simulated by the tool can get really complex.
 
@@ -64,11 +64,11 @@ as the networks and the tasks simulated by the tool can get really complex.
     <br/>Editing nodes and pipes properties
 </p>
 
-Later on following the tutorial we ran a Single Period Analysis and Extended Period Analysis
+Later on, following the tutorial, we ran a Single Period Analysis and an Extended Period Analysis
 
 <p align="center">
     <img src="images/gui_spa_results.png" height="500"/>
-    <br/>Pressure on the nodes marked by colours and statistics from the single pipe as a result of the SPA.
+    <br/>Pressure on the nodes marked by colors and statistics from the single pipe as a result of the SPA.
 </p>
 
 <p align="center">
@@ -78,19 +78,19 @@ Later on following the tutorial we ran a Single Period Analysis and Extended Per
     <br/>Several aspects of setting-up the EPA
 </p>
 
-Because the network properties were different in tutorial's tables and texts as well as different for command line tutorial it was hard to obtain a coherent model. 
+Because the network properties were different in tutorial's tables and texts as well as different from command line tutorial example input file, it was hard to obtain a coherent model. 
 This resulted in warnings during the Extended Period Simulation
 
 <p align="center">
     <img src="images/gui_epa_warnings.png" height="600"/>
-    <br/>Pressure on the nodes marked by colours and statistics from the single pipe as a result of the SPA.
+    <br/>Warnings from the EPA
 </p>
 
 Below we can see some of the possible ways to inspect the simulation
 
 <p align="center">
     <img src="images/gui_epa_tank_graph.png" height="400"/>
-    <br/>Pressure at the Tank at the end of the network during the EPA - we can create graphs for varous network elements (junctions, reservoirs, tanks, pipes) regarding different parameters such as: pressure, demand, quality etc. 
+    <br/>Pressure at the Tank at the end of the network during the EPA - we can create graphs for various network elements (junctions, reservoirs, tanks, pipes) regarding different parameters such as pressure, demand, quality etc. 
 that  differ for different types of elements.
 </p>
 
@@ -114,8 +114,8 @@ The system can be launched from the command line with the following command:
 
 where:
 * **inpfile** - input file with network parameters in the same format as a [readable](/knowledge_sources/epanet_usage_examples/example_network_readable.inp) version exported from GUI. The format of the file is described in depth [here](https://epanet22.readthedocs.io/en/latest/back_matter.html#input-file-format)
-* **rptfile** - output report file, which yields the result of EPA ran with settings speicified in an input file
-* **outfile** - optional binary output file that stores the result in special binary format
+* **rptfile** - output report file, which yields the result of EPA ran with settings specified in an input file
+* **outfile** - optional binary output file that stores the result in a special binary format
 
 As written, the above command assumes that you are working in the directory in which EPANET was installed or that this directory has been added to the system PATH variable. 
 Otherwise full pathnames for the executable runepanet.exe and the files on the command line must be used.
@@ -156,6 +156,8 @@ _________________
 **Possibilities of integration with optimization libraries**
 
 For Michał??? or us both?
+
+___________________
 
 ### Summary
 
