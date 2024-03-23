@@ -4,7 +4,7 @@
 
 In the context of the EPANET leakage problem, optimization tools can be sought in the following categories:
 
-a) Nonlinear programming (NLP): problem can be formulated as a nonlinear optimization problem, where the goal is to minimize water losses caused by leaks. This optimization can take into account various factors, such as the locations of potential leaks, flows in individual pipe sections, network pressures and repair costs.
+a) Nonlinear programming (NLP): problem can be formulated as a nonlinear optimization problem, where the goal is to minimization of the objective function. This optimization can take into account various factors, such as the locations of potential leaks, flows in individual pipe sections, network pressures and repair costs.
 
 b) Integer programming (IP): decisions on where to locate sensors to detect leaks can be formulated as integer programming problems. For example, IP can be used to select the optimal number of sensors and their locations to minimize the cost of leak detection.
 
@@ -41,14 +41,16 @@ What tools could be used in our problem? Let us take a look
 * fluid dynamics simulations
 * simulation of explicit and implicit dynamical systems
 
+6. GAMS - paid, only free trial
+7. MOSEK - paid, only free trial
+
 ### Optimization libraries
 
 1. SciPy - probably most popular optimization lib for Python, covers all problems categories
-
 2. OpenMDAO - platform for systems analysis and multidisciplinary optimization; gradient based optimization with analytic derivatives
-
 3. CVXPY - open source Python-embedded modeling language for convex optimization problems, less-strict syntax for solving problems
-
+4. Pyomo - collection of Python software packages for formulating optimization models, supports dozens of solvers (algebra - AMPL, mixed integer - CBC, liner - GLPK), allows seperation of model and data, object-oriented style of formulating models
+5. GNU Linear Programming Kit - mainly large-scale linear programming (LP) and mixed integer programming (MIP), uses revised simplex method and the primal-dual interior point method for non-integer problems and the branch-and-bound algorithm together with Gomory's mixed integer cuts for MIP
 _________
 
 ## EPANET System
