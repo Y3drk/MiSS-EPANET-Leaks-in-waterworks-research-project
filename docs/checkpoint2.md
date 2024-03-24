@@ -8,49 +8,47 @@ a) Nonlinear programming (NLP): problem can be formulated as a nonlinear optimiz
 
 b) Integer programming (IP): decisions on where to locate sensors to detect leaks can be formulated as integer programming problems. For example, IP can be used to select the optimal number of sensors and their locations to minimize the cost of leak detection.
 
-c) Multi-objective optimization (multi-criteria programming): simultaneously considering various optimization objectives, such as minimizing water loss, minimizing repair costs, minimizing disruption to users, or minimizing the time required to detect and repair a leak.
+c) Multi-objective programming (MOP): simultaneously considering various optimization objectives, such as minimizing water loss, minimizing repair costs, minimizing disruption to users, or minimizing the time required to detect and repair a leak.
 
 d) Heuristic algorithms: Due to the complexity algorithms such as genetic algorithms, ant algorithms or particle swarm algorithms could be used. These methods can be useful for searching the solution space and finding near-optimal solutions, especially for large and complex water supply networks.
+
+To better understand optimization categories here we have little summary
+
+|Category                                   |Desc                                                  |Variables              |Optimizations                                           |
+|-------------------------------------------|------------------------------------------------------|-----------------------|--------------------------------------------------------|
+|Linear Programming (LP)                    |The objective function and all constraints are linear |continuous             |costs, production planning                              |
+|Nonlinear Programming (IP)                 |At least one nonlinear objective/constraint           |continuous             |costs in complex processes                              |
+|Integer Programming (IP)                   |Objective variables must be integers                  |discreet               |knapsack, routes                                        |
+|Mixed Integer-Linear Programming (MILP)    |LP & IP combination                                   |discreet and continuous|routes with time constraints                            |
+|Mixed Integer-Nonlinear Programming (MINLP)|NLP & IP combination                                  |discreet and continuous|system design with NL constraints and discrete decisions|
+|Multi Objective Programming (MOP)          |More than one optimization criterion that may conflict|discreet/continuous    |investment portfolio                                    |
 
 What tools could be used in our problem? Let us take a look
 
 ### Optimization applications/environments
 
-1. AD Model Builder - suite for non-linear statistical modeling. The "AD" refers to the automatic differentiation capabilities that come from the AUTODIF Library, a C++ language extension (same author), which implements reverse mode automatic differentiation. A related software package, ADMB-RE, provides additional support for modeling random effects. Useful for Bayesian modeling
+1. AD Model Builder - suite for non-linear statistical modeling. The "AD" refers to the automatic differentiation capabilities that come from the AUTODIF Library, a C++ language extension (same author), which implements reverse mode automatic differentiation. A related software package, ADMB-RE, provides additional support for modeling random effects. Useful for Bayesian modeling.
 
-2.  CUTEr - testing environment for optimization and linear algebra solvers. CUTEr provides a collection of test problems along with a set of tools to help developers design, compare, and improve new and existing test problem solvers:
-* linear programming,
-* convex and nonconvex quadratic programming
-* linear and nonlinear least squares
-* more general convex and nonconvex large-scale and sparse equality and inequality-constrained nonlinear programming
+2.  CUTEr - testing environment for optimization and linear algebra solvers, provides a collection of test problems along with a set of tools to help developers design, compare, and improve new and existing test problem solvers (LP, convex and nonconvex quadratic programming, linear and nonlinear least squares, more general convex and nonconvex large-scale and sparse equality and inequality-constrained NLP).
 
-3. Octeract Engine - solver for general Mixed-Integer Nonlinear Programs (MINLP), uses Message Passing Interface as a means of accelerating solution times:
-* distributed computing through MPI
-* high degree of configurability with more than 100 options
-* supports discontinuous elementary and trigonometric functions
-* can guarantee global optimality
-* detection of special structure
-* automatic problem classification
+3. Octeract Engine - solver for general MINLP, uses Message Passing Interface as a means of accelerating solution times (distributed computing through MPI, high degree of configurability with more than 100 options, supports discontinuous elementary and trigonometric functions, can guarantee global optimality, detection of special structure, automatic problem classification)
 
 4. GNU Octave - free, open-source MATBLAD alternative, programming language for scientific/numerical computing, solves linear and nonlinear problems
 
-5. Scilab - another MATLAB alternative, numerically oriented programming language, could be used for:
-* signal processing
-* statistical analysis
-* image enhancement
-* fluid dynamics simulations
-* simulation of explicit and implicit dynamical systems
-
-6. GAMS - paid, only free trial
-7. MOSEK - paid, only free trial
-
+5. Scilab - another MATLAB alternative, numerically oriented programming language, could be used for fluid, explicit and implicit dynamics simulations
+  
 ### Optimization libraries
 
 1. SciPy - probably most popular optimization lib for Python, covers all problems categories
-2. OpenMDAO - platform for systems analysis and multidisciplinary optimization; gradient based optimization with analytic derivatives
-3. CVXPY - open source Python-embedded modeling language for convex optimization problems, less-strict syntax for solving problems
+2. OpenMDAO - platform for systems analysis and multidisciplinary optimization; gradient based optimization with analytic derivatives, not proper for EPANET case
+3. CVXPY - open source Python-embedded modeling language for convex optimization problems, less-strict syntax for solving problems, not proper for EPANET case
 4. Pyomo - collection of Python software packages for formulating optimization models, supports dozens of solvers (algebra - AMPL, mixed integer - CBC, liner - GLPK), allows seperation of model and data, object-oriented style of formulating models
 5. GNU Linear Programming Kit - mainly large-scale linear programming (LP) and mixed integer programming (MIP), uses revised simplex method and the primal-dual interior point method for non-integer problems and the branch-and-bound algorithm together with Gomory's mixed integer cuts for MIP
+6. OptimJ - extension for Java, not proper for EPANET case
+7. Gekko - covers all problem categories, also Python lib
+
+Paid software: CPLEX, FICO Xpress, Gurobi Optimization, GAMS, MOSEK, BARON
+Hard to integrate: ASTOS, Couenne, Galahad, ALGLIB, Altair HyperStudy, Artelys Knitro, COMSOL Multiphysics, COPT, FEATool Multiphysics
 _________
 
 ## EPANET System
@@ -189,13 +187,6 @@ the leaks and how to estimate them with the usage of Genetic Algorithms. The par
 
 [Another paper](https://dwes.copernicus.org/articles/13/29/2020/dwes-13-29-2020.pdf) bases their leak pre-location on a Random Forrest machine-learning algorithm, but the training data it uses is obtained through
 a very similar method to the one described in the former work.
-
-_________________
-
-**Possibilities of integration with optimization libraries**
-
-For Michał??? or us both?
-
 ___________________
 
 ### Summary
