@@ -49,6 +49,8 @@ What tools could be used in our problem? Let us take a look
 
 Paid software: CPLEX, FICO Xpress, Gurobi Optimization, GAMS, MOSEK, BARON
 Hard to integrate: ASTOS, Couenne, Galahad, ALGLIB, Altair HyperStudy, Artelys Knitro, COMSOL Multiphysics, COPT, FEATool Multiphysics
+
+**Winners**: SciPy, Pyomo and Gekko (best documentation, community and they're written in Python)
 _________
 
 ## EPANET System
