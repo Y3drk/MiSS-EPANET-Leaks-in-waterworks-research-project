@@ -1,0 +1,4675 @@
+[TITLE]
+prueba
+
+[JUNCTIONS]
+;ID              	Elev        	Demand      	Pattern         
+ RED1            	436.37      	0           	PT1             	;
+ SW1             	427.20      	0.00388888888888889	PT1             	;
+ SW2             	427.51      	0           	PT1             	;
+ SW/SD           	427.6       	0           	PT1             	;
+ SD1             	425.1       	0.00263888888888889	PT1             	;
+ SW3             	427.51      	0           	PT1             	;
+ SW4             	427.16      	0.0191666666666667	PT1             	;
+ ZD4             	447         	0           	PT1             	;
+ HP28            	430.49      	0.00875     	PT1             	;
+ ZD5             	424.95      	0.0236574074074074	PT1             	;
+ ZD6             	423.80      	0.00981481481481481	PT1             	;
+ HP27            	418.60      	0.00412037037037037	PT1             	;
+ ZD7             	418.40      	0           	PT1             	;
+ SO/ZD           	417.93      	0           	PT1             	;
+ ZD3             	417.93      	0.0159259259259259	PT1             	;
+ ZD8             	417.92      	0           	PT1             	;
+ SO2             	408.21      	0.0681481481481482	PT1             	;
+ SO/SD           	406.4       	0           	PT1             	;
+ ZD1             	427.48      	0.0124537037037037	PT1             	;
+ ZD2             	420.98      	0.0151851851851852	PT1             	;
+ SD11            	402.28      	0.014537037037037	PT1             	;
+ SD12            	402.2       	0.0116666666666667	PT1             	;
+ SO3             	406.45      	0.0327314814814815	PT1             	;
+ SW/SO_Z         	407.38      	0.0987962962962963	PT1             	;
+ SW/SO           	407.38      	0.018287037037037	PT1             	;
+ SW5             	424.28      	0.0985648148148148	PT1             	;
+ SW6             	422.98      	0.0226388888888889	PT1             	;
+ SW6_Z           	422.98      	0           	PT1             	;
+ HP26            	422.33      	0.0167592592592593	PT1             	;
+ SW7.2           	421.5       	0           	PT1             	;
+ SD3             	420.2       	0           	PT1             	;
+ SD4             	420.2       	0           	PT1             	;
+ SD2             	420.2       	0           	PT1             	;
+ SD2.1           	418.0       	0           	PT1             	;
+ SD5             	420.2       	0           	PT1             	;
+ SD6             	419.75      	0.00986111111111111	PT1             	;
+ HP9             	406.9       	0.057037037037037	PT1             	;PK1
+ SD9             	406         	0.0106944444444444	PT1             	;
+ SD10            	406         	0           	PT1             	;
+ HP25            	420.30      	0.085787037037037	PT1             	;
+ SW8             	423.11      	0.0410185185185185	PT1             	;
+ SW/RO           	423.20      	0.0113425925925926	PT1             	;
+ RO5             	423.20      	0           	PT1             	;
+ RO4             	424.14      	0.0369444444444444	PT1             	;
+ RO1             	439.98      	0.0218981481481481	PT1             	;
+ RO2             	433.03      	0.0500462962962963	PT1             	;
+ RO3             	427.72      	0.030787037037037	PT1             	;
+ HP11            	417.85      	0.0184259259259259	PT1             	;
+ SD7             	413.2       	0.0136111111111111	PT1             	;
+ HP10            	411.97      	0.00791666666666667	PT1             	;
+ SD8             	408.6       	0.0348148148148148	PT1             	;
+ HP24            	423.3       	0.0325462962962963	PT1             	;
+ HP23            	423.30      	0.0101666666666667	PT1             	;
+ SW9             	420.6       	0           	PT1             	;
+ SW/AN           	420.60      	0           	PT1             	;
+ HP22            	420.31      	0.0260185185185185	PT1             	;
+ SW10            	420.0       	0.01625     	PT1             	;
+ SW/AN_Z         	421.0       	0           	PT1             	;
+ AN1.1           	421.6       	0           	PT1             	;
+ AN1             	422.3       	0.00712962962962963	PT1             	;
+ AN/PO           	425.0       	0.0189351851851852	PT1             	;
+ PO3             	428.8       	0.0131481481481481	PT1             	;
+ HP14            	437.97      	0.0148611111111111	PT1             	;
+ PO2             	438.1       	0.00976851851851852	PT1             	;
+ PO1             	439.72      	0.0207407407407407	PT1             	;
+ HP13            	442.96      	0.00944444444444444	PT1             	;
+ AN2             	426.22      	0.0497222222222222	PT1             	;
+ HP15            	430.10      	0.00962962962962963	PT1             	;
+ AN/JPII1        	433.40      	0.0226851851851852	PT1             	;
+ AN/JPII2        	433.4       	0.00291666666666667	PT1             	;
+ JPII2           	422.05      	0           	PT1             	;
+ JPII2.1         	422.05      	0.0571296296296296	PT1             	;
+ JPII3           	412.12      	0           	PT1             	;
+ JP21            	447         	0           	PT1             	;
+ HP16            	423.86      	0           	PT1             	;
+ SW11            	418.30      	0.00425925925925926	PT1             	;
+ SW12            	417.60      	0.0758796296296296	PT1             	;
+ SW13            	413.28      	0.152175925925926	PT1             	;
+ SW14            	412.06      	0.0359722222222222	PT1             	;
+ SW/JPII         	412.06      	0           	PT1             	;
+ HP21            	412.06      	0           	PT1             	;
+ SW15            	411.18      	0.0578240740740741	PT1             	;
+ JPII4           	412.06      	0           	PT1             	;
+ SW/P01          	410.44      	0           	PT1             	;
+ SW16            	409.0       	0.0125      	PT1             	;
+ HP20            	408.8       	0.0143981481481481	PT1             	;
+ AN5             	413.99      	0.0173148148148148	PT1             	;
+ AN3             	423.90      	0.0189814814814815	PT1             	;
+ HP32            	427.96      	0.0267592592592593	PT1             	;
+ SW17            	408.3       	0.00366666666666667	PT1             	;
+ SW/ZA           	407.02      	0.0987962962962963	PT1             	;
+ AN4             	418.82      	0.0356944444444444	PT1             	;
+ SW/ZA_Z         	407.02      	0           	PT1             	;
+ ZA1             	409.93      	0.0394907407407407	PT1             	;
+ HP19            	402.10      	0.121944444444444	PT1             	;
+ SW/LE           	401.96      	0.254166666666667	PT1             	;
+ SW18            	400.4       	0.123194444444444	PT1             	;
+ HP18            	396.64      	0.116805555555556	PT1             	;
+ SW19            	393.8       	0.0385185185185185	PT1             	;
+ LE0             	401.96      	0           	PT1             	;
+ LE1             	404.49      	0.0201388888888889	PT1             	;
+ SD17            	389.88      	0.0433796296296296	PT1             	;
+ SD16            	389.8       	0.005       	PT1             	;
+ LA1             	414         	0.00680555555555555	PT1             	;
+ LA2             	398.03      	0.0127314814814815	PT1             	;
+ HP12            	393.26      	0.00476851851851852	PT1             	;
+ LA3             	391         	0.00652777777777778	PT1             	;
+ SD/LA           	391         	0.00981481481481481	PT1             	;
+ SD13            	399.32      	0.0739351851851852	PT1             	;
+ HP8             	391.41      	0.0156018518518519	PT1             	;
+ SD14            	393         	0.0211574074074074	PT1             	;
+ HP7             	418         	0.0676851851851852	PT1             	;
+ GO1.1           	411.5       	0           	PT1             	;
+ GO16            	411.85      	0.0686574074074074	PT1             	;
+ GO1             	410         	0           	PT1             	;
+ GO2             	409.3       	0           	PT1             	;
+ HP6             	409.21      	0.0807407407407407	PT1             	;
+ GO3             	403.24      	0.0295925925925926	PT1             	;
+ GO4             	401.5       	0.0206481481481481	PT1             	;
+ GO5             	395.3       	0           	PT1             	;
+ HP5             	392.6       	0.020462962962963	PT1             	;
+ GO6             	390.53      	0           	PT1             	;
+ SD/GO1          	390.50      	0           	PT1             	;
+ SD/GO1.1        	390.50      	0           	PT1             	;
+ SD19            	390.21      	0.00481481481481481	PT1             	;
+ SW/GO_Z         	390.22      	0           	PT1             	;
+ SW/GO           	390.22      	0.0114814814814815	PT1             	;
+ SD18            	389.50      	0.0123148148148148	PT1             	;
+ SD/GO01         	389.46      	0           	PT1             	;
+ SD/GO           	389.46      	0.03        	PT1             	;
+ SW20            	390.20      	0.0156944444444444	PT1             	;
+ SW/P02          	410.43      	0.0450462962962963	PT1             	;
+ SD15            	389.93      	0.0766111111111111	PT1             	;
+ SW/K01          	390.0       	0           	PT1             	;
+ K1              	390.0       	0           	PT1             	;
+ SW/K02          	390.0       	0           	PT1             	;
+ K2              	390.0       	0           	PT1             	;
+ SW21            	389.92      	0.0245833333333333	PT1             	;
+ SW/OB           	389.12      	0           	PT1             	;
+ HP17            	389.12      	0.0290740740740741	PT1             	;
+ HP1             	389.5       	0.020462962962963	PT1             	;
+ OB1             	390.69      	0.00731481481481481	PT1             	;
+ HP2             	392.76      	0.00287037037037037	PT1             	;
+ OB2             	395.50      	0.102546    	PT1             	;
+ SW7             	422.33      	0.0317592592592593	PT1             	;
+ SW7.1           	421.84      	0.0266666666666667	PT1             	;
+ P1              	410.44      	0           	PT1             	;
+ P2              	410.44      	0           	PT1             	;
+ LE2             	404.96      	0.0459259259259259	PT1             	;
+ n155            	389.0       	0           	PT1             	;
+ n156            	427.48      	0           	PT1             	;
+ GO01            	408.05      	0           	PT1             	;
+ SO3.1           	404         	0           	PT1             	;
+ SO1             	409.1       	0           	PT1             	;
+ K3              	390.0       	0           	PT1             	;
+ J1              	436.37      	0           	                	;
+ J2              	409.2       	0           	                	;
+ SD10.1          	406.4       	0           	                	;
+ J3              	407.38      	0           	                	;
+ J4              	407.38      	0           	                	;
+ J5              	410.44      	0           	                	;
+ J7              	410.44      	0           	                	;
+ P3              	410.44      	0           	                	;
+ J6              	389.1       	0           	                	;
+ J8              	389.9       	0           	                	;
+ J10             	389.2       	0           	                	;
+ J11             	390.22      	0           	                	;
+ J12             	390.22      	0           	                	;
+ J13             	395.3       	0           	                	;
+ J14             	401.5       	0           	                	;
+ J15             	409.21      	0           	                	;
+ J16             	389.8       	0           	                	;
+ J17             	394.5       	0           	                	;
+ J18             	394.5       	0           	                	;
+ J19             	402.2       	0           	                	;
+ J20             	408.8       	0           	                	;
+ J21             	408.8       	0           	                	;
+ J22             	408.8       	0           	                	;
+ J23             	409.1       	0           	                	;
+ J24             	409         	0           	                	;
+ J25             	417.9       	0           	                	;
+ J27             	410.44      	0           	                	;
+ J28             	410.43      	0           	                	;
+ J30             	437.97      	0           	                	;
+ J31             	437.97      	0           	                	;
+ J32             	425         	0           	                	;
+ J34             	423.20      	0           	                	;
+ J35             	423.20      	0           	                	;
+ J36             	436.37      	0           	                	;
+ J37             	427.20      	0           	                	;
+ J38             	427.20      	0           	                	;
+ J41             	427.16      	0           	                	;
+ J42             	430         	0           	                	;
+
+[RESERVOIRS]
+;ID              	Head        	Pattern         
+ R1              	477         	                	;Ludwikowice
+ R2              	470         	                	;Jugow
+ R3              	438.2       	                	;
+
+[TANKS]
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve        	Overflow
+
+[PIPES]
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
+ p1              	RED1            	J37             	218.2       	131         	0.05        	1.9         	Open  	;
+ p2              	SW1             	SW2             	296.4       	131         	0.05        	2.5         	Open  	;
+ p4              	SW/SD           	SD1             	43.92       	41          	0.05        	0.4         	Open  	;
+ p5              	SW/SD           	SW3             	30.14       	250         	5           	0           	Open  	;
+ p6              	SW3             	J41             	36.25       	184         	0.05        	0.4         	Open  	;
+ p7              	ZD4             	HP28            	246.8       	51          	0.05        	2.1         	Open  	;
+ p8              	HP28            	ZD5             	69.05       	100         	5           	0           	Open  	;
+ p9              	ZD6             	HP27            	115.1       	100         	5           	0           	Open  	;
+ p10             	ZD5             	ZD6             	26.88       	51          	0.05        	0.3         	Open  	;
+ p11             	HP27            	ZD7             	5.255       	100         	5           	0           	Open  	;
+ p12             	ZD7             	J25             	13.15       	90          	0.05        	0.1         	Open  	;
+ p15             	SO2             	SO/SD           	82.93       	131         	0.05        	0.8         	Open  	;
+ p16             	ZD1             	ZD2             	234.7       	131         	0.05        	2           	Open  	;
+ p17             	ZD2             	ZD3             	154         	131         	0.05        	1.4         	Open  	;
+ p18             	SO2             	SD11            	264.1       	100         	5           	0           	Open  	;
+ p19             	SD11            	SD12            	88.55       	74          	0.05        	0.9         	Open  	;
+ p20             	SO/SD           	SO3             	4.145       	90          	0.05        	0.1         	Open  	;
+ p21             	SO3             	SW/SO_Z         	196.3       	90          	0.05        	1.7         	Open  	;
+ p23             	SW4             	SW5             	268.7       	250         	5           	0           	Open  	;
+ p24             	SW5             	SW6             	159         	250         	5           	0           	Open  	;
+ p26             	SW6_Z           	HP26            	32.49       	74          	0.05        	0.4         	Open  	;
+ p27             	HP26            	SW7.2           	66.92       	80          	5           	0           	Open  	;
+ p28             	SW7.2           	SD3             	28.29       	90          	0.05        	0.3         	Open  	;
+ p31             	SD2             	SD2.1           	7.038       	90          	0.05        	0.1         	Open  	;
+ p33             	SD5             	SD6             	12.02       	90          	0.05        	0.1         	Open  	;
+ p34             	HP9             	SD9             	286.5       	80          	5           	0           	Open  	;
+ p35             	SD9             	SD10            	1.297       	90          	0.05        	0.1         	Open  	;
+ p36             	SD10            	SD10.1          	10.16       	90          	0.05        	0.1         	Open  	;
+ p37             	SW6             	HP25            	123.2       	250         	5           	0           	Open  	;
+ p38             	SW8             	J34             	31.7        	184         	0.05        	0           	Open  	;
+ p39             	RO5             	RO4             	26.44       	131         	0.05        	0           	Open  	;
+ p40             	RO1             	RO2             	137         	80          	5           	0           	Open  	;
+ p41             	RO4             	RO3             	106.2       	80          	5           	0           	Open  	;
+ p42             	RO2             	RO3             	122.1       	80          	5           	0           	Open  	;
+ p43             	SD6             	HP11            	155.5       	80          	5           	0           	Open  	;
+ p44             	HP11            	SD7             	296.9       	80          	5           	0           	Open  	;
+ p45             	SD7             	HP10            	156.6       	80          	5           	0           	Open  	;
+ p46             	HP10            	SD8             	176.5       	80          	5           	0           	Open  	;
+ p47             	SD8             	HP9             	178.8       	80          	5           	0           	Open  	;
+ p48             	HP25            	SW8             	107.6       	250         	5           	0           	Open  	;
+ p49             	J35             	HP24            	47.74       	184         	0.05        	0.5         	Open  	;
+ p50             	HP24            	HP23            	169.5       	184         	0.05        	1.5         	Open  	;
+ p51             	HP23            	SW9             	130.56      	184         	0.05        	1.2         	Open  	;
+ p55             	HP22            	SW10            	6.702       	184         	0.05        	0.1         	Open  	;
+ p57             	SW/AN_Z         	AN1.1           	1.874       	131         	0.05        	0           	Open  	;
+ p58             	AN1.1           	AN1             	5.922       	150         	5           	0           	Open  	;
+ p59             	AN1             	AN/PO           	47.05       	150         	5           	0           	Open  	;
+ p60             	J32             	PO3             	50.89       	100         	5           	0           	Open  	;
+ p61             	PO3             	J31             	77.2        	74          	0.05        	0.8         	Open  	;
+ p62             	J30             	PO2             	2.254       	74          	0.05        	0.1         	Open  	;
+ p63             	PO2             	PO1             	83.27       	100         	5           	0           	Open  	;
+ p64             	PO1             	HP13            	99.72       	100         	5           	0           	Open  	;
+ p65             	AN/PO           	AN2             	89.53       	150         	5           	0           	Open  	;
+ p66             	AN2             	HP15            	100.4       	150         	5           	0           	Open  	;
+ p67             	HP15            	AN/JPII1        	81.68       	100         	5           	0           	Open  	;
+ p68             	AN/JPII1        	AN/JPII2        	0.8723      	100         	5           	0           	Open  	;
+ p70             	JPII2           	JPII2.1         	26.89       	50          	5           	0           	Open  	;
+ p71             	JPII2           	JPII3           	100.7       	80          	5           	0           	Open  	;
+ p72             	AN/JPII1        	JP21            	119.2       	50          	5           	0           	Open  	;
+ p73             	AN/JPII2        	HP16            	138.5       	80          	5           	0           	Open  	;
+ p74             	SW10            	SW11            	70.09       	250         	5           	0           	Open  	;
+ p75             	SW12            	SW13            	234.7       	250         	5           	0           	Open  	;
+ p76             	SW11            	SW12            	19.33       	184         	0.05        	0.3         	Open  	;
+ p77             	SW13            	SW14            	101         	184         	0.05        	1           	Open  	;
+ p79             	SW/JPII         	HP21            	1.187       	184         	0.05        	0.1         	Open  	;
+ p80             	HP21            	SW15            	12.46       	184         	0.05        	0.2         	Open  	;
+ p83             	JPII4           	JPII3           	5.222       	74          	0.05        	0.1         	Open  	;
+ p84             	SW15            	SW/P01          	55.76       	250         	5           	0           	Open  	;
+ p85             	SW16            	J20             	17.62       	184         	0.05        	0.2         	Open  	;
+ p86             	J22             	AN5             	110         	90          	0.05        	1           	Open  	;
+ p87             	AN3             	HP32            	107         	90          	0.05        	1           	Open  	;
+ p89             	J21             	SW17            	25.17       	184         	0.05        	0.2         	Open  	;
+ p90             	SW17            	J3              	37.88       	250         	5           	0           	Open  	;
+ p91             	J4              	SW/ZA           	19.52       	250         	5           	0           	Open  	;
+ p92             	AN5             	AN4             	98.32       	90          	0.05        	0.9         	Open  	;
+ p93             	AN4             	AN3             	111         	90          	0.05        	1           	Open  	;
+ p95             	SW/ZA_Z         	ZA1             	51.91       	51          	0.05        	0.4         	Open  	;
+ p96             	SW/ZA           	HP19            	232.6       	250         	5           	0           	Open  	;
+ p97             	HP19            	SW/LE           	10.55       	250         	5           	0           	Open  	;
+ p98             	SW/LE           	SW18            	83.4        	250         	5           	0           	Open  	;
+ p99             	SW18            	HP18            	148.3       	250         	5           	0           	Open  	;
+ p100            	HP18            	J17             	106.56      	250         	5           	0           	Open  	;
+ p102            	LE0             	LE1             	49.47       	51          	0.05        	0.4         	Open  	;
+ p103            	SD17            	SD16            	45.19       	51          	0.05        	0.3         	Open  	;
+ p105            	LA1             	LA2             	222.9       	51          	0.05        	1.9         	Open  	;
+ p106            	HP12            	LA3             	173.9       	51          	0.05        	1.5         	Open  	;
+ p107            	LA3             	SD/LA           	2.105       	51          	0.05        	0.1         	Open  	;
+ p108            	J19             	SD13            	227.7       	125         	5           	0           	Open  	;
+ p109            	HP8             	SD/LA           	44.91       	150         	5           	0           	Open  	;
+ p110            	SD13            	SD14            	220.1       	125         	5           	0           	Open  	;
+ p111            	SD14            	HP8             	190.7       	125         	5           	0           	Open  	;
+ p112            	HP7             	GO1.1           	199.6       	100         	5           	0           	Open  	;
+ p113            	GO16            	GO1             	63.18       	50          	5           	0           	Open  	;
+ p114            	GO1.1           	GO1             	20.99       	100         	5           	0           	Open  	;
+ p115            	GO1             	GO2             	69.71       	100         	5           	0           	Open  	;
+ p116            	GO2             	HP6             	18.37       	100         	5           	0           	Open  	;
+ p117            	J15             	GO3             	140.8       	74          	0.05        	1.2         	Open  	;
+ p118            	GO3             	J14             	128.4       	74          	0.05        	1.1         	Open  	;
+ p119            	GO4             	GO5             	126.3       	90          	0.05        	1.1         	Open  	;
+ p120            	J13             	HP5             	40          	131         	0.05        	0.4         	Open  	;
+ p123            	SD/GO1.1        	SD19            	8.453       	131         	0.05        	0.1         	Open  	;
+ p124            	HP5             	GO6             	125.7       	131         	0.05        	1.1         	Open  	;
+ p125            	SD/GO1          	SW/GO_Z         	28.57       	131         	0.05        	0.3         	Open  	;
+ p127            	SD18            	SD/GO01         	49.95       	131         	0.05        	0.5         	Open  	;
+ p129            	SW20            	J11             	223.4       	147         	0.05        	1.9         	Open  	;
+ p130            	SW/P02          	SW16            	65.74       	250         	5           	0           	Open  	;
+ p132            	SD/LA           	SD15            	78.09       	150         	5           	0           	Open  	;
+ p133            	J16             	SD15            	21.36       	100         	5           	0           	Open  	;
+ p134            	SD15            	SD/GO           	83.13       	150         	5           	0           	Open  	;
+ p135            	SD/GO           	SD19            	63.83       	150         	5           	0           	Open  	;
+ p136            	J12             	SW/K01          	63.39       	184         	0.05        	0.6         	Open  	;
+ p137            	K1              	SW/K01          	6.472       	131         	0.05        	0.1         	CV    	;
+ p138            	K2              	SW/K02          	7.955       	131         	0.05        	0.1         	CV    	;
+ p139            	SW/K02          	SW21            	88.89       	250         	5           	0           	Open  	;
+ p140            	J8              	SW/OB           	68.78       	184         	0.05        	0.7         	Open  	;
+ p142            	HP17            	HP1             	73.79       	90          	0.05        	0.7         	Open  	;
+ p143            	HP1             	OB1             	80.73       	90          	0.05        	0.7         	Open  	;
+ p144            	OB1             	HP2             	143.5       	90          	0.05        	1.2         	Open  	;
+ p145            	HP2             	OB2             	149.3       	81.4        	0.5         	0           	Open  	;
+ p146            	HP26            	SW7             	1.161       	51          	0.05        	0.1         	Open  	;
+ p147            	SW7             	SW7.1           	68.82       	51          	0.05        	0.6         	Open  	;
+ p150            	J28             	P3              	11.21       	90          	0.05        	0.1         	Closed	;
+ p151            	LE1             	LE2             	61.75       	51          	0.05        	0.6         	Open  	;
+ p152            	J6              	n155            	9.99        	184         	0.05        	0.1         	Open  	;
+ p153            	ZD1             	n156            	6.627       	131         	0.05        	0.1         	Open  	;
+ p154            	SW19            	SW20            	135.9       	250         	5           	0           	Open  	;
+ p155            	GO2             	GO01            	46.2        	100         	5           	0           	Open  	;
+ p157            	LA2             	HP12            	111.6       	51          	0.05        	1           	Open  	;
+ p158            	SO3             	SO3.1           	3.876       	90          	0.05        	0.1         	Open  	;
+ p159            	ZD8             	J23             	611.8       	131         	0.05        	5.1         	Open  	;
+ p162            	K3              	SW/K01          	4.153       	131         	0.05        	0.1         	Open  	;
+ p163            	K1              	SW/K02          	6.699       	131         	0.05        	0.1         	Open  	;
+ p227            	AN3             	HP16            	5.3         	90          	0.05        	0.1         	Open  	;
+ P88             	R1              	J36             	0.38        	131         	0.05        	0           	Open  	;
+ P104            	R2              	n156            	5.70        	131         	0.05        	0           	Open  	;
+ P131            	R3              	n155            	5.37        	184         	0.05        	0           	Open  	;
+ P53             	SO2             	J24             	21.14       	131         	0.05        	0           	Open  	;
+ P25             	J5              	J7              	0.2         	90          	0.05        	0           	Open  	;
+ P81             	J7              	P1              	1           	90          	0.05        	0           	Open  	;
+ P122            	P3              	P2              	1           	90          	0.05        	0.2         	Open  	;
+ P22             	J10             	SW21            	12.48       	184         	0.05        	0           	Open  	;
+ P121            	J18             	SW19            	58.72       	250         	5           	0           	Open  	;
+ P126            	J27             	J7              	10.61       	90          	0.05        	0.1         	Closed	;
+ P148            	J38             	SW1             	0.91        	131         	0.05        	0.1         	Open  	;
+ P69             	AN/JPII2        	J42             	31.7        	80          	5           	0           	Open  	;
+
+[PUMPS]
+;ID              	Node1           	Node2           	Parameters
+ PMP2            	P2              	J5              	HEAD C1	;
+ PMP1            	P3              	J7              	HEAD C1	;
+
+[VALVES]
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+ V1              	J1              	RED1            	150         	PRV 	39.1        	0           	;
+ V2              	SO1             	J2              	150         	PRV 	44.7        	0           	;
+ V3              	K3              	K2              	150         	PRV 	45          	0           	;
+ Z_SD/GO         	SD/GO1.1        	SD/GO1          	150         	TCV 	0           	0.2         	;
+ Z_SW/SO3        	SW/SO_Z         	SW/SO           	100         	TCV 	0           	0.2         	;
+ Z_SO/SD_PN      	SD10.1          	SO/SD           	100         	TCV 	0           	0.2         	;
+ Z_SW/SO1        	J3              	SW/SO           	250         	TCV 	0           	0.2         	;
+ Z_SW/SO2        	SW/SO           	J4              	250         	TCV 	0           	0.2         	;
+ Z9              	SW6_Z           	SW6             	80          	TCV 	0           	0.2         	;
+ Z4              	SW/OB           	HP17            	80          	TCV 	0           	0.2         	;
+ Z5              	J6              	SW/OB           	200         	TCV 	0           	0.2         	;
+ Z7              	J8              	J10             	200         	TCV 	0           	0.2         	;
+ Z8              	SW/GO           	SW/GO_Z         	150         	TCV 	0           	0.2         	;
+ Z10             	J12             	SW/GO           	200         	TCV 	0           	0.2         	;
+ Z11             	SW/GO           	J11             	150         	TCV 	0           	0.2         	;
+ Z12             	SD/GO1          	GO6             	150         	TCV 	0           	0.2         	;
+ Z13             	J13             	GO5             	150         	TCV 	0           	0.2         	;
+ Z14             	J14             	GO4             	100         	TCV 	0           	0.2         	;
+ Z15             	J15             	HP6             	100         	TCV 	0           	0.2         	;
+ Z16             	SD/GO01         	SD/GO           	150         	TCV 	0           	0.2         	;
+ Z17             	SD16            	J16             	100         	TCV 	0           	0.2         	;
+ Z18             	J18             	J17             	250         	TCV 	0           	0.2         	;
+ Z19             	LE0             	SW/LE           	50          	TCV 	0           	0.2         	;
+ Z20             	J19             	SD12            	100         	TCV 	0           	0.2         	;
+ Z21             	SW/ZA           	SW/ZA_Z         	50          	TCV 	0           	0.2         	;
+ Z22             	J22             	HP20            	80          	TCV 	0           	0.2         	;
+ Z23             	J21             	HP20            	200         	TCV 	0           	0.2         	;
+ Z24             	HP20            	J20             	200         	TCV 	0           	0.2         	;
+ Z25             	J23             	SO1             	150         	TCV 	0           	0.2         	;
+ Z26             	J2              	J24             	150         	TCV 	0           	0.2         	;
+ Z27             	J25             	SO/ZD           	100         	TCV 	0           	0.2         	;
+ Z28             	ZD3             	SO/ZD           	100         	TCV 	0           	0.2         	;
+ Z29             	SO/ZD           	ZD8             	100         	TCV 	0           	0.2         	;
+ Z_PO            	SW/P02          	SW/P01          	250         	TCV 	0           	0.2         	;
+ Z_PO1           	J27             	SW/P01          	100         	TCV 	0           	0.2         	;
+ Z_PO2           	J28             	SW/P02          	100         	TCV 	0           	0.2         	;
+ Z34             	SW/JPII         	SW14            	200         	TCV 	0           	0.2         	;
+ Z35             	JPII4           	SW/JPII         	80          	TCV 	0           	0.2         	;
+ Z36             	J31             	HP14            	80          	TCV 	0           	0.2         	;
+ Z37             	J30             	HP14            	80          	TCV 	0           	0.2         	;
+ Z38             	J32             	AN/PO           	100         	TCV 	0           	0.2         	;
+ Z39             	HP22            	SW/AN           	200         	TCV 	0           	0.2         	;
+ Z40             	SW/AN_Z         	SW/AN           	150         	TCV 	0           	0.2         	;
+ Z41             	SW9             	SW/AN           	200         	TCV 	0           	0.2         	;
+ Z42             	SW/RO           	RO5             	150         	TCV 	0           	0.2         	;
+ Z43             	J35             	SW/RO           	200         	TCV 	0           	0.20        	;
+ Z44             	SW/RO           	J34             	200         	TCV 	0           	0.2         	;
+ Z45             	SD4             	SD3             	80          	TCV 	0           	0.2         	;
+ Z46             	SD5             	SD4             	80          	TCV 	0           	0.2         	;
+ Z47             	SD4             	SD2             	80          	TCV 	0           	0.2         	;
+ Z48             	J36             	J1              	150         	TCV 	0           	0.2         	;
+ Z49             	J37             	J38             	150         	TCV 	0           	0.2         	;
+ Z50             	SW2             	SW/SD           	150         	TCV 	0           	0.2         	;
+ Z51             	SW4             	J41             	200         	TCV 	0           	0.2         	;
+
+[TAGS]
+ LINK 	p1              	PE160
+ LINK 	p2              	PE160
+ LINK 	p4              	PE50
+ LINK 	p5              	¯eliwo
+ LINK 	p6              	PE225
+ LINK 	p7              	PE63
+ LINK 	p8              	¯eliwo
+ LINK 	p9              	¯eliwo
+ LINK 	p10             	PE63
+ LINK 	p11             	¯eliwo
+ LINK 	p12             	PE110
+ LINK 	p15             	PE160
+ LINK 	p16             	PE160
+ LINK 	p17             	PE160
+ LINK 	p18             	¯eliwo
+ LINK 	p19             	PE90
+ LINK 	p20             	PE110
+ LINK 	p21             	PE110
+ LINK 	p23             	¯eliwo
+ LINK 	p24             	¯eliwo
+ LINK 	p26             	PE90
+ LINK 	p27             	¯eliwo
+ LINK 	p28             	PE110
+ LINK 	p31             	PE110
+ LINK 	p33             	PE110
+ LINK 	p34             	¯eliwo
+ LINK 	p35             	PE110
+ LINK 	p36             	PE110
+ LINK 	p37             	¯eliwo
+ LINK 	p38             	PE225
+ LINK 	p39             	PE160
+ LINK 	p40             	¯eliwo
+ LINK 	p41             	¯eliwo
+ LINK 	p42             	¯eliwo
+ LINK 	p43             	¯eliwo
+ LINK 	p44             	¯eliwo
+ LINK 	p45             	¯eliwo
+ LINK 	p46             	¯eliwo
+ LINK 	p47             	¯eliwo
+ LINK 	p48             	¯eliwo
+ LINK 	p49             	PE225
+ LINK 	p50             	PE225
+ LINK 	p51             	PE225
+ LINK 	p55             	PE225
+ LINK 	p57             	PE160
+ LINK 	p58             	¯eliwo
+ LINK 	p59             	¯eliwo
+ LINK 	p60             	¯eliwo
+ LINK 	p61             	PE90
+ LINK 	p62             	PE90
+ LINK 	p63             	¯eliwo
+ LINK 	p64             	¯eliwo
+ LINK 	p65             	¯eliwo
+ LINK 	p66             	¯eliwo
+ LINK 	p67             	¯eliwo
+ LINK 	p68             	¯eliwo
+ LINK 	p70             	¯eliwo
+ LINK 	p71             	¯eliwo
+ LINK 	p72             	¯eliwo
+ LINK 	p73             	¯eliwo
+ LINK 	p74             	¯eliwo
+ LINK 	p75             	¯eliwo
+ LINK 	p76             	PE225
+ LINK 	p77             	PE225
+ LINK 	p79             	PE225
+ LINK 	p80             	PE225
+ LINK 	p83             	PE90
+ LINK 	p84             	¯eliwo
+ LINK 	p85             	PE225
+ LINK 	p86             	PE110
+ LINK 	p87             	PE110
+ LINK 	p89             	PE225
+ LINK 	p90             	¯eliwo
+ LINK 	p91             	¯eliwo
+ LINK 	p92             	PE110
+ LINK 	p93             	PE110
+ LINK 	p95             	PE63
+ LINK 	p96             	¯eliwo
+ LINK 	p97             	¯eliwo
+ LINK 	p98             	¯eliwo
+ LINK 	p99             	¯eliwo
+ LINK 	p100            	¯eliwo
+ LINK 	p102            	PE63
+ LINK 	p103            	PE63
+ LINK 	p105            	PE63
+ LINK 	p106            	PE63
+ LINK 	p107            	PE63
+ LINK 	p108            	¯eliwo
+ LINK 	p109            	¯eliwo
+ LINK 	p110            	¯eliwo
+ LINK 	p111            	¯eliwo
+ LINK 	p112            	¯eliwo
+ LINK 	p113            	¯eliwo
+ LINK 	p114            	¯eliwo
+ LINK 	p115            	¯eliwo
+ LINK 	p116            	¯eliwo
+ LINK 	p117            	PE90
+ LINK 	p118            	PE90
+ LINK 	p119            	PE110
+ LINK 	p120            	PE160
+ LINK 	p123            	PE160
+ LINK 	p124            	PE160
+ LINK 	p125            	PE160
+ LINK 	p127            	PE160
+ LINK 	p129            	PE180
+ LINK 	p130            	¯eliwo
+ LINK 	p132            	¯eliwo
+ LINK 	p133            	¯eliwo
+ LINK 	p134            	¯eliwo
+ LINK 	p135            	¯eliwo
+ LINK 	p136            	PE225
+ LINK 	p137            	PE160
+ LINK 	p138            	PE160
+ LINK 	p139            	¯eliwo
+ LINK 	p140            	PE225
+ LINK 	p142            	PE110
+ LINK 	p143            	PE110
+ LINK 	p144            	PE110
+ LINK 	p145            	PVC90
+ LINK 	p146            	PE63
+ LINK 	p147            	PE63
+ LINK 	p150            	PE110
+ LINK 	p151            	PE63
+ LINK 	p152            	PE225
+ LINK 	p153            	PE160
+ LINK 	p154            	¯eliwo
+ LINK 	p155            	¯eliwo
+ LINK 	p157            	PE63
+ LINK 	p158            	PE110
+ LINK 	p159            	PE160
+ LINK 	p162            	PE160
+ LINK 	p163            	PE160
+ LINK 	p227            	PE110
+ LINK 	P88             	PE160
+ LINK 	P104            	PE160
+ LINK 	P131            	PE225
+ LINK 	P53             	PE160
+ LINK 	P25             	PE110
+ LINK 	P81             	PE110
+ LINK 	P122            	PE110
+ LINK 	P22             	PE225
+ LINK 	P121            	¯eliwo
+ LINK 	P126            	PE110
+ LINK 	P148            	PE160
+ LINK 	P69             	¯eliwo
+
+[DEMANDS]
+;Junction        	Demand      	Pattern         	Category
+
+[STATUS]
+;ID              	Status/Setting
+ PMP2            	Closed
+ PMP1            	Closed
+ Z_SD/GO         	Closed
+ Z_SW/SO3        	Closed
+ Z_SO/SD_PN      	Closed
+ Z9              	Open
+ Z5              	Closed
+
+[PATTERNS]
+;ID              	Multipliers
+;
+ PT1             	0.8         	.76         	.74         	.74         	.76         	.82         
+ PT1             	.93         	1.08        	1.14        	1.17        	1.15        	1.13        
+ PT1             	1.14        	1.1         	1.08        	1.06        	1.05        	1.06        
+ PT1             	1.07        	1.14        	1.14        	1.09        	1.0         	.87         
+;
+
+
+[CURVES]
+;ID              	X-Value     	Y-Value
+;PUMP: CR 10-12 A-A-A-E-HQQE
+ C1              	0           	123.8       
+ C1              	1.44        	123.3       
+ C1              	2.1         	116.1       
+ C1              	2.58        	105.5       
+ C1              	2.97        	94.1        
+ C1              	3.65        	70.4        
+
+[CONTROLS]
+
+[RULES]
+RULE 	1				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.0
+THEN	LINK	V2	SETTING	IS	40.1
+
+RULE 	2				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.1
+THEN	LINK	V2	SETTING	IS	40.2
+					
+RULE 	3				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.2
+THEN	LINK	V2	SETTING	IS	40.3
+					
+RULE 	4				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.3
+THEN	LINK	V2	SETTING	IS	40.4
+					
+RULE 	5				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.4
+THEN	LINK	V2	SETTING	IS	40.5
+					
+RULE 	6				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.5
+THEN	LINK	V2	SETTING	IS	40.6
+					
+RULE 	7				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.6
+THEN	LINK	V2	SETTING	IS	40.7
+					
+RULE 	8				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.7
+THEN	LINK	V2	SETTING	IS	40.8
+					
+RULE 	9				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.8
+THEN	LINK	V2	SETTING	IS	40.9
+					
+RULE 	10				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	40.9
+THEN	LINK	V2	SETTING	IS	41
+					
+RULE 	11				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41
+THEN	LINK	V2	SETTING	IS	41.1
+					
+RULE 	12				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.1
+THEN	LINK	V2	SETTING	IS	41.2
+					
+RULE 	13				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.2
+THEN	LINK	V2	SETTING	IS	41.3
+					
+RULE 	14				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.3
+THEN	LINK	V2	SETTING	IS	41.4
+					
+RULE 	15				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.4
+THEN	LINK	V2	SETTING	IS	41.5
+					
+RULE 	16				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.5
+THEN	LINK	V2	SETTING	IS	41.6
+					
+RULE 	17				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.6
+THEN	LINK	V2	SETTING	IS	41.7
+					
+RULE 	18				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.7
+THEN	LINK	V2	SETTING	IS	41.8
+					
+RULE 	19				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.8
+THEN	LINK	V2	SETTING	IS	41.9
+					
+RULE 	20				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	41.9
+THEN	LINK	V2	SETTING	IS	42
+					
+RULE 	21				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42
+THEN	LINK	V2	SETTING	IS	42.1
+					
+RULE 	100				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.1
+THEN	LINK	V2	SETTING	IS	42.2
+					
+RULE 	23				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.2
+THEN	LINK	V2	SETTING	IS	42.3
+					
+RULE 	24				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.3
+THEN	LINK	V2	SETTING	IS	42.4
+					
+RULE 	25				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.4
+THEN	LINK	V2	SETTING	IS	42.5
+					
+RULE 	26				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.5
+THEN	LINK	V2	SETTING	IS	42.6
+					
+RULE 	27				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.6
+THEN	LINK	V2	SETTING	IS	42.7
+					
+RULE 	28				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.7
+THEN	LINK	V2	SETTING	IS	42.8
+					
+RULE 	29				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.8
+THEN	LINK	V2	SETTING	IS	42.9
+					
+RULE 	30				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	42.9
+THEN	LINK	V2	SETTING	IS	43
+					
+RULE 	31				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43
+THEN	LINK	V2	SETTING	IS	43.1
+					
+RULE 	32				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.1
+THEN	LINK	V2	SETTING	IS	43.2
+					
+RULE 	33				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.2
+THEN	LINK	V2	SETTING	IS	43.3
+					
+RULE 	34				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.3
+THEN	LINK	V2	SETTING	IS	43.4
+					
+RULE 	35				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.4
+THEN	LINK	V2	SETTING	IS	43.5
+					
+RULE 	36				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.5
+THEN	LINK	V2	SETTING	IS	43.6
+					
+RULE 	37				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.6
+THEN	LINK	V2	SETTING	IS	43.7
+					
+RULE 	38				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.7
+THEN	LINK	V2	SETTING	IS	43.8
+					
+RULE 	39				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.8
+THEN	LINK	V2	SETTING	IS	43.9
+					
+RULE 	40				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	43.9
+THEN	LINK	V2	SETTING	IS	44
+					
+RULE 	41				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44
+THEN	LINK	V2	SETTING	IS	44.1
+					
+RULE 	42				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.1
+THEN	LINK	V2	SETTING	IS	44.2
+					
+RULE 	43				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.2
+THEN	LINK	V2	SETTING	IS	44.3
+					
+RULE 	44				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.3
+THEN	LINK	V2	SETTING	IS	44.4
+					
+RULE 	45				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.4
+THEN	LINK	V2	SETTING	IS	44.5
+					
+RULE 	46				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.5
+THEN	LINK	V2	SETTING	IS	44.6
+					
+RULE 	47				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.6
+THEN	LINK	V2	SETTING	IS	44.7
+					
+RULE 	48				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.7
+THEN	LINK	V2	SETTING	IS	44.8
+					
+RULE 	49				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.8
+THEN	LINK	V2	SETTING	IS	44.9
+					
+RULE 	50				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	44.9
+THEN	LINK	V2	SETTING	IS	45
+					
+RULE 	51				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45
+THEN	LINK	V2	SETTING	IS	45.1
+					
+RULE 	52				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.1
+THEN	LINK	V2	SETTING	IS	45.2
+					
+RULE 	53				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.2
+THEN	LINK	V2	SETTING	IS	45.3
+					
+RULE 	54				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.3
+THEN	LINK	V2	SETTING	IS	45.4
+					
+RULE 	55				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.4
+THEN	LINK	V2	SETTING	IS	45.5
+					
+RULE 	56				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.5
+THEN	LINK	V2	SETTING	IS	45.6
+					
+RULE 	57				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.6
+THEN	LINK	V2	SETTING	IS	45.7
+					
+RULE 	58				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.7
+THEN	LINK	V2	SETTING	IS	45.8
+					
+RULE 	59				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.8
+THEN	LINK	V2	SETTING	IS	45.9
+					
+RULE 	60				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	45.9
+THEN	LINK	V2	SETTING	IS	46
+					
+RULE 	61				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46
+THEN	LINK	V2	SETTING	IS	46.1
+					
+RULE 	62				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.1
+THEN	LINK	V2	SETTING	IS	46.2
+					
+RULE 	63				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.2
+THEN	LINK	V2	SETTING	IS	46.3
+					
+RULE 	64				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.3
+THEN	LINK	V2	SETTING	IS	46.4
+					
+RULE 	65				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.4
+THEN	LINK	V2	SETTING	IS	46.5
+					
+RULE 	66				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.5
+THEN	LINK	V2	SETTING	IS	46.6
+					
+RULE 	67				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.6
+THEN	LINK	V2	SETTING	IS	46.7
+					
+RULE 	68				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.7
+THEN	LINK	V2	SETTING	IS	46.8
+					
+RULE 	69				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.8
+THEN	LINK	V2	SETTING	IS	46.9
+					
+RULE 	70				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	46.9
+THEN	LINK	V2	SETTING	IS	47
+					
+RULE 	71				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47
+THEN	LINK	V2	SETTING	IS	47.1
+					
+RULE 	72				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.1
+THEN	LINK	V2	SETTING	IS	47.2
+					
+RULE 	73				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.2
+THEN	LINK	V2	SETTING	IS	47.3
+					
+RULE 	74				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.3
+THEN	LINK	V2	SETTING	IS	47.4
+					
+RULE 	75				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.4
+THEN	LINK	V2	SETTING	IS	47.5
+					
+RULE 	76				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.5
+THEN	LINK	V2	SETTING	IS	47.6
+					
+RULE 	77				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.6
+THEN	LINK	V2	SETTING	IS	47.7
+					
+RULE 	78				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.7
+THEN	LINK	V2	SETTING	IS	47.8
+					
+RULE 	79				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.8
+THEN	LINK	V2	SETTING	IS	47.9
+					
+RULE 	80				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	47.9
+THEN	LINK	V2	SETTING	IS	48
+					
+RULE 	81				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48
+THEN	LINK	V2	SETTING	IS	48.1
+					
+RULE 	82				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.1
+THEN	LINK	V2	SETTING	IS	48.2
+					
+RULE 	83				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.2
+THEN	LINK	V2	SETTING	IS	48.3
+					
+RULE 	84				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.3
+THEN	LINK	V2	SETTING	IS	48.4
+					
+RULE 	85				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.4
+THEN	LINK	V2	SETTING	IS	48.5
+					
+RULE 	86				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.5
+THEN	LINK	V2	SETTING	IS	48.6
+					
+RULE 	87				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.6
+THEN	LINK	V2	SETTING	IS	48.7
+					
+RULE 	88				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.7
+THEN	LINK	V2	SETTING	IS	48.8
+					
+RULE 	89				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.8
+THEN	LINK	V2	SETTING	IS	48.9
+					
+RULE 	90				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	48.9
+THEN	LINK	V2	SETTING	IS	49
+					
+RULE 	91				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49
+THEN	LINK	V2	SETTING	IS	49.1
+					
+RULE 	92				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.1
+THEN	LINK	V2	SETTING	IS	49.2
+					
+RULE 	93				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.2
+THEN	LINK	V2	SETTING	IS	49.3
+					
+RULE 	94				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.3
+THEN	LINK	V2	SETTING	IS	49.4
+					
+RULE 	95				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.4
+THEN	LINK	V2	SETTING	IS	49.5
+					
+RULE 	96				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.5
+THEN	LINK	V2	SETTING	IS	49.6
+					
+RULE 	97				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.6
+THEN	LINK	V2	SETTING	IS	49.7
+					
+RULE 	98				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.7
+THEN	LINK	V2	SETTING	IS	49.8
+					
+RULE 	99				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.8
+THEN	LINK	V2	SETTING	IS	49.9
+					
+RULE 	100				
+IF	NODE	SD19	PRESSURE	BELOW	63.2
+AND	LINK	V2	SETTING	IS	49.9
+THEN	LINK	V2	SETTING	IS	50
+					
+RULE 	101				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	50
+THEN	LINK	V2	SETTING	IS	49.9
+					
+RULE 	102				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.9
+THEN	LINK	V2	SETTING	IS	49.8
+					
+RULE 	103				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.8
+THEN	LINK	V2	SETTING	IS	49.7
+					
+RULE 	104				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.7
+THEN	LINK	V2	SETTING	IS	49.6
+					
+RULE 	105				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.6
+THEN	LINK	V2	SETTING	IS	49.5
+					
+RULE 	106				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.5
+THEN	LINK	V2	SETTING	IS	49.4
+					
+RULE 	107				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.4
+THEN	LINK	V2	SETTING	IS	49.3
+					
+RULE 	108				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.3
+THEN	LINK	V2	SETTING	IS	49.2
+					
+RULE 	109				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.2
+THEN	LINK	V2	SETTING	IS	49.1
+					
+RULE 	110				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49.1
+THEN	LINK	V2	SETTING	IS	49
+					
+RULE 	111				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	49
+THEN	LINK	V2	SETTING	IS	48.9
+					
+RULE 	112				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.9
+THEN	LINK	V2	SETTING	IS	48.8
+					
+RULE 	113				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.8
+THEN	LINK	V2	SETTING	IS	48.7
+					
+RULE 	114				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.7
+THEN	LINK	V2	SETTING	IS	48.6
+					
+RULE 	115				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.6
+THEN	LINK	V2	SETTING	IS	48.5
+					
+RULE 	116				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.5
+THEN	LINK	V2	SETTING	IS	48.4
+					
+RULE 	117				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.4
+THEN	LINK	V2	SETTING	IS	48.3
+					
+RULE 	118				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.3
+THEN	LINK	V2	SETTING	IS	48.2
+					
+RULE 	119				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.2
+THEN	LINK	V2	SETTING	IS	48.1
+					
+RULE 	120				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48.1
+THEN	LINK	V2	SETTING	IS	48
+					
+RULE 	121				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	48
+THEN	LINK	V2	SETTING	IS	47.9
+					
+RULE 	1100				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.9
+THEN	LINK	V2	SETTING	IS	47.8
+					
+RULE 	123				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.8
+THEN	LINK	V2	SETTING	IS	47.7
+					
+RULE 	124				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.7
+THEN	LINK	V2	SETTING	IS	47.6
+					
+RULE 	125				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.6
+THEN	LINK	V2	SETTING	IS	47.5
+					
+RULE 	126				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.5
+THEN	LINK	V2	SETTING	IS	47.4
+					
+RULE 	127				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.4
+THEN	LINK	V2	SETTING	IS	47.3
+					
+RULE 	128				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.3
+THEN	LINK	V2	SETTING	IS	47.2
+					
+RULE 	129				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.2
+THEN	LINK	V2	SETTING	IS	47.1
+					
+RULE 	130				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47.1
+THEN	LINK	V2	SETTING	IS	47
+					
+RULE 	131				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	47
+THEN	LINK	V2	SETTING	IS	46.9
+					
+RULE 	132				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.9
+THEN	LINK	V2	SETTING	IS	46.8
+					
+RULE 	133				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.8
+THEN	LINK	V2	SETTING	IS	46.7
+					
+RULE 	134				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.7
+THEN	LINK	V2	SETTING	IS	46.6
+					
+RULE 	135				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.6
+THEN	LINK	V2	SETTING	IS	46.5
+					
+RULE 	136				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.5
+THEN	LINK	V2	SETTING	IS	46.4
+					
+RULE 	137				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.4
+THEN	LINK	V2	SETTING	IS	46.3
+					
+RULE 	138				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.3
+THEN	LINK	V2	SETTING	IS	46.2
+					
+RULE 	139				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.2
+THEN	LINK	V2	SETTING	IS	46.1
+					
+RULE 	140				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46.1
+THEN	LINK	V2	SETTING	IS	46
+					
+RULE 	141				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	46
+THEN	LINK	V2	SETTING	IS	45.9
+					
+RULE 	142				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.9
+THEN	LINK	V2	SETTING	IS	45.8
+					
+RULE 	143				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.8
+THEN	LINK	V2	SETTING	IS	45.7
+					
+RULE 	144				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.7
+THEN	LINK	V2	SETTING	IS	45.6
+					
+RULE 	145				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.6
+THEN	LINK	V2	SETTING	IS	45.5
+					
+RULE 	146				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.5
+THEN	LINK	V2	SETTING	IS	45.4
+					
+RULE 	147				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.4
+THEN	LINK	V2	SETTING	IS	45.3
+					
+RULE 	148				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.3
+THEN	LINK	V2	SETTING	IS	45.2
+					
+RULE 	149				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.2
+THEN	LINK	V2	SETTING	IS	45.1
+					
+RULE 	150				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45.1
+THEN	LINK	V2	SETTING	IS	45
+					
+RULE 	151				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	45
+THEN	LINK	V2	SETTING	IS	44.9
+					
+RULE 	152				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.9
+THEN	LINK	V2	SETTING	IS	44.8
+					
+RULE 	153				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.8
+THEN	LINK	V2	SETTING	IS	44.7
+					
+RULE 	154				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.7
+THEN	LINK	V2	SETTING	IS	44.6
+					
+RULE 	155				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.6
+THEN	LINK	V2	SETTING	IS	44.5
+					
+RULE 	156				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.5
+THEN	LINK	V2	SETTING	IS	44.4
+					
+RULE 	157				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.4
+THEN	LINK	V2	SETTING	IS	44.3
+					
+RULE 	158				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.3
+THEN	LINK	V2	SETTING	IS	44.2
+					
+RULE 	159				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.2
+THEN	LINK	V2	SETTING	IS	44.1
+					
+RULE 	160				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44.1
+THEN	LINK	V2	SETTING	IS	44
+					
+RULE 	161				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	44
+THEN	LINK	V2	SETTING	IS	43.9
+					
+RULE 	162				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.9
+THEN	LINK	V2	SETTING	IS	43.8
+					
+RULE 	163				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.8
+THEN	LINK	V2	SETTING	IS	43.7
+					
+RULE 	164				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.7
+THEN	LINK	V2	SETTING	IS	43.6
+					
+RULE 	165				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.6
+THEN	LINK	V2	SETTING	IS	43.5
+					
+RULE 	166				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.5
+THEN	LINK	V2	SETTING	IS	43.4
+					
+RULE 	167				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.4
+THEN	LINK	V2	SETTING	IS	43.3
+					
+RULE 	168				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.3
+THEN	LINK	V2	SETTING	IS	43.2
+					
+RULE 	169				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.2
+THEN	LINK	V2	SETTING	IS	43.1
+					
+RULE 	170				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43.1
+THEN	LINK	V2	SETTING	IS	43
+					
+RULE 	171				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	43
+THEN	LINK	V2	SETTING	IS	42.9
+					
+RULE 	172				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.9
+THEN	LINK	V2	SETTING	IS	42.8
+					
+RULE 	173				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.8
+THEN	LINK	V2	SETTING	IS	42.7
+					
+RULE 	174				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.7
+THEN	LINK	V2	SETTING	IS	42.6
+					
+RULE 	175				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.6
+THEN	LINK	V2	SETTING	IS	42.5
+					
+RULE 	176				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.5
+THEN	LINK	V2	SETTING	IS	42.4
+					
+RULE 	177				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.4
+THEN	LINK	V2	SETTING	IS	42.3
+					
+RULE 	178				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.3
+THEN	LINK	V2	SETTING	IS	42.2
+					
+RULE 	179				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.2
+THEN	LINK	V2	SETTING	IS	42.1
+					
+RULE 	180				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42.1
+THEN	LINK	V2	SETTING	IS	42
+					
+RULE 	181				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	42
+THEN	LINK	V2	SETTING	IS	41.9
+					
+RULE 	182				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.9
+THEN	LINK	V2	SETTING	IS	41.8
+					
+RULE 	183				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.8
+THEN	LINK	V2	SETTING	IS	41.7
+					
+RULE 	184				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.7
+THEN	LINK	V2	SETTING	IS	41.6
+					
+RULE 	185				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.6
+THEN	LINK	V2	SETTING	IS	41.5
+					
+RULE 	186				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.5
+THEN	LINK	V2	SETTING	IS	41.4
+					
+RULE 	187				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.4
+THEN	LINK	V2	SETTING	IS	41.3
+					
+RULE 	188				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.3
+THEN	LINK	V2	SETTING	IS	41.2
+					
+RULE 	189				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.2
+THEN	LINK	V2	SETTING	IS	41.1
+					
+RULE 	190				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41.1
+THEN	LINK	V2	SETTING	IS	41
+					
+RULE 	191				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	41
+THEN	LINK	V2	SETTING	IS	40.9
+					
+RULE 	192				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.9
+THEN	LINK	V2	SETTING	IS	40.8
+					
+RULE 	193				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.8
+THEN	LINK	V2	SETTING	IS	40.7
+					
+RULE 	194				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.7
+THEN	LINK	V2	SETTING	IS	40.6
+					
+RULE 	195				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.6
+THEN	LINK	V2	SETTING	IS	40.5
+					
+RULE 	196				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.5
+THEN	LINK	V2	SETTING	IS	40.4
+					
+RULE 	197				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.4
+THEN	LINK	V2	SETTING	IS	40.3
+					
+RULE 	198				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.3
+THEN	LINK	V2	SETTING	IS	40.2
+					
+RULE 	199				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.2
+THEN	LINK	V2	SETTING	IS	40.1
+
+RULE 	200				
+IF	NODE	SD19	PRESSURE	ABOVE	63.3
+AND	LINK	V2	SETTING	IS	40.1
+THEN	LINK	V2	SETTING	IS	40.0
+					
+RULE 	201				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.1
+THEN	LINK	V1	SETTING	IS	33.2
+					
+RULE 	202				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.2
+THEN	LINK	V1	SETTING	IS	33.3
+					
+RULE 	203				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.3
+THEN	LINK	V1	SETTING	IS	33.4
+					
+RULE 	204				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.4
+THEN	LINK	V1	SETTING	IS	33.5
+					
+RULE 	205				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.5
+THEN	LINK	V1	SETTING	IS	33.6
+					
+RULE 	206				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.6
+THEN	LINK	V1	SETTING	IS	33.7
+					
+RULE 	207				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.7
+THEN	LINK	V1	SETTING	IS	33.8
+					
+RULE 	208				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.8
+THEN	LINK	V1	SETTING	IS	33.9
+					
+RULE 	209				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	33.9
+THEN	LINK	V1	SETTING	IS	34
+					
+RULE 	210				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34
+THEN	LINK	V1	SETTING	IS	34.1
+					
+RULE 	211				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.1
+THEN	LINK	V1	SETTING	IS	34.2
+					
+RULE 	212				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.2
+THEN	LINK	V1	SETTING	IS	34.3
+					
+RULE 	213				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.3
+THEN	LINK	V1	SETTING	IS	34.4
+					
+RULE 	214				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.4
+THEN	LINK	V1	SETTING	IS	34.5
+					
+RULE 	215				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.5
+THEN	LINK	V1	SETTING	IS	34.6
+					
+RULE 	216				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.6
+THEN	LINK	V1	SETTING	IS	34.7
+					
+RULE 	217				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.7
+THEN	LINK	V1	SETTING	IS	34.8
+					
+RULE 	218				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.8
+THEN	LINK	V1	SETTING	IS	34.9
+					
+RULE 	219				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	34.9
+THEN	LINK	V1	SETTING	IS	35
+					
+RULE 	220				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35
+THEN	LINK	V1	SETTING	IS	35.1
+					
+RULE 	221				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.1
+THEN	LINK	V1	SETTING	IS	35.2
+					
+RULE 	222				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.2
+THEN	LINK	V1	SETTING	IS	35.3
+					
+RULE 	223				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.3
+THEN	LINK	V1	SETTING	IS	35.4
+					
+RULE 	224				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.4
+THEN	LINK	V1	SETTING	IS	35.5
+					
+RULE 	225				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.5
+THEN	LINK	V1	SETTING	IS	35.6
+					
+RULE 	226				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.6
+THEN	LINK	V1	SETTING	IS	35.7
+					
+RULE 	227				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.7
+THEN	LINK	V1	SETTING	IS	35.8
+					
+RULE 	228				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.8
+THEN	LINK	V1	SETTING	IS	35.9
+					
+RULE 	229				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	35.9
+THEN	LINK	V1	SETTING	IS	36
+					
+RULE 	230				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36
+THEN	LINK	V1	SETTING	IS	36.1
+					
+RULE 	231				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.1
+THEN	LINK	V1	SETTING	IS	36.2
+					
+RULE 	232				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.2
+THEN	LINK	V1	SETTING	IS	36.3
+					
+RULE 	233				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.3
+THEN	LINK	V1	SETTING	IS	36.4
+					
+RULE 	234				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.4
+THEN	LINK	V1	SETTING	IS	36.5
+					
+RULE 	235				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.5
+THEN	LINK	V1	SETTING	IS	36.6 
+					
+RULE 	236				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.6 
+THEN	LINK	V1	SETTING	IS	36.7 
+					
+RULE 	237				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.7 
+THEN	LINK	V1	SETTING	IS	36.8 
+					
+RULE 	238				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.8 
+THEN	LINK	V1	SETTING	IS	36.9 
+					
+RULE 	239				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	36.9 
+THEN	LINK	V1	SETTING	IS	37.0 
+					
+RULE 	240				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.0 
+THEN	LINK	V1	SETTING	IS	37.1 
+					
+RULE 	241				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.1 
+THEN	LINK	V1	SETTING	IS	37.2 
+					
+RULE 	242				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.2 
+THEN	LINK	V1	SETTING	IS	37.3 
+					
+RULE 	243				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.3 
+THEN	LINK	V1	SETTING	IS	37.4 
+					
+RULE 	244				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.4 
+THEN	LINK	V1	SETTING	IS	37.5 
+					
+RULE 	245				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.5 
+THEN	LINK	V1	SETTING	IS	37.6 
+					
+RULE 	246				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.6 
+THEN	LINK	V1	SETTING	IS	37.7 
+					
+RULE 	247				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.7 
+THEN	LINK	V1	SETTING	IS	37.8 
+					
+RULE 	248				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.8 
+THEN	LINK	V1	SETTING	IS	37.9 
+					
+RULE 	249				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	37.9 
+THEN	LINK	V1	SETTING	IS	38.0 
+					
+RULE 	250				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.0 
+THEN	LINK	V1	SETTING	IS	38.1 
+					
+RULE 	251				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.1 
+THEN	LINK	V1	SETTING	IS	38.2 
+					
+RULE 	252				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.2 
+THEN	LINK	V1	SETTING	IS	38.3 
+					
+RULE 	253				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.3 
+THEN	LINK	V1	SETTING	IS	38.4 
+					
+RULE 	254				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.4 
+THEN	LINK	V1	SETTING	IS	38.5 
+					
+RULE 	255				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.5 
+THEN	LINK	V1	SETTING	IS	38.6 
+					
+RULE 	256				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.6 
+THEN	LINK	V1	SETTING	IS	38.7 
+					
+RULE 	257				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.7 
+THEN	LINK	V1	SETTING	IS	38.8 
+					
+RULE 	258				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.8 
+THEN	LINK	V1	SETTING	IS	38.9 
+					
+RULE 	259				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	38.9 
+THEN	LINK	V1	SETTING	IS	39.0 
+					
+RULE 	260				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.0 
+THEN	LINK	V1	SETTING	IS	39.1 
+					
+RULE 	261				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.1 
+THEN	LINK	V1	SETTING	IS	39.2 
+					
+RULE 	262				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.2 
+THEN	LINK	V1	SETTING	IS	39.3 
+					
+RULE 	263				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.3 
+THEN	LINK	V1	SETTING	IS	39.4 
+					
+RULE 	264				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.4 
+THEN	LINK	V1	SETTING	IS	39.5 
+					
+RULE 	265				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.5 
+THEN	LINK	V1	SETTING	IS	39.6 
+					
+RULE 	266				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.6 
+THEN	LINK	V1	SETTING	IS	39.7 
+					
+RULE 	267				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.7 
+THEN	LINK	V1	SETTING	IS	39.8 
+					
+RULE 	268				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.8 
+THEN	LINK	V1	SETTING	IS	39.9 
+					
+RULE 	269				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	39.9 
+THEN	LINK	V1	SETTING	IS	40.0 
+					
+RULE 	270				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.0 
+THEN	LINK	V1	SETTING	IS	40.1 
+					
+RULE 	271				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.1 
+THEN	LINK	V1	SETTING	IS	40.2 
+					
+RULE 	272				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.2 
+THEN	LINK	V1	SETTING	IS	40.3 
+					
+RULE 	273				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.3 
+THEN	LINK	V1	SETTING	IS	40.4 
+					
+RULE 	274				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.4 
+THEN	LINK	V1	SETTING	IS	40.5 
+					
+RULE 	275				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.5 
+THEN	LINK	V1	SETTING	IS	40.6 
+					
+RULE 	276				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.6 
+THEN	LINK	V1	SETTING	IS	40.7 
+					
+RULE 	277				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.7 
+THEN	LINK	V1	SETTING	IS	40.8 
+					
+RULE 	278				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.8 
+THEN	LINK	V1	SETTING	IS	40.9 
+					
+RULE 	279				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	40.9 
+THEN	LINK	V1	SETTING	IS	41.0 
+					
+RULE 	280				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.0 
+THEN	LINK	V1	SETTING	IS	41.1 
+					
+RULE 	281				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.1 
+THEN	LINK	V1	SETTING	IS	41.2 
+					
+RULE 	282				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.2 
+THEN	LINK	V1	SETTING	IS	41.3 
+					
+RULE 	283				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.3 
+THEN	LINK	V1	SETTING	IS	41.4 
+					
+RULE 	284				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.4 
+THEN	LINK	V1	SETTING	IS	41.5 
+					
+RULE 	285				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.5 
+THEN	LINK	V1	SETTING	IS	41.6 
+					
+RULE 	286				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.6 
+THEN	LINK	V1	SETTING	IS	41.7 
+					
+RULE 	287				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.7 
+THEN	LINK	V1	SETTING	IS	41.8 
+					
+RULE 	288				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.8 
+THEN	LINK	V1	SETTING	IS	41.9 
+					
+RULE 	289				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	41.9 
+THEN	LINK	V1	SETTING	IS	42.0 
+					
+RULE 	290				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.0 
+THEN	LINK	V1	SETTING	IS	42.1 
+					
+RULE 	291				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.1 
+THEN	LINK	V1	SETTING	IS	42.2 
+					
+RULE 	292				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.2 
+THEN	LINK	V1	SETTING	IS	42.3 
+					
+RULE 	293				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.3 
+THEN	LINK	V1	SETTING	IS	42.4 
+					
+RULE 	294				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.4 
+THEN	LINK	V1	SETTING	IS	42.5 
+					
+RULE 	295				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.5 
+THEN	LINK	V1	SETTING	IS	42.6 
+					
+RULE 	296				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.6 
+THEN	LINK	V1	SETTING	IS	42.7 
+					
+RULE 	297				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.7 
+THEN	LINK	V1	SETTING	IS	42.8 
+					
+RULE 	298				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.8 
+THEN	LINK	V1	SETTING	IS	42.9 
+					
+RULE 	299				
+IF	NODE	HP14	PRESSURE	BELOW	36.7
+AND	LINK	V1	SETTING	IS	42.9 
+THEN	LINK	V1	SETTING	IS	43.0 
+					
+RULE 	300				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	43.0 
+THEN	LINK	V1	SETTING	IS	42.9 
+					
+RULE 	301				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.9 
+THEN	LINK	V1	SETTING	IS	42.8 
+					
+RULE 	302				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.8 
+THEN	LINK	V1	SETTING	IS	42.7 
+					
+RULE 	303				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.7 
+THEN	LINK	V1	SETTING	IS	42.6 
+					
+RULE 	304				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.6 
+THEN	LINK	V1	SETTING	IS	42.5 
+					
+RULE 	305				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.5 
+THEN	LINK	V1	SETTING	IS	42.4 
+					
+RULE 	306				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.4 
+THEN	LINK	V1	SETTING	IS	42.3 
+					
+RULE 	307				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.3 
+THEN	LINK	V1	SETTING	IS	42.2 
+					
+RULE 	308				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.2 
+THEN	LINK	V1	SETTING	IS	42.1 
+					
+RULE 	309				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.1 
+THEN	LINK	V1	SETTING	IS	42.0 
+					
+RULE 	310				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	42.0 
+THEN	LINK	V1	SETTING	IS	41.9 
+					
+RULE 	311				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.9 
+THEN	LINK	V1	SETTING	IS	41.8 
+					
+RULE 	312				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.8 
+THEN	LINK	V1	SETTING	IS	41.7 
+					
+RULE 	313				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.7 
+THEN	LINK	V1	SETTING	IS	41.6 
+					
+RULE 	314				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.6 
+THEN	LINK	V1	SETTING	IS	41.5 
+					
+RULE 	315				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.5 
+THEN	LINK	V1	SETTING	IS	41.4 
+					
+RULE 	316				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.4 
+THEN	LINK	V1	SETTING	IS	41.3 
+					
+RULE 	317				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.3 
+THEN	LINK	V1	SETTING	IS	41.2 
+					
+RULE 	318				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.2 
+THEN	LINK	V1	SETTING	IS	41.1 
+					
+RULE 	319				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.1 
+THEN	LINK	V1	SETTING	IS	41.0 
+					
+RULE 	320				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	41.0 
+THEN	LINK	V1	SETTING	IS	40.9 
+					
+RULE 	321				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.9 
+THEN	LINK	V1	SETTING	IS	40.8 
+					
+RULE 	322				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.8 
+THEN	LINK	V1	SETTING	IS	40.7 
+					
+RULE 	323				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.7 
+THEN	LINK	V1	SETTING	IS	40.6 
+					
+RULE 	324				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.6 
+THEN	LINK	V1	SETTING	IS	40.5 
+					
+RULE 	325				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.5 
+THEN	LINK	V1	SETTING	IS	40.4 
+					
+RULE 	326				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.4 
+THEN	LINK	V1	SETTING	IS	40.3 
+					
+RULE 	327				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.3 
+THEN	LINK	V1	SETTING	IS	40.2 
+					
+RULE 	328				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.2 
+THEN	LINK	V1	SETTING	IS	40.1 
+					
+RULE 	329				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.1 
+THEN	LINK	V1	SETTING	IS	40.0 
+					
+RULE 	330				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	40.0 
+THEN	LINK	V1	SETTING	IS	39.9 
+					
+RULE 	331				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.9 
+THEN	LINK	V1	SETTING	IS	39.8 
+					
+RULE 	332				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.8 
+THEN	LINK	V1	SETTING	IS	39.7 
+					
+RULE 	333				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.7 
+THEN	LINK	V1	SETTING	IS	39.6 
+					
+RULE 	334				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.6 
+THEN	LINK	V1	SETTING	IS	39.5 
+					
+RULE 	335				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.5 
+THEN	LINK	V1	SETTING	IS	39.4 
+					
+RULE 	336				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.4 
+THEN	LINK	V1	SETTING	IS	39.3 
+					
+RULE 	337				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.3 
+THEN	LINK	V1	SETTING	IS	39.2 
+					
+RULE 	338				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.2 
+THEN	LINK	V1	SETTING	IS	39.1 
+					
+RULE 	339				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.1 
+THEN	LINK	V1	SETTING	IS	39.0 
+					
+RULE 	340				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	39.0 
+THEN	LINK	V1	SETTING	IS	38.9 
+					
+RULE 	341				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.9 
+THEN	LINK	V1	SETTING	IS	38.8 
+					
+RULE 	342				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.8 
+THEN	LINK	V1	SETTING	IS	38.7 
+					
+RULE 	343				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.7 
+THEN	LINK	V1	SETTING	IS	38.6 
+					
+RULE 	344				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.6 
+THEN	LINK	V1	SETTING	IS	38.5 
+					
+RULE 	345				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.5 
+THEN	LINK	V1	SETTING	IS	38.4 
+					
+RULE 	346				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.4 
+THEN	LINK	V1	SETTING	IS	38.3 
+					
+RULE 	347				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.3 
+THEN	LINK	V1	SETTING	IS	38.2 
+					
+RULE 	348				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.2 
+THEN	LINK	V1	SETTING	IS	38.1 
+					
+RULE 	349				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.1 
+THEN	LINK	V1	SETTING	IS	38.0 
+					
+RULE 	350				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	38.0 
+THEN	LINK	V1	SETTING	IS	37.9 
+					
+RULE 	351				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.9 
+THEN	LINK	V1	SETTING	IS	37.8 
+					
+RULE 	352				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.8 
+THEN	LINK	V1	SETTING	IS	37.7 
+					
+RULE 	353				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.7 
+THEN	LINK	V1	SETTING	IS	37.6 
+					
+RULE 	354				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.6 
+THEN	LINK	V1	SETTING	IS	37.5 
+					
+RULE 	355				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.5 
+THEN	LINK	V1	SETTING	IS	37.4 
+					
+RULE 	356				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.4 
+THEN	LINK	V1	SETTING	IS	37.3 
+					
+RULE 	357				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.3 
+THEN	LINK	V1	SETTING	IS	37.2 
+					
+RULE 	358				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.2 
+THEN	LINK	V1	SETTING	IS	37.1 
+					
+RULE 	359				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.1 
+THEN	LINK	V1	SETTING	IS	37.0 
+					
+RULE 	360				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	37.0 
+THEN	LINK	V1	SETTING	IS	36.9 
+					
+RULE 	361				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.9 
+THEN	LINK	V1	SETTING	IS	36.8 
+					
+RULE 	362				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.8 
+THEN	LINK	V1	SETTING	IS	36.7 
+					
+RULE 	363				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.7 
+THEN	LINK	V1	SETTING	IS	36.6 
+					
+RULE 	364				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.6 
+THEN	LINK	V1	SETTING	IS	36.5
+					
+RULE 	365				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.5
+THEN	LINK	V1	SETTING	IS	36.4
+					
+RULE 	366				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.4
+THEN	LINK	V1	SETTING	IS	36.3
+					
+RULE 	367				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.3
+THEN	LINK	V1	SETTING	IS	36.2
+					
+RULE 	368				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.2
+THEN	LINK	V1	SETTING	IS	36.1
+					
+RULE 	369				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36.1
+THEN	LINK	V1	SETTING	IS	36
+					
+RULE 	370				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	36
+THEN	LINK	V1	SETTING	IS	35.9
+					
+RULE 	371				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.9
+THEN	LINK	V1	SETTING	IS	35.8
+					
+RULE 	372				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.8
+THEN	LINK	V1	SETTING	IS	35.7
+					
+RULE 	373				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.7
+THEN	LINK	V1	SETTING	IS	35.6
+					
+RULE 	374				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.6
+THEN	LINK	V1	SETTING	IS	35.5
+					
+RULE 	375				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.5
+THEN	LINK	V1	SETTING	IS	35.4
+					
+RULE 	376				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.4
+THEN	LINK	V1	SETTING	IS	35.3
+					
+RULE 	377				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.3
+THEN	LINK	V1	SETTING	IS	35.2
+					
+RULE 	378				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.2
+THEN	LINK	V1	SETTING	IS	35.1
+					
+RULE 	379				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35.1
+THEN	LINK	V1	SETTING	IS	35
+					
+RULE 	380				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	35
+THEN	LINK	V1	SETTING	IS	34.9
+					
+RULE 	381				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.9
+THEN	LINK	V1	SETTING	IS	34.8
+					
+RULE 	382				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.8
+THEN	LINK	V1	SETTING	IS	34.7
+					
+RULE 	383				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.7
+THEN	LINK	V1	SETTING	IS	34.6
+					
+RULE 	384				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.6
+THEN	LINK	V1	SETTING	IS	34.5
+					
+RULE 	385				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.5
+THEN	LINK	V1	SETTING	IS	34.4
+					
+RULE 	386				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.4
+THEN	LINK	V1	SETTING	IS	34.3
+					
+RULE 	387				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.3
+THEN	LINK	V1	SETTING	IS	34.2
+					
+RULE 	388				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.2
+THEN	LINK	V1	SETTING	IS	34.1
+					
+RULE 	389				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34.1
+THEN	LINK	V1	SETTING	IS	34
+					
+RULE 	390				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	34
+THEN	LINK	V1	SETTING	IS	33.9
+					
+RULE 	391				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.9
+THEN	LINK	V1	SETTING	IS	33.8
+					
+RULE 	392				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.8
+THEN	LINK	V1	SETTING	IS	33.7
+					
+RULE 	393				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.7
+THEN	LINK	V1	SETTING	IS	33.6
+					
+RULE 	394				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.6
+THEN	LINK	V1	SETTING	IS	33.5
+					
+RULE 	395				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.5
+THEN	LINK	V1	SETTING	IS	33.4
+					
+RULE 	396				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.4
+THEN	LINK	V1	SETTING	IS	33.3
+					
+RULE 	397				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.3
+THEN	LINK	V1	SETTING	IS	33.2
+					
+RULE 	398				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.2
+THEN	LINK	V1	SETTING	IS	33.1
+					
+RULE 	399				
+IF	NODE	HP14	PRESSURE	ABOVE	37.0
+AND	LINK	V1	SETTING	IS	33.1
+THEN	LINK	V1	SETTING	IS	33
+RULE 	400				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.01
+THEN	PUMP	PMP1	SETTING	IS	0.02
+					
+RULE 	401				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.02
+THEN	PUMP	PMP1	SETTING	IS	0.03
+					
+RULE 	402				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.03
+THEN	PUMP	PMP1	SETTING	IS	0.04
+					
+RULE 	403				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.04
+THEN	PUMP	PMP1	SETTING	IS	0.05
+					
+RULE 	404				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.05
+THEN	PUMP	PMP1	SETTING	IS	0.06
+					
+RULE 	405				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.06
+THEN	PUMP	PMP1	SETTING	IS	0.07
+					
+RULE 	406				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.07
+THEN	PUMP	PMP1	SETTING	IS	0.08
+					
+RULE 	407				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.08
+THEN	PUMP	PMP1	SETTING	IS	0.09
+					
+RULE 	408				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.09
+THEN	PUMP	PMP1	SETTING	IS	0.1
+					
+RULE 	409				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.1
+THEN	PUMP	PMP1	SETTING	IS	0.11
+					
+RULE 	410				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.11
+THEN	PUMP	PMP1	SETTING	IS	0.12
+					
+RULE 	411				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.12
+THEN	PUMP	PMP1	SETTING	IS	0.13
+					
+RULE 	412				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.13
+THEN	PUMP	PMP1	SETTING	IS	0.14
+					
+RULE 	413				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.14
+THEN	PUMP	PMP1	SETTING	IS	0.15
+					
+RULE 	414				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.15
+THEN	PUMP	PMP1	SETTING	IS	0.16
+					
+RULE 	415				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.16
+THEN	PUMP	PMP1	SETTING	IS	0.17
+					
+RULE 	416				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.17
+THEN	PUMP	PMP1	SETTING	IS	0.18
+					
+RULE 	417				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.18
+THEN	PUMP	PMP1	SETTING	IS	0.19
+					
+RULE 	418				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.19
+THEN	PUMP	PMP1	SETTING	IS	0.2
+					
+RULE 	419				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.2
+THEN	PUMP	PMP1	SETTING	IS	0.21
+					
+RULE 	420				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.21
+THEN	PUMP	PMP1	SETTING	IS	0.22
+					
+RULE 	421				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.22
+THEN	PUMP	PMP1	SETTING	IS	0.23
+					
+RULE 	422				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.23
+THEN	PUMP	PMP1	SETTING	IS	0.24
+					
+RULE 	423				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.24
+THEN	PUMP	PMP1	SETTING	IS	0.25
+					
+RULE 	424				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.25
+THEN	PUMP	PMP1	SETTING	IS	0.26
+					
+RULE 	425				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.26
+THEN	PUMP	PMP1	SETTING	IS	0.27
+					
+RULE 	426				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.27
+THEN	PUMP	PMP1	SETTING	IS	0.28
+					
+RULE 	427				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.28
+THEN	PUMP	PMP1	SETTING	IS	0.29
+					
+RULE 	428				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.29
+THEN	PUMP	PMP1	SETTING	IS	0.3
+					
+RULE 	429				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.3
+THEN	PUMP	PMP1	SETTING	IS	0.31
+					
+RULE 	430				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.31
+THEN	PUMP	PMP1	SETTING	IS	0.32
+					
+RULE 	431				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.32
+THEN	PUMP	PMP1	SETTING	IS	0.33
+					
+RULE 	432				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.33
+THEN	PUMP	PMP1	SETTING	IS	0.34
+					
+RULE 	433				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.34
+THEN	PUMP	PMP1	SETTING	IS	0.35
+					
+RULE 	434				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.35
+THEN	PUMP	PMP1	SETTING	IS	0.36
+					
+RULE 	435				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.36
+THEN	PUMP	PMP1	SETTING	IS	0.37
+					
+RULE 	436				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.37
+THEN	PUMP	PMP1	SETTING	IS	0.38
+					
+RULE 	437				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.38
+THEN	PUMP	PMP1	SETTING	IS	0.39
+					
+RULE 	438				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.39
+THEN	PUMP	PMP1	SETTING	IS	0.4
+					
+RULE 	439				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.4
+THEN	PUMP	PMP1	SETTING	IS	0.41
+					
+RULE 	440				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.41
+THEN	PUMP	PMP1	SETTING	IS	0.42
+					
+RULE 	441				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.42
+THEN	PUMP	PMP1	SETTING	IS	0.43
+					
+RULE 	442				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.43
+THEN	PUMP	PMP1	SETTING	IS	0.44
+					
+RULE 	443				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.44
+THEN	PUMP	PMP1	SETTING	IS	0.45
+					
+RULE 	444				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.45
+THEN	PUMP	PMP1	SETTING	IS	0.46
+					
+RULE 	445				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.46
+THEN	PUMP	PMP1	SETTING	IS	0.47
+					
+RULE 	446				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.47
+THEN	PUMP	PMP1	SETTING	IS	0.48
+					
+RULE 	447				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.48
+THEN	PUMP	PMP1	SETTING	IS	0.49
+					
+RULE 	448				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.49
+THEN	PUMP	PMP1	SETTING	IS	0.5
+					
+RULE 	449				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.5
+THEN	PUMP	PMP1	SETTING	IS	0.51
+					
+RULE 	450				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.51
+THEN	PUMP	PMP1	SETTING	IS	0.52
+					
+RULE 	451				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.52
+THEN	PUMP	PMP1	SETTING	IS	0.53
+					
+RULE 	452				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.53
+THEN	PUMP	PMP1	SETTING	IS	0.54
+					
+RULE 	453				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.54
+THEN	PUMP	PMP1	SETTING	IS	0.55
+					
+RULE 	454				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.55
+THEN	PUMP	PMP1	SETTING	IS	0.56
+					
+RULE 	455				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.56
+THEN	PUMP	PMP1	SETTING	IS	0.57
+					
+RULE 	456				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.57
+THEN	PUMP	PMP1	SETTING	IS	0.58
+					
+RULE 	457				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.58
+THEN	PUMP	PMP1	SETTING	IS	0.59
+					
+RULE 	458				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.59
+THEN	PUMP	PMP1	SETTING	IS	0.6
+					
+RULE 	459				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.6
+THEN	PUMP	PMP1	SETTING	IS	0.61
+					
+RULE 	460				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.61
+THEN	PUMP	PMP1	SETTING	IS	0.62
+					
+RULE 	461				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.62
+THEN	PUMP	PMP1	SETTING	IS	0.63
+					
+RULE 	462				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.63
+THEN	PUMP	PMP1	SETTING	IS	0.64
+					
+RULE 	463				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.64
+THEN	PUMP	PMP1	SETTING	IS	0.65
+					
+RULE 	464				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.65
+THEN	PUMP	PMP1	SETTING	IS	0.66
+					
+RULE 	465				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.66
+THEN	PUMP	PMP1	SETTING	IS	0.67
+					
+RULE 	466				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.67
+THEN	PUMP	PMP1	SETTING	IS	0.68
+					
+RULE 	467				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.68
+THEN	PUMP	PMP1	SETTING	IS	0.69
+					
+RULE 	468				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.69
+THEN	PUMP	PMP1	SETTING	IS	0.7
+					
+RULE 	469				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.7
+THEN	PUMP	PMP1	SETTING	IS	0.71
+					
+RULE 	470				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.71
+THEN	PUMP	PMP1	SETTING	IS	0.72
+					
+RULE 	471				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.72
+THEN	PUMP	PMP1	SETTING	IS	0.73
+					
+RULE 	472				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.73
+THEN	PUMP	PMP1	SETTING	IS	0.74
+					
+RULE 	473				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.74
+THEN	PUMP	PMP1	SETTING	IS	0.75
+					
+RULE 	474				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.75
+THEN	PUMP	PMP1	SETTING	IS	0.76
+					
+RULE 	475				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.76
+THEN	PUMP	PMP1	SETTING	IS	0.77
+					
+RULE 	476				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.77
+THEN	PUMP	PMP1	SETTING	IS	0.78
+					
+RULE 	477				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.78
+THEN	PUMP	PMP1	SETTING	IS	0.79
+					
+RULE 	478				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.79
+THEN	PUMP	PMP1	SETTING	IS	0.8
+					
+RULE 	479				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.8
+THEN	PUMP	PMP1	SETTING	IS	0.81
+					
+RULE 	480				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.81
+THEN	PUMP	PMP1	SETTING	IS	0.82
+					
+RULE 	481				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.82
+THEN	PUMP	PMP1	SETTING	IS	0.83
+					
+RULE 	482				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.83
+THEN	PUMP	PMP1	SETTING	IS	0.84
+					
+RULE 	483				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.84
+THEN	PUMP	PMP1	SETTING	IS	0.85
+					
+RULE 	484				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.85
+THEN	PUMP	PMP1	SETTING	IS	0.86
+					
+RULE 	485				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.86
+THEN	PUMP	PMP1	SETTING	IS	0.87
+					
+RULE 	486				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.87
+THEN	PUMP	PMP1	SETTING	IS	0.88
+					
+RULE 	487				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.88
+THEN	PUMP	PMP1	SETTING	IS	0.89
+					
+RULE 	488				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.89
+THEN	PUMP	PMP1	SETTING	IS	0.9
+					
+RULE 	489				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.9
+THEN	PUMP	PMP1	SETTING	IS	0.91
+					
+RULE 	490				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.91
+THEN	PUMP	PMP1	SETTING	IS	0.92
+					
+RULE 	491				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.92
+THEN	PUMP	PMP1	SETTING	IS	0.93
+					
+RULE 	492				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.93
+THEN	PUMP	PMP1	SETTING	IS	0.94
+					
+RULE 	493				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.94
+THEN	PUMP	PMP1	SETTING	IS	0.95
+					
+RULE 	494				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.95
+THEN	PUMP	PMP1	SETTING	IS	0.96
+					
+RULE 	495				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.96
+THEN	PUMP	PMP1	SETTING	IS	0.97
+					
+RULE 	496				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.97
+THEN	PUMP	PMP1	SETTING	IS	0.98
+					
+RULE 	497				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.98
+THEN	PUMP	PMP1	SETTING	IS	0.99
+					
+RULE 	498				
+IF	NODE	J7	PRESSURE	BELOW	54.5
+AND	PUMP	PMP1	SETTING	IS	0.99
+THEN	PUMP	PMP1	SETTING	IS	1
+					
+RULE 	499				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	1
+THEN	PUMP	PMP1	SETTING	IS	0.99
+					
+RULE 	500				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.99
+THEN	PUMP	PMP1	SETTING	IS	0.98
+					
+RULE 	501				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.98
+THEN	PUMP	PMP1	SETTING	IS	0.97
+					
+RULE 	502				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.97
+THEN	PUMP	PMP1	SETTING	IS	0.96
+					
+RULE 	503				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.96
+THEN	PUMP	PMP1	SETTING	IS	0.95
+					
+RULE 	504				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.95
+THEN	PUMP	PMP1	SETTING	IS	0.94
+					
+RULE 	505				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.94
+THEN	PUMP	PMP1	SETTING	IS	0.93
+					
+RULE 	506				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.93
+THEN	PUMP	PMP1	SETTING	IS	0.92
+					
+RULE 	507				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.92
+THEN	PUMP	PMP1	SETTING	IS	0.91
+					
+RULE 	508				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.91
+THEN	PUMP	PMP1	SETTING	IS	0.9
+					
+RULE 	509				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.9
+THEN	PUMP	PMP1	SETTING	IS	0.89
+					
+RULE 	510				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.89
+THEN	PUMP	PMP1	SETTING	IS	0.88
+					
+RULE 	511				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.88
+THEN	PUMP	PMP1	SETTING	IS	0.87
+					
+RULE 	512				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.87
+THEN	PUMP	PMP1	SETTING	IS	0.86
+					
+RULE 	513				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.86
+THEN	PUMP	PMP1	SETTING	IS	0.85
+					
+RULE 	514				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.85
+THEN	PUMP	PMP1	SETTING	IS	0.84
+					
+RULE 	515				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.84
+THEN	PUMP	PMP1	SETTING	IS	0.83
+					
+RULE 	516				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.83
+THEN	PUMP	PMP1	SETTING	IS	0.82
+					
+RULE 	517				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.82
+THEN	PUMP	PMP1	SETTING	IS	0.81
+					
+RULE 	518				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.81
+THEN	PUMP	PMP1	SETTING	IS	0.8
+					
+RULE 	519				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.8
+THEN	PUMP	PMP1	SETTING	IS	0.79
+					
+RULE 	520				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.79
+THEN	PUMP	PMP1	SETTING	IS	0.78
+					
+RULE 	521				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.78
+THEN	PUMP	PMP1	SETTING	IS	0.77
+					
+RULE 	522				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.77
+THEN	PUMP	PMP1	SETTING	IS	0.76
+					
+RULE 	523				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.76
+THEN	PUMP	PMP1	SETTING	IS	0.75
+					
+RULE 	524				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.75
+THEN	PUMP	PMP1	SETTING	IS	0.74
+					
+RULE 	525				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.74
+THEN	PUMP	PMP1	SETTING	IS	0.73
+					
+RULE 	526				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.73
+THEN	PUMP	PMP1	SETTING	IS	0.72
+					
+RULE 	527				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.72
+THEN	PUMP	PMP1	SETTING	IS	0.71
+					
+RULE 	528				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.71
+THEN	PUMP	PMP1	SETTING	IS	0.7
+					
+RULE 	529				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.7
+THEN	PUMP	PMP1	SETTING	IS	0.69
+					
+RULE 	530				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.69
+THEN	PUMP	PMP1	SETTING	IS	0.68
+					
+RULE 	531				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.68
+THEN	PUMP	PMP1	SETTING	IS	0.67
+					
+RULE 	532				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.67
+THEN	PUMP	PMP1	SETTING	IS	0.66
+					
+RULE 	533				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.66
+THEN	PUMP	PMP1	SETTING	IS	0.65
+					
+RULE 	534				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.65
+THEN	PUMP	PMP1	SETTING	IS	0.64
+					
+RULE 	535				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.64
+THEN	PUMP	PMP1	SETTING	IS	0.63
+					
+RULE 	536				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.63
+THEN	PUMP	PMP1	SETTING	IS	0.62
+					
+RULE 	537				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.62
+THEN	PUMP	PMP1	SETTING	IS	0.61
+					
+RULE 	538				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.61
+THEN	PUMP	PMP1	SETTING	IS	0.6
+					
+RULE 	539				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.6
+THEN	PUMP	PMP1	SETTING	IS	0.59
+					
+RULE 	540				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.59
+THEN	PUMP	PMP1	SETTING	IS	0.58
+					
+RULE 	541				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.58
+THEN	PUMP	PMP1	SETTING	IS	0.57
+					
+RULE 	542				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.57
+THEN	PUMP	PMP1	SETTING	IS	0.56
+					
+RULE 	543				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.56
+THEN	PUMP	PMP1	SETTING	IS	0.55
+					
+RULE 	544				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.55
+THEN	PUMP	PMP1	SETTING	IS	0.54
+					
+RULE 	545				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.54
+THEN	PUMP	PMP1	SETTING	IS	0.53
+					
+RULE 	546				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.53
+THEN	PUMP	PMP1	SETTING	IS	0.52
+					
+RULE 	547				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.52
+THEN	PUMP	PMP1	SETTING	IS	0.51
+					
+RULE 	548				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.51
+THEN	PUMP	PMP1	SETTING	IS	0.5
+					
+RULE 	549				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.5
+THEN	PUMP	PMP1	SETTING	IS	0.49
+					
+RULE 	550				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.49
+THEN	PUMP	PMP1	SETTING	IS	0.48
+					
+RULE 	551				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.48
+THEN	PUMP	PMP1	SETTING	IS	0.47
+					
+RULE 	552				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.47
+THEN	PUMP	PMP1	SETTING	IS	0.46
+					
+RULE 	553				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.46
+THEN	PUMP	PMP1	SETTING	IS	0.45
+					
+RULE 	554				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.45
+THEN	PUMP	PMP1	SETTING	IS	0.44
+					
+RULE 	555				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.44
+THEN	PUMP	PMP1	SETTING	IS	0.43
+					
+RULE 	556				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.43
+THEN	PUMP	PMP1	SETTING	IS	0.42
+					
+RULE 	557				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.42
+THEN	PUMP	PMP1	SETTING	IS	0.41
+					
+RULE 	558				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.41
+THEN	PUMP	PMP1	SETTING	IS	0.4
+					
+RULE 	559				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.4
+THEN	PUMP	PMP1	SETTING	IS	0.39
+					
+RULE 	560				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.39
+THEN	PUMP	PMP1	SETTING	IS	0.38
+					
+RULE 	561				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.38
+THEN	PUMP	PMP1	SETTING	IS	0.37
+					
+RULE 	562				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.37
+THEN	PUMP	PMP1	SETTING	IS	0.36
+					
+RULE 	563				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.36
+THEN	PUMP	PMP1	SETTING	IS	0.35
+					
+RULE 	564				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.35
+THEN	PUMP	PMP1	SETTING	IS	0.34
+					
+RULE 	565				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.34
+THEN	PUMP	PMP1	SETTING	IS	0.33
+					
+RULE 	566				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.33
+THEN	PUMP	PMP1	SETTING	IS	0.32
+					
+RULE 	567				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.32
+THEN	PUMP	PMP1	SETTING	IS	0.31
+					
+RULE 	568				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.31
+THEN	PUMP	PMP1	SETTING	IS	0.3
+					
+RULE 	569				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.3
+THEN	PUMP	PMP1	SETTING	IS	0.29
+					
+RULE 	570				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.29
+THEN	PUMP	PMP1	SETTING	IS	0.28
+					
+RULE 	571				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.28
+THEN	PUMP	PMP1	SETTING	IS	0.27
+					
+RULE 	572				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.27
+THEN	PUMP	PMP1	SETTING	IS	0.26
+					
+RULE 	573				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.26
+THEN	PUMP	PMP1	SETTING	IS	0.25
+					
+RULE 	574				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.25
+THEN	PUMP	PMP1	SETTING	IS	0.24
+					
+RULE 	575				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.24
+THEN	PUMP	PMP1	SETTING	IS	0.23
+					
+RULE 	576				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.23
+THEN	PUMP	PMP1	SETTING	IS	0.22
+					
+RULE 	577				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.22
+THEN	PUMP	PMP1	SETTING	IS	0.21
+					
+RULE 	578				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.21
+THEN	PUMP	PMP1	SETTING	IS	0.2
+					
+RULE 	579				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.2
+THEN	PUMP	PMP1	SETTING	IS	0.19
+					
+RULE 	580				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.19
+THEN	PUMP	PMP1	SETTING	IS	0.18
+					
+RULE 	581				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.18
+THEN	PUMP	PMP1	SETTING	IS	0.17
+					
+RULE 	582				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.17
+THEN	PUMP	PMP1	SETTING	IS	0.16
+					
+RULE 	583				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.16
+THEN	PUMP	PMP1	SETTING	IS	0.15
+					
+RULE 	584				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.15
+THEN	PUMP	PMP1	SETTING	IS	0.14
+					
+RULE 	585				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.14
+THEN	PUMP	PMP1	SETTING	IS	0.13
+					
+RULE 	586				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.13
+THEN	PUMP	PMP1	SETTING	IS	0.12
+					
+RULE 	587				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.12
+THEN	PUMP	PMP1	SETTING	IS	0.11
+					
+RULE 	588				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.11
+THEN	PUMP	PMP1	SETTING	IS	0.1
+					
+RULE 	589				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.1
+THEN	PUMP	PMP1	SETTING	IS	0.09
+					
+RULE 	590				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.09
+THEN	PUMP	PMP1	SETTING	IS	0.08
+					
+RULE 	591				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.08
+THEN	PUMP	PMP1	SETTING	IS	0.07
+					
+RULE 	592				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.07
+THEN	PUMP	PMP1	SETTING	IS	0.06
+					
+RULE 	593				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.06
+THEN	PUMP	PMP1	SETTING	IS	0.05
+					
+RULE 	594				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.05
+THEN	PUMP	PMP1	SETTING	IS	0.04
+					
+RULE 	595				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.04
+THEN	PUMP	PMP1	SETTING	IS	0.03
+					
+RULE 	596				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.03
+THEN	PUMP	PMP1	SETTING	IS	0.02
+					
+RULE 	597				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.02
+THEN	PUMP	PMP1	SETTING	IS	0.01
+					
+RULE 	598				
+IF	NODE	J7	PRESSURE	ABOVE	55
+AND	PUMP	PMP1	SETTING	IS	0.01
+THEN	PUMP	PMP1	SETTING	IS	0
+
+[ENERGY]
+ Global Efficiency  	75
+ Global Price       	0
+ Demand Charge      	0
+
+[EMITTERS]
+;Junction	Coefficient
+RED1	0.0211
+ SW1             	0.0011
+SW2	0.0511
+ SW/SD           	0.0011
+ SD1             	0.0011
+ SW3             	0.0011
+ SW4             	0.0011
+ ZD4             	0.0011
+ HP28            	0.0011
+ ZD5             	0.0011
+ ZD6             	0.0011
+ HP27            	0.0011
+ ZD7             	0.0011
+ SO/ZD           	0.0011
+ ZD3             	0.0011
+ ZD8             	0.0011
+ SO2             	0.0011
+ SO/SD           	0.0011
+ ZD1             	0.0011
+ ZD2             	0.0011
+ SD11            	0.0011
+ SD12            	0.0011
+ SO3             	0.0011
+ SW/SO_Z         	0.0011
+ SW/SO           	0.0011
+ SW5             	0.0011
+ SW6             	0.0011
+ SW6_Z           	0.0011
+ HP26            	0.0011
+ SW7.2           	0.0011
+ SD3             	0.0011
+ SD4             	0.0011
+ SD2             	0.0011
+ SD2.1           	0.0011
+ SD5             	0.0011
+ SD6             	0.0011
+ HP9             	0.0011
+ SD9             	0.0011
+ SD10            	0.0011
+ HP25            	0.0011
+ SW8             	0.0011
+ SW/RO           	0.0011
+ RO5             	0.0011
+ RO4             	0.0011
+ RO1             	0.0011
+ RO2             	0.0011
+ RO3             	0.0011
+ HP11            	0.0011
+ SD7             	0.0011
+ HP10            	0.0011
+ SD8             	0.0011
+ HP24            	0.0011
+ HP23            	0.0011
+ SW9             	0.0011
+ SW/AN           	0.0011
+ HP22            	0.0011
+ SW10            	0.0011
+ SW/AN_Z         	0.0011
+ AN1.1           	0.0011
+ AN1             	0.0011
+ AN/PO           	0.0011
+ PO3             	0.0011
+ HP14            	0.0011
+ PO2             	0.0011
+ PO1             	0.0011
+ HP13            	0.0011
+ AN2             	0.0011
+ HP15            	0.0011
+ AN/JPII1        	0.0011
+ AN/JPII2        	0.0011
+ JPII2           	0.0011
+ JPII2.1         	0.0011
+ JPII3           	0.0011
+ JP21            	0.0011
+ HP16            	0.0011
+ SW11            	0.0011
+ SW12            	0.0011
+ SW13            	0.0011
+ SW14            	0.0011
+ SW/JPII         	0.0011
+ HP21            	0.0011
+ SW15            	0.0011
+ JPII4           	0.0011
+ SW/P01          	0.0011
+ SW16            	0.0011
+ HP20            	0.0011
+ AN5             	0.0011
+ AN3             	0.0011
+ HP32            	0.0011
+ SW17            	0.0011
+ SW/ZA           	0.0011
+ AN4             	0.0011
+ SW/ZA_Z         	0.0011
+ ZA1             	0.0011
+ HP19            	0.0011
+ SW/LE           	0.0011
+ SW18            	0.0011
+ HP18            	0.0011
+ SW19            	0.0011
+ LE0             	0.0011
+ LE1             	0.0011
+ SD17            	0.0011
+ SD16            	0.0011
+ LA1             	0.0011
+ LA2             	0.0011
+ HP12            	0.0011
+ LA3             	0.0011
+ SD/LA           	0.0011
+ SD13            	0.0011
+ HP8             	0.0011
+ SD14            	0.0011
+ HP7             	0.0011
+ GO1.1           	0.0011
+ GO16            	0.0011
+ GO1             	0.0011
+ GO2             	0.0011
+ HP6             	0.0011
+ GO3             	0.0011
+ GO4             	0.0011
+ GO5             	0.0011
+ HP5             	0.0011
+ GO6             	0.0011
+ SD/GO1          	0.0011
+ SD/GO1.1        	0.0011
+ SD19            	0.0011
+ SW/GO_Z         	0.0011
+ SW/GO           	0.0011
+ SD18            	0.0011
+ SD/GO01         	0.0011
+ SD/GO           	0.0011
+ SW20            	0.0011
+ SW/P02          	0.0011
+ SD15            	0.0011
+ SW/K01          	0.0011
+ K1              	0.0011
+ SW/K02          	0.0011
+ K2              	0.0011
+ SW21            	0.0011
+ SW/OB           	0.0011
+ HP17            	0.0011
+ HP1             	0.0011
+ OB1             	0.0011
+ HP2             	0.0011
+ OB2             	0.0011
+ SW7             	0.0011
+ SW7.1           	0.0011
+ P1              	0.0011
+ P2              	0.0011
+ LE2             	0.0011
+ n155            	0.0011
+ n156            	0.0011
+ GO01            	0.0011
+ SO3.1           	0.0011
+ SO1             	0.0011
+ K3              	0.0011
+ J1              	0.0011
+ J2              	0.0011
+ SD10.1          	0.0011
+ J3              	0.0011
+ J4              	0.0011
+ J5              	0.0011
+ J7              	0.0011
+ P3              	0.0011
+ J6              	0.0011
+ J8              	0.0011
+ J10             	0.0011
+ J11             	0.0011
+ J12             	0.0011
+ J13             	0.0011
+ J14             	0.0011
+ J15             	0.0011
+ J16             	0.0011
+ J17             	0.0011
+ J18             	0.0011
+ J19             	0.0011
+ J20             	0.0011
+ J21             	0.0011
+ J22             	0.0011
+ J23             	0.0011
+ J24             	0.0011
+ J25             	0.0011
+ J27             	0.0011
+ J28             	0.0011
+ J30             	0.0011
+ J31             	0.0011
+ J32             	0.0011
+ J34             	0.0011
+ J35             	0.0011
+ J36             	0.0011
+ J37             	0.0011
+ J38             	0.0011
+ J41             	0.0011
+ J42             	0.0011
+
+[QUALITY]
+;Node            	InitQual
+
+[SOURCES]
+;Node            	Type        	Quality     	Pattern
+ R1              	CONCEN      	0.2         	
+ R2              	CONCEN      	0.2         	
+
+[REACTIONS]
+;Type     	Pipe/Tank       	Coefficient
+ Bulk     	p1              	-0.1
+ Bulk     	p2              	-0.1
+ Bulk     	p4              	-0.1
+ Bulk     	p5              	-0.1
+ Bulk     	p6              	-0.1
+ Bulk     	p7              	-0.1
+ Bulk     	p8              	-0.1
+ Bulk     	p9              	-0.1
+ Bulk     	p10             	-0.1
+ Bulk     	p11             	-0.1
+ Bulk     	p12             	-0.1
+ Bulk     	p15             	-0.1
+ Bulk     	p16             	-0.1
+ Bulk     	p17             	-0.1
+ Bulk     	p18             	-0.1
+ Bulk     	p19             	-0.1
+ Bulk     	p20             	-0.1
+ Bulk     	p21             	-0.1
+ Bulk     	p23             	-0.1
+ Bulk     	p24             	-0.1
+ Bulk     	p26             	-0.1
+ Bulk     	p27             	-0.1
+ Bulk     	p28             	-0.1
+ Bulk     	p31             	-0.1
+ Bulk     	p33             	-0.1
+ Bulk     	p34             	-0.1
+ Bulk     	p35             	-0.1
+ Bulk     	p36             	-0.1
+ Bulk     	p37             	-0.1
+ Bulk     	p38             	-0.1
+ Bulk     	p39             	-0.1
+ Bulk     	p40             	-0.1
+ Bulk     	p41             	-0.1
+ Bulk     	p42             	-0.1
+ Bulk     	p43             	-0.1
+ Bulk     	p44             	-0.1
+ Bulk     	p45             	-0.1
+ Bulk     	p46             	-0.1
+ Bulk     	p47             	-0.1
+ Bulk     	p48             	-0.1
+ Bulk     	p49             	-0.1
+ Bulk     	p50             	-0.1
+ Bulk     	p51             	-0.1
+ Bulk     	p55             	-0.1
+ Bulk     	p57             	-0.1
+ Bulk     	p58             	-0.1
+ Bulk     	p59             	-0.1
+ Bulk     	p60             	-0.1
+ Bulk     	p61             	-0.1
+ Bulk     	p62             	-0.1
+ Bulk     	p63             	-0.1
+ Bulk     	p64             	-0.1
+ Bulk     	p65             	-0.1
+ Bulk     	p66             	-0.1
+ Bulk     	p67             	-0.1
+ Bulk     	p68             	-0.1
+ Bulk     	p70             	-0.1
+ Bulk     	p71             	-0.1
+ Bulk     	p72             	-0.1
+ Bulk     	p73             	-0.1
+ Bulk     	p74             	-0.1
+ Bulk     	p75             	-0.1
+ Bulk     	p76             	-0.1
+ Bulk     	p77             	-0.1
+ Bulk     	p79             	-0.1
+ Bulk     	p80             	-0.1
+ Bulk     	p83             	-0.1
+ Bulk     	p84             	-0.1
+ Bulk     	p85             	-0.1
+ Bulk     	p86             	-0.1
+ Bulk     	p87             	-0.1
+ Bulk     	p89             	-0.1
+ Bulk     	p90             	-0.1
+ Bulk     	p91             	-0.1
+ Bulk     	p92             	-0.1
+ Bulk     	p93             	-0.1
+ Bulk     	p95             	-0.1
+ Bulk     	p96             	-0.1
+ Bulk     	p97             	-0.1
+ Bulk     	p98             	-0.1
+ Bulk     	p99             	-0.1
+ Bulk     	p100            	-0.1
+ Bulk     	p102            	-0.1
+ Bulk     	p103            	-0.1
+ Bulk     	p105            	-0.1
+ Bulk     	p106            	-0.1
+ Bulk     	p107            	-0.1
+ Bulk     	p108            	-0.1
+ Bulk     	p109            	-0.1
+ Bulk     	p110            	-0.1
+ Bulk     	p111            	-0.1
+ Bulk     	p112            	-0.1
+ Bulk     	p113            	-0.1
+ Bulk     	p114            	-0.1
+ Bulk     	p115            	-0.1
+ Bulk     	p116            	-0.1
+ Bulk     	p117            	-0.1
+ Bulk     	p118            	-0.1
+ Bulk     	p119            	-0.1
+ Bulk     	p120            	-0.1
+ Bulk     	p123            	-0.1
+ Bulk     	p124            	-0.1
+ Bulk     	p125            	-0.1
+ Bulk     	p127            	-0.1
+ Bulk     	p129            	-0.1
+ Bulk     	p130            	-0.1
+ Bulk     	p132            	-0.1
+ Bulk     	p133            	-0.1
+ Bulk     	p134            	-0.1
+ Bulk     	p135            	-0.1
+ Bulk     	p136            	-0.1
+ Bulk     	p137            	-0.1
+ Bulk     	p138            	-0.1
+ Bulk     	p139            	-0.1
+ Bulk     	p140            	-0.1
+ Bulk     	p142            	-0.1
+ Bulk     	p143            	-0.1
+ Bulk     	p144            	-0.1
+ Bulk     	p145            	-0.1
+ Bulk     	p146            	-0.1
+ Bulk     	p147            	-0.1
+ Bulk     	p150            	-0.1
+ Bulk     	p151            	-0.1
+ Bulk     	p152            	-0.1
+ Bulk     	p153            	-0.1
+ Bulk     	p154            	-0.1
+ Bulk     	p155            	-0.1
+ Bulk     	p157            	-0.1
+ Bulk     	p158            	-0.1
+ Bulk     	p159            	-0.1
+ Bulk     	p162            	-0.1
+ Bulk     	p163            	-0.1
+ Bulk     	p227            	-0.1
+ Bulk     	P88             	-0.1
+ Bulk     	P104            	-0.1
+ Bulk     	P131            	-0.1
+ Bulk     	P53             	-0.1
+ Bulk     	P25             	-0.1
+ Bulk     	P81             	-0.1
+ Bulk     	P122            	-0.1
+ Bulk     	P22             	-0.1
+ Bulk     	P121            	-0.1
+ Bulk     	P126            	-0.1
+ Bulk     	P148            	-0.1
+ Bulk     	P69             	-0.1
+
+
+[REACTIONS]
+ Order Bulk            	1
+ Order Tank            	1
+ Order Wall            	1
+ Global Bulk           	-0.1
+ Global Wall           	0
+ Limiting Potential    	0
+ Roughness Correlation 	0
+
+[MIXING]
+;Tank            	Model
+
+[TIMES]
+ Duration           	24
+ Hydraulic Timestep 	0:1
+ Quality Timestep   	0:05
+ Pattern Timestep   	1:00
+ Pattern Start      	0:00
+ Report Timestep    	1:00
+ Report Start       	0:00
+ Start ClockTime    	12 am
+ Statistic          	None
+
+[REPORT]
+ Status             	No
+ Summary            	No
+ Page               	0
+
+[OPTIONS]
+ Units              	LPS
+ Headloss           	D-W
+ Specific Gravity   	1
+ Viscosity          	1
+ Trials             	40
+ Accuracy           	0.01
+ CHECKFREQ          	2
+ MAXCHECK           	10
+ DAMPLIMIT          	0
+ Unbalanced         	Continue 10
+ Pattern            	1
+ Demand Multiplier  	1.09
+ Emitter Exponent   	0.5
+ Quality            	Age mg/L
+ Diffusivity        	1
+ Tolerance          	0.01
+
+[COORDINATES]
+;Node            	X-Coord           	Y-Coord
+RED1            	3689906.367       	5509659.676       
+SW1             	3690021.604       	5509499.831       
+SW2             	3690233.585       	5509300.339       
+SW/SD           	3690233.236       	5509298.775       
+SD1             	3690265.738       	5509273.056       
+SW3             	3690234.090       	5509274.016       
+SW4             	3690233.834       	5509248.215       
+ZD4             	3691570.500       	5509179.175       
+HP28            	3691699.033       	5508970.605       
+ZD5             	3691723.270       	5508905.991       
+ZD6             	3691731.477       	5508880.396       
+HP27            	3691767.566       	5508771.105       
+ZD7             	3691769.586       	5508766.254       
+SO/ZD           	3691774.631       	5508754.107       
+ZD3             	3691776.178       	5508754.783       
+ZD8             	3691773.605       	5508753.658       
+SO2             	3691432.535       	5508281.304       
+SO/SD           	3691407.595       	5508202.796       
+ZD1             	3692074.802       	5508993.033       
+ZD2             	3691910.888       	5508829.173       
+SD11            	3691503.952       	5508046.999       
+SD12            	3691538.955       	5507965.914       
+SO3             	3691406.327       	5508198.850       
+SW/SO_Z         	3691349.766       	5508022.739       
+SW/SO           	3691349.413       	5508022.219       
+SW5             	3690386.106       	5509026.893       
+SW6             	3690471.493       	5508892.742       
+SW6_Z           	3690472.340       	5508893.296       
+HP26            	3690499.488       	5508911.137       
+SW7.2           	3690552.470       	5508946.401       
+SD3             	3690559.353       	5508970.202       
+SD4             	3690559.873       	5508969.928       
+SD2             	3690559.421       	5508969.108       
+SD2.1           	3690556.040       	5508962.935       
+SD5             	3690561.206       	5508969.273       
+SD6             	3690570.900       	5508963.521       
+HP9             	3691162.113       	5508285.428       
+SD9             	3691397.225       	5508207.656       
+SD10            	3691398.400       	5508207.107       
+HP25            	3690537.589       	5508788.853       
+SW8             	3690595.960       	5508698.476       
+SW/RO           	3690612.748       	5508671.585       
+RO5             	3690611.701       	5508671.130       
+RO4             	3690587.547       	5508660.373       
+RO1             	3690244.105       	5508566.719       
+RO2             	3690368.360       	5508616.950       
+RO3             	3690488.204       	5508623.359       
+HP11            	3690667.037       	5508842.512       
+SD7             	3690814.369       	5508590.882       
+HP10            	3690941.595       	5508502.189       
+SD8             	3691103.904       	5508453.048       
+HP24            	3690637.811       	5508630.953       
+HP23            	3690744.254       	5508499.901       
+SW9             	3690843.781       	5508417.869       
+SW/AN           	3690844.717       	5508417.445       
+HP22            	3690845.162       	5508417.271       
+SW10            	3690851.295       	5508414.570       
+SW/AN_Z         	3690844.193       	5508416.897       
+AN1.1           	3690842.881       	5508415.560       
+AN1             	3690843.462       	5508409.666       
+AN/PO           	3690864.119       	5508367.395       
+PO3             	3690815.365       	5508352.815       
+HP14            	3690744.971       	5508332.205       
+PO2             	3690745.726       	5508330.082       
+PO1             	3690770.348       	5508250.542       
+HP13            	3690800.910       	5508157.713       
+AN2             	3690901.051       	5508285.902       
+HP15            	3690929.949       	5508189.849       
+AN/JPII1        	3690952.110       	5508111.285       
+AN/JPII2        	3690952.464       	5508110.487       
+JPII2           	3691057.030       	5508128.195       
+JPII2.1         	3691040.775       	5508149.330       
+JPII3           	3691155.333       	5508116.887       
+JP21            	3690836.347       	5508087.010       
+HP16            	3690991.054       	5507988.113       
+SW11            	3690907.830       	5508373.228       
+SW12            	3690921.782       	5508359.851       
+SW13            	3691080.601       	5508187.326       
+SW14            	3691157.860       	5508122.505       
+SW/JPII         	3691158.951       	5508121.621       
+HP21            	3691159.894       	5508120.900       
+SW15            	3691169.796       	5508113.333       
+JPII4           	3691158.508       	5508121.033       
+SW/P01          	3691217.569       	5508085.785       
+SW16            	3691280.426       	5508063.290       
+HP20            	3691296.391       	5508055.884       
+AN5             	3691200.425       	5508017.558       
+AN3             	3690993.903       	5507983.689       
+HP32            	3690905.356       	5507929.685       
+SW17            	3691318.116       	5508043.548       
+SW/ZA           	3691363.107       	5508008.342       
+AN4             	3691103.491       	5508001.142       
+SW/ZA_Z         	3691362.294       	5508007.694       
+ZA1             	3691317.366       	5507981.917       
+HP19            	3691445.223       	5507791.700       
+SW/LE           	3691448.482       	5507781.664       
+SW18            	3691474.418       	5507702.411       
+HP18            	3691522.639       	5507562.177       
+SW19            	3691570.460       	5507402.451       
+LE0             	3691447.276       	5507781.299       
+LE1             	3691402.612       	5507762.282       
+SD17            	3691649.648       	5507291.784       
+SD16            	3691661.969       	5507246.874       
+LA1             	3691912.522       	5507693.490       
+LA2             	3691863.126       	5507500.871       
+HP12            	3691827.689       	5507398.510       
+LA3             	3691686.758       	5507308.755       
+SD/LA           	3691684.714       	5507309.259       
+SD13            	3691606.943       	5507750.111       
+HP8             	3691689.858       	5507353.837       
+SD14            	3691670.227       	5507540.144       
+HP7             	3692147.645       	5507505.808       
+GO1.1           	3692120.104       	5507338.625       
+GO16            	3692156.664       	5507350.149       
+GO1             	3692113.252       	5507318.783       
+GO2             	3692094.310       	5507252.628       
+HP6             	3692111.797       	5507255.358       
+GO3             	3692093.238       	5507139.408       
+GO4             	3691989.860       	5507063.722       
+GO5             	3691874.664       	5507051.188       
+HP5             	3691837.368       	5507065.644       
+GO6             	3691722.108       	5507088.183       
+SD/GO1          	3691721.209       	5507087.912       
+SD/GO1.1        	3691720.973       	5507088.512       
+SD19            	3691717.881       	5507096.380       
+SW/GO_Z         	3691697.457       	5507082.345       
+SW/GO           	3691697.140       	5507082.150       
+SD18            	3691737.687       	5507176.161       
+SD/GO01         	3691692.386       	5507155.105       
+SD/GO           	3691690.955       	5507154.257       
+SW20            	3691607.505       	5507271.998       
+SW/P02          	3691218.696       	5508085.515       
+SD15            	3691674.228       	5507231.903       
+SW/K01          	3691719.441       	5507023.216       
+K1              	3691720.996       	5507016.933       
+SW/K02          	3691722.605       	5507010.431       
+K2              	3691718.242       	5507016.339       
+SW21            	3691695.857       	5506928.635       
+SW/OB           	3691653.162       	5506859.742       
+HP17            	3691653.816       	5506859.067       
+HP1             	3691714.033       	5506838.045       
+OB1             	3691782.812       	5506879.614       
+HP2             	3691911.789       	5506942.439       
+OB2             	3692001.957       	5506842.862       
+SW7             	3690500.120       	5508910.163       
+SW7.1           	3690535.582       	5508853.084       
+P1              	3691213.375       	5508075.842       
+P2              	3691214.346       	5508075.164       
+LE2             	3691421.276       	5507703.433       
+n155            	3691646.742       	5506852.093       
+n156            	3692078.410       	5508998.592       
+GO01            	3692053.060       	5507236.542       
+SO3.1           	3691410.105       	5508197.982       
+SO1             	3691436.789       	5508302.010       
+K3              	3691717.338       	5507019.791       
+J1              	3689906.103       	5509659.814       
+J2              	3691436.631       	5508301.270       
+SD10.1          	3691406.011       	5508203.551       
+J3              	3691348.921       	5508022.550       
+J4              	3691350.034       	5508021.615       
+J5              	3691213.249       	5508075.525       
+J7              	3691213.329       	5508075.730       
+P3              	3691214.424       	5508075.360       
+J6              	3691653.138       	5506859.712       
+J8              	3691690.462       	5506919.225       
+J10             	3691691.489       	5506920.942       
+J11             	3691697.100       	5507082.229       
+J12             	3691697.174       	5507082.082       
+J13             	3691873.760       	5507051.561       
+J14             	3691990.820       	5507064.391       
+J15             	3692114.025       	5507253.844       
+J16             	3691662.196       	5507246.150       
+J17             	3691551.025       	5507460.134       
+J18             	3691551.450       	5507458.007       
+J19             	3691539.151       	5507963.930       
+J20             	3691296.164       	5508055.989       
+J21             	3691296.604       	5508055.788       
+J22             	3691296.271       	5508055.744       
+J23             	3691436.728       	5508302.246       
+J24             	3691436.570       	5508300.968       
+J25             	3691774.276       	5508754.955       
+J27             	3691217.456       	5508085.506       
+J28             	3691218.578       	5508085.216       
+J30             	3690745.069       	5508331.936       
+J31             	3690744.864       	5508332.504       
+J32             	3690864.089       	5508367.388       
+J34             	3690612.448       	5508672.055       
+J35             	3690612.962       	5508671.229       
+J36             	3689905.885       	5509659.919       
+J37             	3690020.632       	5509500.726       
+J38             	3690020.728       	5509500.089       
+J41             	3690233.199       	5509249.125       
+J42             	3690990.539       	5508114.896       
+R1              	3689905.603       	5509660.063       
+R2              	3692078.242       	5509004.289       
+R3              	3691642.836       	5506848.409       
+
+[VERTICES]
+;Link            	X-Coord           	Y-Coord
+p1              	3689972.745       	5509629.607       
+p1              	3689992.428       	5509612.184       
+p1              	3690006.486       	5509591.231       
+p1              	3690014.825       	5509565.279       
+p1              	3690018.411       	5509541.649       
+p1              	3690020.596       	5509501.038       
+p2              	3690040.932       	5509493.616       
+p2              	3690067.296       	5509471.536       
+p2              	3690093.505       	5509446.774       
+p2              	3690124.985       	5509420.986       
+p2              	3690144.761       	5509399.915       
+p2              	3690163.188       	5509372.450       
+p2              	3690209.556       	5509332.659       
+p2              	3690234.525       	5509304.563       
+p2              	3690233.926       	5509301.873       
+p4              	3690240.238       	5509299.668       
+p5              	3690225.258       	5509283.858       
+p6              	3690241.879       	5509264.775       
+p6              	3690229.232       	5509254.905       
+p7              	3691579.723       	5509168.859       
+p7              	3691602.784       	5509143.071       
+p7              	3691625.276       	5509114.157       
+p7              	3691635.592       	5509100.895       
+p7              	3691654.999       	5509062.796       
+p7              	3691666.875       	5509039.479       
+p7              	3691674.585       	5509022.128       
+p7              	3691681.722       	5509006.887       
+p7              	3691695.094       	5508979.250       
+p8              	3691704.606       	5508958.276       
+p8              	3691712.223       	5508936.940       
+p8              	3691713.179       	5508934.019       
+p8              	3691718.911       	5508918.202       
+p9              	3691753.301       	5508811.734       
+p15             	3691428.986       	5508262.867       
+p15             	3691426.045       	5508246.567       
+p15             	3691424.975       	5508243.477       
+p15             	3691418.652       	5508225.217       
+p16             	3692051.894       	5508956.165       
+p16             	3692033.579       	5508933.758       
+p16             	3692016.682       	5508914.337       
+p16             	3692005.113       	5508902.365       
+p16             	3691981.195       	5508878.765       
+p16             	3691969.790       	5508868.173       
+p16             	3691954.090       	5508855.782       
+p16             	3691938.962       	5508845.300       
+p16             	3691924.459       	5508836.570       
+p17             	3691908.294       	5508827.784       
+p17             	3691894.158       	5508819.821       
+p17             	3691888.185       	5508816.383       
+p17             	3691875.370       	5508809.238       
+p17             	3691858.407       	5508798.757       
+p17             	3691845.432       	5508791.438       
+p17             	3691811.619       	5508772.678       
+p17             	3691785.488       	5508758.857       
+p18             	3691435.134       	5508280.804       
+p18             	3691436.137       	5508280.393       
+p18             	3691431.422       	5508256.380       
+p18             	3691432.419       	5508240.279       
+p18             	3691430.132       	5508195.310       
+p18             	3691445.473       	5508178.942       
+p18             	3691494.019       	5508127.767       
+p18             	3691495.304       	5508115.149       
+p18             	3691495.304       	5508085.843       
+p18             	3691497.742       	5508070.982       
+p19             	3691512.778       	5508032.812       
+p19             	3691526.567       	5507997.285       
+p21             	3691405.847       	5508197.354       
+p21             	3691398.001       	5508179.977       
+p21             	3691386.307       	5508158.396       
+p21             	3691373.811       	5508131.195       
+p21             	3691365.285       	5508112.704       
+p21             	3691358.561       	5508096.194       
+p21             	3691352.358       	5508080.960       
+p21             	3691344.267       	5508058.856       
+p21             	3691344.378       	5508049.825       
+p21             	3691346.700       	5508041.753       
+p21             	3691356.653       	5508032.833       
+p23             	3690240.637       	5509239.907       
+p23             	3690255.813       	5509219.377       
+p23             	3690275.479       	5509191.813       
+p23             	3690314.308       	5509136.329       
+p23             	3690331.355       	5509111.629       
+p23             	3690349.170       	5509084.057       
+p23             	3690365.391       	5509058.960       
+p24             	3690405.717       	5508994.321       
+p24             	3690430.613       	5508956.125       
+p24             	3690448.598       	5508928.439       
+p24             	3690465.916       	5508901.437       
+p26             	3690499.488       	5508911.137       
+p26             	3690499.488       	5508911.137       
+p27             	3690511.623       	5508913.470       
+p27             	3690534.974       	5508924.369       
+p27             	3690538.818       	5508928.534       
+p27             	3690543.257       	5508931.455       
+p27             	3690552.470       	5508944.818       
+p28             	3690551.604       	5508947.104       
+p28             	3690550.089       	5508952.537       
+p28             	3690551.274       	5508956.461       
+p28             	3690558.044       	5508970.905       
+p33             	3690567.978       	5508966.339       
+p33             	3690568.549       	5508966.711       
+p34             	3691163.518       	5508263.483       
+p34             	3691166.383       	5508254.636       
+p34             	3691170.168       	5508248.690       
+p34             	3691176.377       	5508240.194       
+p34             	3691200.344       	5508220.193       
+p34             	3691221.725       	5508201.053       
+p34             	3691225.069       	5508199.493       
+p34             	3691236.393       	5508199.493       
+p34             	3691257.193       	5508200.872       
+p34             	3691284.585       	5508202.402       
+p34             	3691305.002       	5508202.658       
+p34             	3691320.805       	5508205.664       
+p34             	3691344.230       	5508207.717       
+p34             	3691388.354       	5508202.902       
+p37             	3690514.064       	5508826.164       
+p37             	3690529.306       	5508802.059       
+p37             	3690533.169       	5508795.133       
+p40             	3690259.509       	5508568.533       
+p40             	3690271.541       	5508570.222       
+p40             	3690274.032       	5508570.834       
+p40             	3690287.109       	5508574.088       
+p40             	3690298.457       	5508577.681       
+p40             	3690311.302       	5508583.726       
+p40             	3690318.988       	5508589.399       
+p40             	3690332.604       	5508600.362       
+p40             	3690346.402       	5508611.006       
+p40             	3690365.899       	5508616.231       
+p41             	3690569.403       	5508652.111       
+p41             	3690567.442       	5508651.334       
+p41             	3690545.450       	5508642.172       
+p41             	3690521.261       	5508632.783       
+p41             	3690499.547       	5508625.716       
+p42             	3690380.818       	5508620.608       
+p42             	3690409.480       	5508626.896       
+p42             	3690419.128       	5508628.407       
+p42             	3690437.186       	5508631.071       
+p42             	3690446.314       	5508630.697       
+p42             	3690456.534       	5508628.493       
+p42             	3690460.446       	5508627.322       
+p42             	3690476.494       	5508624.869       
+p42             	3690476.494       	5508624.869       
+p43             	3690583.216       	5508951.213       
+p43             	3690594.952       	5508940.937       
+p43             	3690606.907       	5508929.763       
+p43             	3690621.659       	5508912.207       
+p43             	3690638.648       	5508888.413       
+p44             	3690681.705       	5508817.847       
+p44             	3690684.076       	5508814.413       
+p44             	3690697.991       	5508787.703       
+p44             	3690720.274       	5508764.904       
+p44             	3690728.346       	5508747.885       
+p44             	3690733.965       	5508727.301       
+p44             	3690737.798       	5508707.746       
+p44             	3690737.977       	5508698.273       
+p44             	3690745.104       	5508683.066       
+p44             	3690746.724       	5508680.481       
+p44             	3690753.292       	5508670.125       
+p44             	3690800.048       	5508604.134       
+p45             	3690831.250       	5508578.227       
+p45             	3690860.532       	5508557.072       
+p45             	3690864.841       	5508554.127       
+p45             	3690895.413       	5508525.107       
+p45             	3690897.868       	5508522.438       
+p45             	3690914.924       	5508511.954       
+p46             	3690949.074       	5508499.391       
+p46             	3690961.301       	5508497.886       
+p46             	3691000.333       	5508496.714       
+p46             	3691022.862       	5508489.937       
+p46             	3691026.128       	5508488.419       
+p46             	3691069.637       	5508481.186       
+p46             	3691077.342       	5508478.569       
+p46             	3691091.449       	5508470.043       
+p46             	3691097.661       	5508463.944       
+p47             	3691118.334       	5508423.965       
+p47             	3691136.684       	5508377.270       
+p47             	3691142.022       	5508365.808       
+p47             	3691148.052       	5508353.923       
+p47             	3691154.504       	5508333.520       
+p47             	3691157.893       	5508321.245       
+p48             	3690553.301       	5508766.529       
+p48             	3690570.975       	5508738.334       
+p50             	3690666.706       	5508587.574       
+p50             	3690682.976       	5508564.436       
+p50             	3690697.238       	5508546.955       
+p50             	3690728.905       	5508514.709       
+p51             	3690753.185       	5508491.378       
+p51             	3690779.294       	5508466.289       
+p51             	3690822.540       	5508425.542       
+p61             	3690787.788       	5508344.851       
+p61             	3690775.408       	5508340.727       
+p61             	3690773.553       	5508340.290       
+p61             	3690748.319       	5508335.342       
+p61             	3690743.832       	5508335.342       
+p63             	3690748.847       	5508320.068       
+p63             	3690753.591       	5508305.585       
+p63             	3690759.642       	5508285.433       
+p64             	3690781.899       	5508215.978       
+p64             	3690786.833       	5508201.437       
+p64             	3690800.158       	5508166.363       
+p64             	3690802.931       	5508158.685       
+p65             	3690880.683       	5508332.889       
+p65             	3690889.132       	5508315.585       
+p65             	3690892.015       	5508309.097       
+p65             	3690898.295       	5508293.334       
+p66             	3690909.562       	5508262.932       
+p66             	3690916.259       	5508242.397       
+p66             	3690917.773       	5508234.364       
+p67             	3690939.922       	5508153.081       
+p67             	3690945.979       	5508130.692       
+p67             	3690950.310       	5508115.341       
+p70             	3691054.124       	5508134.458       
+p71             	3691068.807       	5508131.264       
+p71             	3691094.610       	5508128.265       
+p71             	3691141.125       	5508115.477       
+p72             	3690924.090       	5508110.289       
+p72             	3690916.229       	5508110.289       
+p72             	3690900.342       	5508106.921       
+p73             	3690955.383       	5508103.556       
+p73             	3690977.255       	5508073.393       
+p73             	3690988.703       	5508055.975       
+p73             	3690992.128       	5508048.311       
+p73             	3690993.167       	5508043.149       
+p73             	3690992.684       	5508036.918       
+p73             	3690984.717       	5508016.302       
+p73             	3690982.947       	5508008.706       
+p73             	3690982.947       	5508004.146       
+p73             	3690985.170       	5507999.792       
+p73             	3690991.054       	5507992.034       
+p74             	3690873.508       	5508399.943       
+p75             	3690942.297       	5508339.334       
+p75             	3690968.235       	5508312.693       
+p75             	3690992.210       	5508286.141       
+p75             	3691016.131       	5508258.841       
+p75             	3691029.549       	5508243.157       
+p75             	3691046.219       	5508222.828       
+p75             	3691054.311       	5508213.473       
+p75             	3691064.554       	5508202.260       
+p75             	3691078.171       	5508189.215       
+p77             	3691091.737       	5508176.426       
+p77             	3691099.440       	5508169.422       
+p77             	3691114.862       	5508155.312       
+p77             	3691132.496       	5508142.227       
+p84             	3691193.024       	5508096.698       
+p84             	3691206.202       	5508088.561       
+p85             	3691294.666       	5508056.682       
+p86             	3691293.716       	5508052.738       
+p86             	3691289.023       	5508049.352       
+p86             	3691282.849       	5508039.323       
+p86             	3691278.960       	5508032.611       
+p86             	3691276.738       	5508030.380       
+p86             	3691267.999       	5508028.381       
+p86             	3691246.391       	5508025.346       
+p86             	3691230.289       	5508022.313       
+p87             	3690965.100       	5507976.250       
+p87             	3690953.275       	5507972.540       
+p87             	3690941.315       	5507965.163       
+p87             	3690933.048       	5507959.913       
+p87             	3690918.391       	5507944.771       
+p89             	3691310.088       	5508049.549       
+p89             	3691310.088       	5508049.601       
+p90             	3691327.679       	5508036.871       
+p90             	3691342.167       	5508027.062       
+p91             	3691361.919       	5508009.955       
+p92             	3691161.589       	5508010.947       
+p92             	3691142.766       	5508007.642       
+p92             	3691134.842       	5508006.557       
+p92             	3691128.930       	5508005.541       
+p93             	3691082.992       	5507997.654       
+p93             	3691076.923       	5507997.014       
+p93             	3691064.223       	5507994.076       
+p93             	3691039.862       	5507990.637       
+p93             	3691010.390       	5507985.701       
+p95             	3691347.921       	5507997.753       
+p95             	3691337.261       	5507991.858       
+p96             	3691369.394       	5507999.878       
+p96             	3691375.981       	5507990.546       
+p96             	3691384.764       	5507971.444       
+p96             	3691388.842       	5507960.170       
+p96             	3691394.948       	5507942.839       
+p96             	3691399.421       	5507928.918       
+p96             	3691406.396       	5507907.051       
+p96             	3691413.276       	5507886.509       
+p96             	3691429.459       	5507839.235       
+p98             	3691449.940       	5507777.149       
+p98             	3691456.346       	5507757.660       
+p98             	3691461.701       	5507741.359       
+p98             	3691465.922       	5507729.612       
+p98             	3691472.106       	5507710.154       
+p99             	3691480.009       	5507685.539       
+p99             	3691490.018       	5507656.605       
+p99             	3691507.171       	5507606.683       
+p99             	3691514.814       	5507585.982       
+p99             	3691518.286       	5507575.969       
+p99             	3691520.740       	5507567.983       
+p100            	3691524.847       	5507555.549       
+p100            	3691524.691       	5507541.666       
+p100            	3691535.516       	5507508.367       
+p100            	3691550.525       	5507461.273       
+p102            	3691432.144       	5507776.828       
+p102            	3691415.330       	5507771.217       
+p102            	3691410.467       	5507769.178       
+p102            	3691406.157       	5507766.664       
+p102            	3691403.600       	5507764.156       
+p103            	3691658.365       	5507258.345       
+p105            	3691914.427       	5507690.444       
+p105            	3691911.073       	5507670.364       
+p105            	3691907.318       	5507663.332       
+p105            	3691903.316       	5507658.833       
+p105            	3691891.498       	5507652.055       
+p105            	3691873.467       	5507644.634       
+p105            	3691862.980       	5507637.848       
+p105            	3691858.927       	5507631.678       
+p105            	3691856.350       	5507624.983       
+p105            	3691856.087       	5507624.440       
+p105            	3691854.974       	5507611.515       
+p105            	3691856.943       	5507585.308       
+p105            	3691855.887       	5507560.464       
+p105            	3691859.837       	5507530.615       
+p106            	3691822.826       	5507395.625       
+p106            	3691803.575       	5507383.005       
+p106            	3691781.571       	5507370.471       
+p106            	3691756.315       	5507356.246       
+p106            	3691739.507       	5507345.287       
+p106            	3691738.226       	5507342.990       
+p106            	3691737.667       	5507335.125       
+p106            	3691728.831       	5507330.328       
+p106            	3691716.059       	5507322.073       
+p106            	3691696.514       	5507306.455       
+p108            	3691539.787       	5507956.701       
+p108            	3691542.939       	5507920.627       
+p108            	3691543.749       	5507916.895       
+p108            	3691563.910       	5507862.328       
+p108            	3691575.211       	5507835.241       
+p108            	3691590.620       	5507796.397       
+p109            	3691687.394       	5507339.765       
+p110            	3691615.179       	5507732.739       
+p110            	3691629.315       	5507697.950       
+p110            	3691633.965       	5507685.394       
+p110            	3691634.894       	5507682.597       
+p110            	3691639.393       	5507670.428       
+p110            	3691649.598       	5507617.559       
+p110            	3691659.981       	5507580.621       
+p111            	3691683.087       	5507488.335       
+p111            	3691699.583       	5507415.305       
+p111            	3691699.583       	5507403.077       
+p111            	3691696.377       	5507385.777       
+p112            	3692176.929       	5507482.013       
+p112            	3692170.784       	5507468.989       
+p112            	3692163.260       	5507455.206       
+p112            	3692147.547       	5507418.572       
+p112            	3692133.619       	5507386.102       
+p112            	3692118.898       	5507355.600       
+p112            	3692112.767       	5507342.583       
+p113            	3692148.918       	5507324.699       
+p113            	3692136.250       	5507319.869       
+p115            	3692094.310       	5507270.039       
+p116            	3692103.265       	5507256.518       
+p117            	3692117.947       	5507251.369       
+p117            	3692132.844       	5507237.563       
+p117            	3692138.844       	5507222.412       
+p117            	3692130.885       	5507191.062       
+p117            	3692111.381       	5507162.744       
+p117            	3692108.602       	5507155.635       
+p117            	3692099.101       	5507143.954       
+p118            	3692087.811       	5507135.200       
+p118            	3692065.156       	5507116.962       
+p118            	3692043.503       	5507099.718       
+p118            	3692023.269       	5507083.635       
+p119            	3691983.198       	5507066.876       
+p119            	3691883.051       	5507066.876       
+p119            	3691875.648       	5507050.809       
+p124            	3691818.803       	5507072.406       
+p124            	3691796.379       	5507082.202       
+p124            	3691776.219       	5507098.462       
+p124            	3691753.698       	5507097.716       
+p125            	3691704.852       	5507080.454       
+p125            	3691702.330       	5507084.885       
+p129            	3691616.579       	5507239.837       
+p129            	3691626.962       	5507206.203       
+p129            	3691637.998       	5507174.346       
+p129            	3691649.995       	5507179.396       
+p129            	3691654.197       	5507171.077       
+p129            	3691661.098       	5507157.416       
+p129            	3691670.124       	5507137.072       
+p129            	3691678.902       	5507118.951       
+p130            	3691235.394       	5508081.436       
+p130            	3691246.381       	5508077.086       
+p130            	3691260.889       	5508071.163       
+p132            	3691680.548       	5507275.937       
+p132            	3691678.529       	5507256.913       
+p133            	3691664.882       	5507237.152       
+p133            	3691665.634       	5507235.527       
+p133            	3691668.293       	5507233.707       
+p134            	3691671.249       	5507214.749       
+p134            	3691669.480       	5507199.162       
+p134            	3691673.146       	5507186.268       
+p136            	3691712.825       	5507050.442       
+p138            	3691719.287       	5507012.354       
+p139            	3691726.348       	5506995.307       
+p139            	3691701.356       	5506940.997       
+p140            	3691679.892       	5506903.426       
+p140            	3691678.270       	5506898.377       
+p140            	3691671.641       	5506886.565       
+p140            	3691662.561       	5506873.282       
+p142            	3691673.737       	5506837.195       
+p142            	3691680.825       	5506832.244       
+p142            	3691687.996       	5506830.172       
+p142            	3691697.859       	5506829.710       
+p142            	3691707.491       	5506834.097       
+p143            	3691719.668       	5506841.539       
+p143            	3691738.886       	5506853.802       
+p143            	3691767.285       	5506872.245       
+p143            	3691777.583       	5506878.648       
+p144            	3691784.051       	5506880.270       
+p144            	3691828.160       	5506901.722       
+p144            	3691871.353       	5506922.366       
+p145            	3691919.610       	5506918.601       
+p145            	3691925.537       	5506903.294       
+p145            	3691928.480       	5506892.789       
+p145            	3691930.201       	5506877.322       
+p145            	3691932.040       	5506874.368       
+p145            	3691940.010       	5506870.488       
+p145            	3691944.558       	5506864.660       
+p145            	3691949.888       	5506860.940       
+p145            	3691961.254       	5506857.511       
+p145            	3691974.876       	5506852.324       
+p147            	3690504.408       	5508903.649       
+p147            	3690513.095       	5508885.148       
+p147            	3690517.473       	5508880.772       
+p147            	3690525.783       	5508874.969       
+p147            	3690530.702       	5508868.238       
+p151            	3691403.008       	5507760.304       
+p154            	3691581.223       	5507377.684       
+p154            	3691584.360       	5507363.216       
+p154            	3691603.562       	5507286.832       
+p155            	3692083.953       	5507253.971       
+p155            	3692074.127       	5507245.988       
+p155            	3692064.990       	5507241.648       
+p157            	3691864.058       	5507485.994       
+p157            	3691860.405       	5507464.253       
+p157            	3691852.782       	5507439.866       
+p157            	3691845.154       	5507423.044       
+p157            	3691837.750       	5507411.649       
+p157            	3691834.705       	5507404.220       
+p159            	3691772.260       	5508753.070       
+p159            	3691728.764       	5508738.881       
+p159            	3691725.061       	5508728.782       
+p159            	3691719.572       	5508726.677       
+p159            	3691675.052       	5508713.731       
+p159            	3691636.629       	5508682.059       
+p159            	3691616.109       	5508669.647       
+p159            	3691547.992       	5508607.055       
+p159            	3691516.405       	5508577.526       
+p159            	3691501.509       	5508555.995       
+p159            	3691492.439       	5508530.815       
+p159            	3691485.968       	5508508.840       
+p159            	3691478.678       	5508458.702       
+p159            	3691468.685       	5508413.119       
+p159            	3691448.719       	5508339.145       
+p159            	3691444.775       	5508321.794       
+p159            	3691439.461       	5508320.515       
+p159            	3691436.094       	5508304.972       
+p162            	3691717.237       	5507020.176       
+Z12             	3691722.147       	5507088.191       
+
+[LABELS]
+;X-Coord             Y-Coord             Label & Anchor Node
+3691461.433       	5508335.742       	"R2"	
+3689972.450       	5509695.899       	"R1"	
+3691582.577       	5508342.515       	"J2"	J2
+3690083.673       	5509694.772       	"RED1"	RED1
+
+[BACKDROP]
+  DIMENSIONS  	3689394.000       	5505897.000       	3692769.000       	5509901.000       
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+[END]

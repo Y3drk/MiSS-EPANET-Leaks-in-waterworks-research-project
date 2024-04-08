@@ -52,6 +52,10 @@ This method of leakage modeling was described in detail [in the other, older pap
 
 As planned we've created a script that adds those leakage simulating emitters to the network input file. The code is available [here](scripts/add_leaks.py).
 
+The result of the addition of emitters ```{"RED1":0.02, "SW2": 0.05}``` where the key is the junction where we place the emitter and the value is emitter's coefficient can be seen [here](../knowledge_sources/real_life_network_data/add_emitters_test.inp)
+
+Additionally we tested and made sure that the new file is compatible with the `runepanet` command
+
 
 
 
