@@ -57,12 +57,16 @@ The result of the addition of emitters ```{"RED1":0.02, "SW2": 0.05}``` where th
 Additionally we tested and made sure that the new file is compatible with the `runepanet` command
 
 ____
-### Attempts at hole discovery with EPANET and \<optimization lib name>
+### Attempts at hole discovery with EPANET and Genetic and Swarm algorithms
 
-After finding a suitable way to simulate adding leaks to given net, we tried to find a way to optimize the placement of the leaks. As agreed we prepare two aproaches including swarm algorithm and genetic algorithm.
+After finding a suitable way to simulate adding leaks to given net, we tried to find a way to optimize the placement of the leaks. As agreed we prepared two approaches including swarm algorithm and genetic algorithm.
 
-First, we need to create some objective function, so algorithm could optimize it. After comparing run reports with and without leaks, we decided to use the difference in demands between according nodes. For each node in the net, we calculate square of the difference between demand on first and second report, sum them and return mean for all nodes. This way, we can get a single value that we can optimize (of course there could be better options). Calculating objective function is defined [here](scripts/compare_reports.py).
+First, we need to create some objective function, so that the algorithm could optimize it. After comparing run reports with and without leaks, we decided to use the difference in demands between according nodes. For each node in the net, we calculate the square of the difference between demand on the first and second report, sum them, and return the mean for all nodes. This way, we can get a single value that we can optimize (of course there could be better options). Calculating objective function is defined [here](../scripts/compare_reports.py).
 
-Then, we need chosen algorithm to perform some actions between calculating objective function. Due to that, we prepared a script to retrieve all possible nodes from input net (defined [here](scripts/parse_nodes.py)). Then we define constraints for coefficients and run script for given algorithm ([swarm](scripts/swarm.py) or [genetic](scripts/genetic.py)). Unfortunately at this stage both options are unstable and could result in errors.
+Then, we need our chosen algorithm to perform some actions between calculating objective function time and time again. Due to that, we prepared a script to retrieve all possible nodes from the input net (defined [here](../scripts/parse_nodes.py)). Then we define constraints for coefficients and run the script for a given algorithm ([swarm](../swarm.py) or [genetic](../genetic.py)). Unfortunately at this stage, both options are unstable and could result in errors.
 
-Genetic one ended with average difference on node equal to 2.4416692324681093, while swarm one ended with 3.24156574235. Both results are not satisfying, as we expected to get below 1.0. We will try to improve the algorithms in the next checkpoint.
+So far the results of the optimization are as follows:
+* `Genetic` one ended with an average difference on node equal to **2.4416692324681093**,
+*  `Swarm` one ended with **3.24156574235**.
+
+Both results are not satisfying, as we expected to get below **1.0**. We will try to improve the algorithms in the next checkpoint.
