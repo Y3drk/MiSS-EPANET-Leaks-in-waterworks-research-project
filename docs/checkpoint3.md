@@ -65,4 +65,4 @@ First, we need to create some objective function, so algorithm could optimize it
 
 Then, we need chosen algorithm to perform some actions between calculating objective function. Due to that, we prepared a script to retrieve all possible nodes from input net (defined [here](scripts/parse_nodes.py)). Then we define constraints for coefficients and run script for given algorithm ([swarm](scripts/swarm.py) or [genetic](scripts/genetic.py)). Unfortunately at this stage both options are unstable and could result in errors.
 
-Genetic one ended with average difference on node equal to 2.4416692324681093, while swarm one ended with 2.4416692324681093. Both results are not satisfying, as we expected to get below 1.0. We will try to improve the algorithms in the next checkpoint.
+Genetic one ended with average difference on node equal to 2.4416692324681093, while swarm one ended with 3.24156574235. Both results are not satisfying, as we expected to get below 1.0. We will try to improve the algorithms in the next checkpoint.

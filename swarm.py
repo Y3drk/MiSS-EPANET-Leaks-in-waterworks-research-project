@@ -22,13 +22,16 @@ def objective_function(coefficients):
 # Optimization Algorithm using PSO
 def optimization_algorithm():
     # Define the PSO parameters
-    options = {'c1': 0.5, 'c2' : 0.9, 'maxiter': 100}
+    options = {'maxiter': 100}
+
+    # Define the bounds for coefficients
+    bounds = [(min_leak_coefficient, max_leak_coefficient)] * len(leak_names)
 
     # Initialize the swarm with random particle positions
     initial_positions = np.random.uniform(low=min_leak_coefficient, high=max_leak_coefficient, size=len(leak_names))
 
     # Run PSO optimization
-    result = minimize(objective_function, initial_positions, options=options)
+    result = minimize(objective_function, initial_positions, method='L-BFGS-B', options=options, bounds=bounds)
 
     # Extract the optimal solution
     optimal_coefficients = result.x
