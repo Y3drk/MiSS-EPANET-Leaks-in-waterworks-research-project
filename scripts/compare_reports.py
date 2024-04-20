@@ -18,11 +18,11 @@ def compare_reports(first_report: str, second_report: str) -> float:
             if "L/s" in line:
                 index += 2
                 line = src_content[index]
-                while not line.isspace():
-                    node, demand, *rest = line.split()
+                while not line.isspace() or "Reservoir" in line:
+                    node, demand, head, pressure, *rest = line.split()
                     if(first_nodes.get(node) is None):
                         first_nodes[node] = []
-                    first_nodes[node].append(float(demand))
+                    first_nodes[node].append(float(pressure))
                     index += 1
                     line = src_content[index]
             index +=1 
@@ -33,11 +33,11 @@ def compare_reports(first_report: str, second_report: str) -> float:
             if "L/s" in line:
                 index += 2
                 line = src_content[index]
-                while not line.isspace():
-                    node, demand, *rest = line.split()
+                while not line.isspace() or "Reservoir" in line:
+                    node, demand, head, pressure, *rest = line.split()
                     if(second_nodes.get(node) is None):
                         second_nodes[node] = []
-                    second_nodes[node].append(float(demand))
+                    second_nodes[node].append(float(pressure))
                     index += 1
                     line = src_content[index]
             index +=1 
@@ -45,7 +45,7 @@ def compare_reports(first_report: str, second_report: str) -> float:
     diff = {}
     for node in first_nodes:
         if second_nodes.get(node) is not None:
-            diff[node] = sqrt(sum([(first_nodes[node][i] - second_nodes[node][i])**2 for i in range(len(first_nodes[node]))]))
+            diff[node] = sum([(first_nodes[node][i] - second_nodes[node][i])**2 for i in range(len(first_nodes[node]))])/len(first_nodes[node])
         else:
             print(f"Node {node} not found in second report")
             exit(1)
