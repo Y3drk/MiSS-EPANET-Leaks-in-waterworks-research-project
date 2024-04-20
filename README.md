@@ -9,7 +9,7 @@ Besides code, all notes made for each checkpoint will be placed in the [docs dir
 Roadmap of checkpoints:
 1. [Domain and Problem Analysis](docs/checkpoint1.md) 
 2. [Analysis of EPANET simulator and optimization libraries](docs/checkpoint2.md)
-3. [Test launching of the simulator and confirmation of the objectives and the scope of work](docs/checkpoint3.md) ***CURRENT STATE***
-4. Prototype and first working elements
+3. [Test launching of the simulator and confirmation of the objectives and the scope of work](docs/checkpoint3.md)
+4. [Prototype and first working elements](docs/checkpoint4.md) ***CURRENT STATE***
 5. Progress with the prototype
 6. RC: achieved goals, results of the tests and analysis of those results
