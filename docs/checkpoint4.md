@@ -25,7 +25,7 @@ Thus, we accommodated the cost function formula, so that the $Y_{i} - \widehat{Y
 
 Because of that the cost function formula evolved as such:
 
-$$ Cost = \frac{1}{n} \sum_{i=1}^n (\frac{\sum_{j=1}^k (y_{i,j} - \widehat{y_{i,j}})^2}{k}) $$
+$$ Cost = \frac{1}{n k^n} \sum_{i=1}^n (\sum_{j=1}^k (y_{i,j} - \widehat{y_{i,j}})^2) $$
 
 where:
 * $Cost$ &rarr; the error estimated during an optimization step

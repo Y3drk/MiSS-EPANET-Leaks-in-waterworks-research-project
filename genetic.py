@@ -2,6 +2,7 @@ import os
 import numpy as np
 from scripts.add_leaks import add_leaks
 from scripts.compare_reports import compare_reports
+from scripts.add_observers import add_observers
 from scripts.parse_nodes import parse_nodes
 from deap import base, creator, tools, algorithms
 
@@ -25,6 +26,7 @@ if __name__ == "__main__":
     files_dir = "/home/michal/MiSS-EPANET-Leaks-in-waterworks-research-project/knowledge_sources/real_life_network_data/"
     epanet_dir = "/home/michal/EPANET-2.2.0-Linux/bin/runepanet"
     base_net = f"{files_dir}base.inp"
+    observers_net = f"{files_dir}observers.inp"
     model_net = f"{files_dir}model.inp"
     output_net = f"{files_dir}genetic.inp"
     model_report = f"{files_dir}model.txt"
@@ -32,8 +34,10 @@ if __name__ == "__main__":
 
     # manually add two leaks
     emitters = {"RED1":0.02, "SW2": 0.05}
-    add_leaks(emitters, base_net, model_net)
-    os.system(f"{epanet_dir} {model_net} {model_report}")
+    observers = ["SW20", "HP12", "HP5", "SW/K01"]
+    add_observers(observers, base_net, observers_net)
+    add_leaks(emitters, observers_net, model_net)
+    os.system(f"runepanet {model_net} {model_report}")
 
     # retrieve optimization parameters
     leak_names = parse_nodes(base_net)
