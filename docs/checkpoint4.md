@@ -41,7 +41,7 @@ Arbitrarily chosen points:
 * **Leakage point: SD19**
 * **Measure points: HP12, HP5, SW20, SW/K01**
 
-The leakage was added with the `add_leaks` method and the measure points were added to the input file with the newly created script [add_observators](../scripts/add_observators.py) which was written for this specific purpose.
+The leakage was added with the `add_leaks` method and the measure points were added to the input file with the newly created script [add_observers](../scripts/add_observers.py) which was written for this specific purpose.
 The baseline data can be looked up [here](../knowledge_sources/checkpoint4_experiments/.gitkeep).
 
 The optimization was performed with the usage of the XXX algorithm.
