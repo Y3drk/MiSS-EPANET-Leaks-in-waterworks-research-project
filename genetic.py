@@ -22,22 +22,18 @@ def evaluate(individual):
     diff = compare_reports(model_report, output_report)
     return (diff,)
 
-def custom_crossover(ind1, ind2, alpha=0.5):
-    """Funkcja krzyżowania dla osobników reprezentowanych przez listy."""
-    size = min(len(ind1), len(ind2))
-    cxpoint = np.random.randint(1, size)  # Losowy punkt krzyżowania
-
-    # Kopiowanie części osobników do zamiany
-    ind1_part = ind1[:cxpoint] + ind2[cxpoint:]
-    ind2_part = ind2[:cxpoint] + ind1[cxpoint:]
-
-    # Tworzenie nowych obiektów Individual
-    return creator.Individual(ind1_part), creator.Individual(ind2_part)
+def custom_crossover(ind1, ind2):
+    ind1_name = ind1[0]
+    ind2_name = ind2[0]
+    ind1_coefficient = ind1[1]
+    ind2_coefficient = ind2[1]
+    offspring1 = [ind1_name, ind2_coefficient]
+    offspring2 = [ind2_name, ind1_coefficient]
+    return creator.Individual(offspring1), creator.Individual(offspring2)
 
 def custom_mutation(individual, mu, sigma, indpb):
     if random.random() < indpb:
         node, coefficient = individual
-        print(node, coefficient)
         coefficient += random.gauss(mu, sigma)
         if coefficient < min_leak_coefficient:
             coefficient = min_leak_coefficient
@@ -76,9 +72,6 @@ if __name__ == "__main__":
     population_size = 50
     num_generations = 20
     pop = [creator.Individual(toolbox.individual()) for _ in range(population_size)]
-    print("Initial population:")
-    for ind in pop:
-        print(ind)
     algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=num_generations, verbose=True)
     best_individual = tools.selBest(pop, k=1)[0]
     best_leak_node, best_leak_coefficient = best_individual
