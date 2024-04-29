@@ -44,11 +44,9 @@ Arbitrarily chosen points:
 The leakage was added with the `add_leaks` method and the measure points were added to the input file with the newly created script [add_observers](../scripts/add_observers.py) which was written for this specific purpose.
 The baseline data can be looked up [here](../knowledge_sources/checkpoint4_experiments/.gitkeep).
 
-The optimization was performed with the usage of the XXX algorithm.
+The optimization was performed with the usage of the genetic algorithm. Due to the fact that we were adding a leak using node and specific coeficient value, our script needed to be adjusted to handle pairs of node names and their respective coefficients (custom create_individual, crossover and mutate). Mutate function used random.gauss with mu and sigma equal to 0.05, so we will be constantly revolving around 0-0.1 for the nodes coefficients. Crossover function was implemented as a simple swap of the two parents' coefficients.
 
-The results are as follows:
-
-YYY
+The input for the genetic algorithm was a random combination of possible nodes with random coefficients. The first run (without proper crossover function) returned first node next to the leakage chosen by us, so results were promosing. The second run (with proper crossover function) returned the exact node with the almost exact coefficient (0.017 difference). 
 
 ___
 ### Adding advanced holes to the network model
