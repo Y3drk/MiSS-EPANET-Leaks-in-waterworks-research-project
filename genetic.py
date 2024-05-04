@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from scripts.add_leaks import add_leaks
+from scripts.add_leaks import add_leaks, add_advanced_leaks
 from scripts.compare_reports import compare_reports
 from scripts.add_observers import add_observers
 from scripts.parse_nodes import parse_nodes
@@ -52,7 +52,9 @@ if __name__ == "__main__":
 
     observers = ["SW20", "HP12", "HP5", "SW/K01"]
     emitters = {"SD19":0.05}
+    # leaks = [{"node1": "AN4", "node2": "AN5", "distance": 0.5, "coeff": 0.05}, {"node1": "SW12", "node2": "SW13", "distance": 0.6, "coeff": 0.07}]
     add_observers(observers, base_net, observers_net)
+    # add_advanced_leaks(leaks, observers_net, model_net)
     add_leaks(emitters, observers_net, model_net)
     os.system(f"{epanet_dir} {model_net} {model_report}")
 
