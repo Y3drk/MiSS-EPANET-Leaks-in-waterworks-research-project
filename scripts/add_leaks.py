@@ -129,7 +129,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
                         node1 = leak["node1"]
                         node2 = leak["node2"]
                         if node1 not in node_names or node2 not in node_names:
-                            raise Exception("One of the fake nodes' parents has an invalid junction id")
+                            raise Exception(f"One of the fake nodes' parents has an invalid junction id: {node1} or {node2}!")
                 else:
                     if line[0] != ";":
                         collect_node(line, nodes, elev=True)
@@ -158,7 +158,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
 
                             pipe_id = pipe_info[0].replace(" ", "")
                             pipe_length = float(pipe_info[3].replace(" ", ""))
-                            pipe_diameter = int(pipe_info[4].replace(" ", ""))
+                            pipe_diameter = float(pipe_info[4].replace(" ", ""))
                             pipe_roughness = float(pipe_info[5].replace(" ", ""))
                             pipe_minor_loss = float(pipe_info[6].replace(" ", ""))
                             pipe_status = pipe_info[7].replace(" ", "")
