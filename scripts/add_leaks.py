@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 def collect_node(_line: str, _nodes: list[str], elev: bool = False) -> None:
     node_info = _line.split("\t")
     node_id = node_info[0].replace(" ", "")
@@ -107,6 +109,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
     previous_pipes = []
     tags, reactions = [], []
     reactions_written = False
+    copied_content = []
 
     if source_input_file_path.split(".")[-1] != input_file_format or result_input_file_path.split(".")[-1] != input_file_format:
         raise Exception("Extension of source and result file should be '.inp' !")
@@ -116,6 +119,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
 
     with open(source_input_file_path, 'r') as src:
         src_content = src.readlines()
+        copied_content = deepcopy(src_content)
         for line in src_content:
             if "[JUNCTIONS]" in line:
                 parse_section["junctions"] = True
@@ -153,7 +157,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
                         if (leak["node1"] == node1 and leak["node2"] == node2) or (
                                 leak["node1"] == node2 and leak["node2"] == node1):
 
-                            src_content.remove(line)
+                            copied_content.remove(line)
                             leak["pipe_found"] = True
 
                             pipe_id = pipe_info[0].replace(" ", "")
@@ -202,7 +206,7 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
 
                     for num, removed_pipe in enumerate(previous_pipes):
                         if removed_pipe == pipe_id:
-                            src_content.remove(line)
+                            copied_content.remove(line)
                             tags.append({"type": tag_info[0].replace(" ", ""), "pipe_id": new_pipes[2*num]["id"], "material": tag_info[2].replace(" ", "")})
                             tags.append({"type": tag_info[0].replace(" ", ""), "pipe_id": new_pipes[2 * num + 1]["id"],
                                          "material": tag_info[2].replace(" ", "")})
@@ -222,30 +226,14 @@ def add_advanced_leaks(leaks: list[dict], source_input_file_path: str, result_in
 
                     for num, removed_pipe in enumerate(previous_pipes):
                         if removed_pipe == pipe_id:
-                            src_content.remove(line)
+                            copied_content.remove(line)
                             reactions.append({"type": reaction_info[0].replace(" ", ""), "pipe_id": new_pipes[2*num]["id"], "coefficient": reaction_info[2].replace(" ", "")})
                             reactions.append({"type": reaction_info[0].replace(" ", ""), "pipe_id": new_pipes[2 * num + 1]["id"],
                                          "coefficient": float(reaction_info[2].replace(" ", ""))})
                             break
 
-            # if "[VERTICES]" in line:
-            #     parse_section["vertices"] = True
-            #     continue
-            #
-            # if parse_section["vertices"] and line[0] != ";":
-            #     if line == "\n":
-            #         parse_section["vertices"] = False
-            #
-            #     else:
-            #         vertex_info = line.strip().split("\t")
-            #         pipe_id = vertex_info[0].replace(" ", "")
-            #
-            #         if pipe_id in previous_pipes:
-            #             src_content.remove(line)
-
-
     with open(result_input_file_path, 'w') as res:
-        for line in src_content:
+        for line in copied_content:
             if "[JUNCTIONS]" in line:
                 parse_section["junctions"] = True
 
