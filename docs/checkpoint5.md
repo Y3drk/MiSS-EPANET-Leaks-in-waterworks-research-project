@@ -36,4 +36,12 @@ The script behaves as expected in all those cases, and the `runepanet` command r
 ___
 ### Testing optimization for advanced leaks and different kinds of "individuals"
 
-YYYYY
+New function of leaks addition needed few adjustments. First, we changed evaluation algorithm's individual from singular leak to a whole network, as the genetic algorithm needs to compare individuals with common genes. Secondly, as we decide to add leaks by choosing place on pipe between nodes, we now need to pass all possible pipes instead of nodes as input for optimization. Initially, we randomly assigned coeff and distance values to each pipe we read from base input net and then run EPANET simulation. The results were then used to evaluate the network.
+
+Another thing was invliad crossover function. Average of two unrelated nodes from previous checkpoint was not the smartest thing we come up to. Now, having proper structure of arguments for algorithm, we tried two approaches:
+* take the first half of the first network and the second half of the second network. This way we can see if the algorithm is able to pass some network characteristics to the next generation
+* take the minimums of the both network for one offspring, and maximums for the other. This way we can see if the algorithm is able to find the best solution by combining the best parts of the networks.
+
+Unfortunately the results were dire. First approach, no matter what population or number of iterations we chose, returned best solution between 500 and 700. Second one was much better with score around 0.0017, but neither of 'real leaks' was distinguished with proper coeff or distance (sometimes even the coeff was 0), while the all other potential leaks were highlighted with siginificant coeff values. 
+
+Due to poor results, we decide to back to basic optimization algorithm from scipy lib and try it one more time. Initial positions for algorithm were randomly chosen coeff and distance for each possible pipe and the method was set to 'L-BFGS-B'. The results were much better, with the best solution being around 0.0001.
