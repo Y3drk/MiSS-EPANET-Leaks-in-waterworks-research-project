@@ -44,4 +44,10 @@ Another thing was invliad crossover function. Average of two unrelated nodes fro
 
 Unfortunately the results were dire. First approach, no matter what population or number of iterations we chose, returned best solution between 500 and 700. Second one was much better with score around 0.0017, but neither of 'real leaks' was distinguished with proper coeff or distance (sometimes even the coeff was 0), while the all other potential leaks were highlighted with siginificant coeff values. 
 
-Due to poor results, we decide to back to basic optimization algorithm from scipy lib and try it one more time. Initial positions for algorithm were randomly chosen coeff and distance for each possible pipe and the method was set to 'L-BFGS-B'. The results were much better, with the best solution being around 0.0001.
+Due to poor results, we decide to back to basic optimization algorithm from scipy lib and try it one more time. Initial positions for algorithm were randomly chosen coeff and distance for each possible pipe and the method was set to 'L-BFGS-B'. 
+
+Unfortunately, the output was even worse. Despite script worked for few hours, the result diff was around 550 and none of real leaks were distinguished.
+
+Results of the tests are stored in [knowledge_sources/checkpoint5_results](../knowledge_sources/checkpoint5_results/) folder.
+
+Not gonna lie, we are a bit disappointed with the results. We are not sure if the problem lies in the optimization algorithm or in our objective function (diff between real and calculated leaks). We will try to find the solution in the next checkpoint.
