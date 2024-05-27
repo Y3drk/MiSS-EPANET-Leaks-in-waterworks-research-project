@@ -25,8 +25,8 @@ model_net = f"{files_dir}model.inp"
 output_net = f"{files_dir}genetic-{threading.get_ident()}.inp"
 model_report = f"{files_dir}model.txt"
 output_report = f"{files_dir}genetic-{threading.get_ident()}.txt"
-results_file = f"{files_dir}results.txt"
-plot_file = f"{files_dir}best_individuals_plot.jpg"
+results_file = f"{files_dir}best_individual.txt"
+plot_file = f"{files_dir}best_individuals.jpg"
 
 def create_individual():
     network = []
@@ -104,7 +104,7 @@ def main(population_size, num_generations):
         for fit, ind in zip(fits, offspring):
             ind.fitness.values = fit
 
-        pop[:] = toolbox.select(offspring, k=len(pop))
+        pop[:] = toolbox.select(offspring + pop,k=population_size)
         best_ind = tools.selBest(pop, k=1)[0]
         best_individuals.append(best_ind.fitness.values[0])
 
