@@ -18,6 +18,7 @@ max_leak_coefficient = 0.1
 script_dir = str(pathlib.Path(__file__).parent.resolve())
 files_dir = script_dir + "/knowledge_sources/real_life_network_data/"
 epanet_dir = script_dir + "/knowledge_sources/EPANET-2.2.0-Linux/bin/runepanet"
+# epanet_dir = "runepanet"
 base_net = f"{files_dir}base.inp"
 observers_net = f"{files_dir}observers.inp"
 model_net = f"{files_dir}model.inp"
@@ -89,7 +90,7 @@ def main(population_size, num_generations):
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
     toolbox.register("evaluate", evaluate)
     toolbox.register("mate", custom_crossover)
-    toolbox.register("mutate", custom_mutation, mutpb_d=0.2, mutpb_c=0.2, mu_d=0.50, sigma_d=0.40, mu_c=0.05, sigma_c=0.05)
+    toolbox.register("mutate", custom_mutation, mutpb_d=0.2, mutpb_c=0.2, mu_d=0, sigma_d=0.40, mu_c=0, sigma_c=0.05)
     toolbox.register("select", tools.selBest)
     toolbox.register("map", futures.map)
 
