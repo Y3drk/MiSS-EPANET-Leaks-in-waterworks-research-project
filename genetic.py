@@ -17,7 +17,9 @@ max_leak_coefficient = 0.1
 
 script_dir = str(pathlib.Path(__file__).parent.resolve())
 files_dir = script_dir + "/knowledge_sources/real_life_network_data/"
-epanet_dir = script_dir + "/knowledge_sources/EPANET-2.2.0-Linux/bin/runepanet"
+# locally
+epanet_dir = script_dir + "/EPANET-2.2.0-Linux/bin/runepanet"
+# on plgrid cluster
 # epanet_dir = "runepanet"
 base_net = f"{files_dir}base.inp"
 observers_net = f"{files_dir}observers.inp"
