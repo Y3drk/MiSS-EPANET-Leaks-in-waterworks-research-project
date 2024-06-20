@@ -114,8 +114,8 @@ def main(population_size, num_generations):
     plt.xlabel('Generation')
     plt.ylabel('Best Individual Fitness')
     plt.title('Best Individual Fitness per Generation')
+    plt.yscale('log')
     plt.savefig(plot_file)
-
     best_individual = tools.selBest(pop, k=1)[0] 
     add_advanced_leaks(best_individual, observers_net, output_net)
     os.system(f"{epanet_dir} {output_net} {output_report}")
